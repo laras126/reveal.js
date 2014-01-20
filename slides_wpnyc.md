@@ -78,17 +78,17 @@ Then this:
 ---
 
 ###<span class="special">Uno</span>
-#The Student
+##The Student
 
 ---
 
 ###<span class="special">Dos</span>
-#The Broke Client
+##The Broke Client
 
 ---
 
 ###<span class="special">Tres</span>
-#Fast Development
+##Fast Development
 (maybe)
 
 --
