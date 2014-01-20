@@ -21,6 +21,7 @@ blockquote {
 .reveal h1, 
 .reveal h2 {
 	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .half {
