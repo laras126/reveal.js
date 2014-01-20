@@ -136,11 +136,9 @@ But first, a word on [Theme Sense](http://themeshaper.com/2012/10/23/developing-
 ---
 
 ##Resources
-*  [Modify WP Themes the Smart Way](http://themeshaper.com/modify-wordpress-themes/)
+*  [The Child Theme Bible](http://themeshaper.com/modify-wordpress-themes/)
 *  [Theme Sense](http://themeshaper.com/2012/10/23/developing-your-theme-sense-tutorial-2/)
 *  [WP Bootstrap](http://320press.com/wpbs/)
 *  [Skeleton](http://themes.simplethemes.com/skeleton/)
 *  [Genesis Framework](http://www.studiopress.com/features)
 *  [These Slides](http://stuff.notlaura.com/slides/wpnyc.html)
-
-

@@ -1,6 +1,6 @@
 body {
   /*background: #fafafa;*/
-  background-color: #237fa9; 
+  background-color: #1b6283; 
 }
 
 
@@ -12,7 +12,7 @@ body {
 
 .reveal {
   font-family: "PFDinTextPro-Light", sans-serif;
-  /*color: #444;*/
+  color: #fff;
 }
 
 .reveal a:not(.image) {
@@ -51,9 +51,6 @@ body {
 .reveal section .unstyle-img img {
 	background: none;
 	border: 0;
-}
-
-#bad img {
 	box-shadow: none;
 }
 
