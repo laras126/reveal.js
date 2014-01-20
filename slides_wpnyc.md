@@ -7,6 +7,8 @@
 ##Hey!
 #I'm <span class="special">Lara</span>
 
+[notlaura.com](http://notlaura.com)
+
 --
 
 ![kid](img/wpnyc/child.png)
@@ -68,7 +70,7 @@ Then this:
 
 ---
 
-<span class="unstyle-img">![bad](img/wpnyc/bad.png)</span>
+<span class="unstyle-img" id="bad">![bad](img/wpnyc/bad.png)</span>
 
 --
 

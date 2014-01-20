@@ -1,10 +1,22 @@
-blockquote {
+body {
+  /*background: #fafafa;*/
+  background-color: #237fa9; 
+}
+
+
+.reveal blockquote {
 	text-align: left;
 	padding: 1em !important;
+	/*background: #fff;*/
 }
 
 .reveal {
-  font-family: "PFDinTextPro-Thin", sans-serif;
+  font-family: "PFDinTextPro-Light", sans-serif;
+  /*color: #444;*/
+}
+
+.reveal a:not(.image) {
+	color: #f3d7ac;
 }
 
 .reveal h1,
@@ -15,6 +27,8 @@ blockquote {
 .reveal h6 {
 	font-family: "PFDinTextCondPro-Regular", sans-serif;
 	/*font-weight: 100;*/
+	/*color: #237fa9;*/
+	text-shadow: none;
 	
 }
 
@@ -37,6 +51,10 @@ blockquote {
 .reveal section .unstyle-img img {
 	background: none;
 	border: 0;
+}
+
+#bad img {
+	box-shadow: none;
 }
 
 .reveal blockquote {
