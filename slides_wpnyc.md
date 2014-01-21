@@ -1,13 +1,13 @@
 
-#<span class="special">Child Themes</span> 
-##A Crash Course
+#Child Themes
+##<span class="special">A Crash Course</span>
 
 --
 
 ##Hey!
 #I'm <span class="special">Lara</span>
 
-[notlaura.com](http://notlaura.com)
+[lara@notlaura.com](http://notlaura.com)
 
 --
 
@@ -49,10 +49,12 @@ Then this:
 ###<span class="special">Part 2</span>
 #Pros/Cons
 
+(of child themes)
+
 ---
 
 ##Pros:
-*  Easy theme updating
+*  Safe theme updating
 *  Fallback if you mess up
 *  Customize existing themes
 
@@ -79,19 +81,19 @@ Then this:
 
 ---
 
-###<span class="special">Uno</span>
+###<span class="special">1</span>
 ##The Student
 
 ---
 
-###<span class="special">Dos</span>
+###<span class="special">2</span>
 ##The Broke Client
 
 ---
 
-###<span class="special">Tres</span>
+###<span class="special">3</span>
 ##Fast Development
-(maybe)
+(debatable)
 
 --
 
@@ -100,8 +102,10 @@ Then this:
 
 --
 
-<div class="half">[![Bootstrap](img/wpnyc/bootstrap.png)](http://320press.com/wpbs/)</div>
-<div class="half">[![Skeleton](img/wpnyc/skeleton.png)](http://themes.simplethemes.com/skeleton/)</div>
+<div class="clearfix">
+	<div class="half">[![Bootstrap](img/wpnyc/bootstrap.png)](http://320press.com/wpbs/)</div>
+	<div class="half">[![Skeleton](img/wpnyc/skeleton.png)](http://themes.simplethemes.com/skeleton/)</div>
+</div>
 ###Starter-esque themes
 
 ---
@@ -125,20 +129,26 @@ Case 2
 --
 Case 3
 
-### Add templates for a custom post type.
+### Add templates for a custom type.
 
 ---
 
 ###<span class="special">Part 5</span>
 #Demo Time!
-But first, a word on [Theme Sense](http://themeshaper.com/2012/10/23/developing-your-theme-sense-tutorial-2/)/how I work
+But first, a word on [Theme Sense](http://themeshaper.com/2012/10/23/developing-your-theme-sense-tutorial-2/)
 
 ---
 
 ##Resources
-*  [The Child Theme Bible](http://themeshaper.com/modify-wordpress-themes/)
+*  <strong>[The Child Theme Bible](http://themeshaper.com/modify-wordpress-themes/)</strong> (read this!)
 *  [Theme Sense](http://themeshaper.com/2012/10/23/developing-your-theme-sense-tutorial-2/)
-*  [WP Bootstrap](http://320press.com/wpbs/)
-*  [Skeleton](http://themes.simplethemes.com/skeleton/)
+*  [WP Bootstrap](http://320press.com/wpbs/) and [Skeleton](http://themes.simplethemes.com/skeleton/)
 *  [Genesis Framework](http://www.studiopress.com/features)
 *  [These Slides](http://stuff.notlaura.com/slides/wpnyc.html)
+*  Me: [notlaura.com](http://notlaura.com) and [@laras126](http://twitter.com)
+
+<br />
+
+<small>Slides creates with <a href="https://github.com/hakimel/reveal.js" target="blank">reveal.js</a> (it's great!)</small>
+
+---
