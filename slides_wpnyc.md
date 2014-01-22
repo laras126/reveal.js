@@ -2,6 +2,10 @@
 #Child Themes
 ##<span class="special">A Crash Course</span>
 
+<br />
+<br />
+<small>[(Skip to the Resources slide)](http://stuff.notlaura.com/slides/wpnyc#/13")</small>
+
 --
 
 ##Hey!
