@@ -49,7 +49,7 @@ Then this:
 ###<span class="special">Part 2</span>
 #Pros/Cons
 
-(of child themes)
+(of child themes, that is)
 
 ---
 
@@ -140,15 +140,16 @@ But first, a word on [Theme Sense](http://themeshaper.com/2012/10/23/developing-
 ---
 
 ##Resources
+*  [List of Filter Hooks]( http://codex.wordpress.org/Plugin_API/Filter_Reference)
 *  <strong>[The Child Theme Bible](http://themeshaper.com/modify-wordpress-themes/)</strong> (read this!)
 *  [Theme Sense](http://themeshaper.com/2012/10/23/developing-your-theme-sense-tutorial-2/)
 *  [WP Bootstrap](http://320press.com/wpbs/) and [Skeleton](http://themes.simplethemes.com/skeleton/)
 *  [Genesis Framework](http://www.studiopress.com/features)
 *  [These Slides](http://stuff.notlaura.com/slides/wpnyc.html)
+*  [Demo Files](http://stuff.notlaura.com/downloads/twentytwelve-child-demo.zip)
 *  Me: [notlaura.com](http://notlaura.com) and [@laras126](http://twitter.com)
 
 <br />
 
 <small>Slides creates with <a href="https://github.com/hakimel/reveal.js" target="blank">reveal.js</a> (it's great!)</small>
 
----
