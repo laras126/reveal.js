@@ -95,7 +95,7 @@ i.e. Do "real business" things
 
 ---
 
-![Women in Tech](img/perscholas/women_tech.png)
+![Women in Tech](img/perscholas/women_tech.jpg)
 ###Enough already!
 
 --
