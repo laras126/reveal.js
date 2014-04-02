@@ -10,12 +10,12 @@
 
 ##Freelancing
 #### A dirty word.
----
+--
 
 ![Growing a business](img/perscholas/running_business.jpg)
 ###What it _is_
 
----
+--
 
 ![Broke](img/perscholas/begging.jpg)
 ###What it _isn't_
@@ -24,17 +24,17 @@
 
 #Pros
 
----
+--
 
 ![Vacation](img/perscholas/vacation.jpg)
 ###Unlimited vacation days!
 
----
+--
 
 ![In PJs](img/perscholas/in_pjs.png)
 ###Work in your pajamas!
 
----
+--
 
 ![No boss!](img/perscholas/bad_boss.jpg)
 ###No boss!
@@ -44,17 +44,17 @@
 
 #Cons
 
----
+--
 
 ![Working on Vaca](img/perscholas/working_vaca.jpg)
 ###Always working
 
----
+--
 
 ![Pay me](img/perscholas/pay_me.jpg)
 ###Indeterminate income
 
----
+--
 
 ![Stress](img/perscholas/stress.jpg)
 ###It's all on you
@@ -63,12 +63,12 @@
 
 #Tips
 
----
+--
 
 ![Microsoft](img/perscholas/microsoft.png)
 ###Do the work you want.
 
----
+--
 
 ![Coworking](img/perscholas/coworking.jpg)
 ###_Don't_ work in your PJs! 
@@ -76,14 +76,14 @@
 Coworking FTW.
 
 
----
+--
 
 ![Take improv](img/perscholas/improv.jpg)
 ###Take an improv class 
 
 i.e. people skills
 
----
+--
 
 ![Real business](img/perscholas/contract.jpg)
 ###Be pro.
@@ -93,7 +93,7 @@ i.e. Do "real business" things
 
 #I'm a girl
 
----
+--
 
 ![Women in Tech](img/perscholas/women_tech.jpg)
 ###Enough already!
@@ -103,7 +103,7 @@ i.e. Do "real business" things
 
 ####[lara@notlaura.com](mailt:lara@notlaura.com)
 
----
+--
 
 ##Resources
 * Me: [notlaura.com](http://notlaura.com) and [@laras126](http://twitter.com)
