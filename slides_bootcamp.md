@@ -62,7 +62,7 @@ For Creative Professionals
 	
 	###Let's compare
 
-	<div class="half"><a href="https://lara-schenck-tjhg.squarespace.com/config">![squarespace](http://www.squarespace.com/assets/logos/squarespace-logo-stacked-white.jpg)</a></div>
+	<div class="half"><a href="https://lara-schenck-mds6.squarespace.com/index">![squarespace](img/squarespace.png)</a></div>
 	<div class="half"><a href="http://wp.local/">![wordpress](img/wordpress2.png)</a></div>
 
 	--
