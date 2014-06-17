@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Child Themes: A Crash Course</title>
+		<title>PHP is so cool</title>
 
 		<meta name="description" content="">
 		<meta name="author" content="Lara Schenck">
@@ -15,22 +15,32 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/custom.css" id="theme">
+		<link rel="stylesheet" href="css/custom.min.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
+		<style type="text/css">
+		/*.reveal pre code {
+		  display: block; 
+		  padding: 1.5em;
+		  background: #3F3F3F;
+		  color: #DCDCDC;
+		}*/
+		</style>
+
 		<!-- <link rel="stylesheet" href="css/print/pdf.css" id="theme"> -->
-		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/theme/custom.css">
+
+		<script src="//use.typekit.net/xqo8pio.js"></script>
+
+		<script>try{Typekit.load();}catch(e){}</script>
+
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
-
-		<script src="//use.typekit.net/xqo8pio.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
-
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -41,20 +51,12 @@
 
 		<div class="reveal">
 
+			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-				<h3>Pick your poison:</h3>
-				<ul>
-					<li><a href="wpnyc.html">WPNYC Child Themes</a></li>
-					<li><a href="bootcamp.html">Website Bootcamp</a></li>
-					<li><a href="perscholas.html">Per Scholas: On Freelancing</a></li>
-					<li><a href="comic.html">The Internet (via random comics)</a></li>
-				</ul>
-					
-				</section>
-
+				<section data-markdown="smashing_php.md" data-separator="---" data-vertical="--" data-charset="iso-8859-15">
+                </section>
 			</div>
-
+			
 		</div>
 
 		<script src="lib/js/head.min.js"></script>

@@ -5,8 +5,9 @@ based on dark.css by Ivan Sagalaev
 
 */
 
-pre code {
-  display: block; padding: 0.5em;
+.reveal pre code {
+  display: block; 
+  padding: 1.5em;
   background: #3F3F3F;
   color: #DCDCDC;
 }

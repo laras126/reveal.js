@@ -25,6 +25,6 @@
 
 --
 
-##Questions?
+#Easy peasy.
 
 <a href="http://notlaura.com">notlaura.com</a>
