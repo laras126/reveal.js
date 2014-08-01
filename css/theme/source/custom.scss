@@ -1,52 +1,10 @@
 
+//
+// Custom theme
+// notlaura.com
+//
 
-
-/*********************
-COLORS
-Need help w/ choosing your colors? Try this site out:
-http://0to255.com/
-*********************/
-
-
-$sans-serif:        "museo-sans-1";
-$serif:             "museo-slab-1";
-
-$alert-yellow:      #ebe16f;
-$alert-red:         #fbe3e4;
-$alert-green:       #e6efc2;
-$alert-blue:        #d5edf8;
-
-$white:  		#ffffff;
-$black: 		#231f20;
-$grey: 			lighten($black, 10%);
-
-$orange: 		#a94d25;
-
-$dark-blue: 	#237fa9;
-$light-blue: 	lighten(desaturate($dark-blue, 30%), 25%);
-
-$link-color: 	$dark-blue;
-$link-hover: 	darken($link-color, 9%);
-
-$main-font-clr: 	$black;
-
-$vlight-accent: 	#f4f7f9;
-$light-accent: 		darken($white, 10%);
-$medium-accent: 	$light-blue;
-$dark-accent: 		$dark-blue;
-
-$btn-color: 		$light-blue;
-
-$txt-light: 		darken($light-accent, 20%);
-
-$accent-border: 	1px dotted $medium-accent;
-
-
-
-/**
- * Custom theme
- * notlaura.com
- */
+ @import 'nl-settings';
 
 
 // Default mixins and settings -----------------
@@ -63,19 +21,19 @@ $backgroundColor: $white;
 
 // Primary/body text
 $mainFont: $sans-serif, sans-serif;
-$mainFontSize: 36px;
-$mainColor: $black;
+$mainFontSize: $contain;
+$mainColor: $main-font;
 
 // Headings
 $headingFont: $sans-serif;
 $headingColor: $black;
 $headingLetterSpacing: 0;
-$headingMargin: 0 0 20px 0;
-$headingLineHeight: 0.9em;
+$headingMargin: 0 0 0 0;
+$headingLineHeight: $line-height-base;
 $headingTextTransform: none;
 $headingTextShadow: none;
 $heading1TextShadow: $headingTextShadow;
-//$headingFontWeight: 500;
+$headingFontWeight: 500;
 
 // Links and actions
 $linkColor: $link-color;
@@ -92,62 +50,86 @@ $selectionColor: $black;
 }
 
 
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+hr {
+	border: 1px dotted $link-color;	
+}
 
 
 // Theme template ------------------------------
+
 @import "../template/theme";
+
 // ---------------------------------------------
+
+ @import 'nl-grid';
+ @import 'nl-typography';
 
 .reveal {
 	font-weight: 300;
 	letter-spacing: 0;
-}
 
-.reveal h1 {
-	font-weight: 700;
-}
-
-.reveal {
-	h4, h5 {
-		font-weight: 300;
+	.special {
+		color: $dark-blue;
 	}
-}
 
-.special {
-	color: $dark-blue;
-}
-
-.reveal a:not(.image), .reveal a:not(.image):hover {
-	border-bottom: $accent-border;	
-}
-
-.reveal blockquote {
-	padding: 1em 1.3em;
-	font-weight: 100;
-}
-
-.reveal section img {
-	border: $light-accent 5px solid;
-}
-
-.reveal section .unstyle-img img {
-	border: none;
-	box-shadow: none;
-}
-
-
-.half {
-	width: 45%;
-	float: left;
-	&:first-child {
-		margin-right: 3%;
+	a span.special {
+		color: $dark-grey !important;	
 	}
-}
 
-.clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+	a:not(.image), a:not(.image):hover {
+		border-bottom: $accent-border;	
+	}
+
+	.callout-quote {
+		padding: 1em 1.3em;
+		font-family: $serif;
+		text-align: left;
+		box-shadow: none;
+		border: none;
+		font-size: $h3;
+		line-height: 1.5;
+		border-left: 1px solid $light-accent;
+		.special {
+			color: $med-accent;
+		}
+	}
+
+	section img {
+		border: $light-accent 5px solid;
+		box-shadow: none;
+	}
+
+	section .unstyle-img img {
+		border: none;
+		box-shadow: none;
+	}
+
+	.illustration img {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.half {
+		width: 45%;
+		float: left;
+		&:first-child {
+			margin-right: 3%;
+		}
+	}
+
+	.clearfix {
+	  &:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	  }
+	}
 }

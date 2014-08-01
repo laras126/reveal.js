@@ -27,4 +27,4 @@
 
 #Easy peasy.
 
-<a href="http://notlaura.com">notlaura.com</a>
+<a href="http://notlaura.com"><span class="special">lara</span>@notlaura.com</a>

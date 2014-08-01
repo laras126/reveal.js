@@ -106,6 +106,17 @@ module.exports = function(grunt) {
 			theme: {
 				files: [ 'css/theme/source/*.scss', 'css/theme/template/*.scss' ],
 				tasks: 'themes'
+			},
+			livereload: {
+				// Browser live reloading
+				// https://github.com/gruntjs/grunt-contrib-watch#live-reloading
+				options: {
+					livereload: true
+				},
+				files: [
+					'css/*.css',
+					'*.md'
+				]
 			}
 		}
 
