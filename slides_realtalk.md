@@ -32,9 +32,9 @@
 </div>
 <div class="sixcol last">
 <h2>The Project</h2>
-<h2>Estimating</h2>
 <h2>$$$$</h2>
 <h2>After the fact</h2>
+<h2>Scaling</h2>
 </div>
 
 --
