@@ -47,6 +47,7 @@ $selectionColor: $black;
 // to return a background image or gradient
 @mixin bodyBackground() {
 	background: $backgroundColor;
+	border-top: 10px solid $dark-blue;
 }
 
 
@@ -56,6 +57,10 @@ $selectionColor: $black;
 
 .text-left {
 	text-align: left;
+}
+
+.grey {
+	color: $light-accent;
 }
 
 hr {
@@ -75,6 +80,11 @@ hr {
 .reveal {
 	font-weight: 300;
 	letter-spacing: 0;
+
+	.slides {
+		text-align: left;	
+	}
+	
 
 	.special {
 		color: $dark-blue;

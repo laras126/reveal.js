@@ -4,6 +4,9 @@
 .text-left {
   text-align: left; }
 
+.grey {
+  color: #c4c4c4; }
+
 hr {
   border: 1px dotted #237fa9; }
 
@@ -12,6 +15,7 @@ hr {
  *********************************************/
 body {
   background: white;
+  border-top: 10px solid #237fa9;
   background-color: white; }
 
 .reveal {
@@ -277,6 +281,8 @@ h6 {
 .reveal {
   font-weight: 300;
   letter-spacing: 0; }
+  .reveal .slides {
+    text-align: left; }
   .reveal .special {
     color: #237fa9; }
   .reveal a span.special {
@@ -291,11 +297,11 @@ h6 {
     border: none;
     font-size: 1.4em;
     line-height: 1.5;
-    border-left: 1px solid #e6e6e6; }
+    border-left: 1px solid #c4c4c4; }
     .reveal .callout-quote .special {
       color: #86b2c6; }
   .reveal section img {
-    border: #e6e6e6 5px solid;
+    border: #c4c4c4 5px solid;
     box-shadow: none; }
   .reveal section .unstyle-img img {
     border: none;

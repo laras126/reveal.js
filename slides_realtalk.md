@@ -1,46 +1,43 @@
+
 #Freelancing
+---
 
---
+#...is <span class="grey">$%#@ing</span> hard.
 
-##...is horrifying.
-
---
-
-#Sales
-###...lol what?
-
---
-
-#Clients
-###...are sometimes horrifying.
-
---
-
-#Estimating
-###...is #&@%ing hard.
-
---
-
-#Q &amp; A
-###...go!
-
---
-
-#j.mp/<span class="special">realtalklist</span>
-<hr>
+---
 <div class="fivecol first text-right">
 
-<h4>Lara:</h4>
-<h4>Melissa:</h4>
-<h4>Tricia:</h4>
-<h4>Ben:</h4>
+<h2>Lara:</h2>
+<h2>Melissa:</h2>
+<h2>Tricia:</h2>
+<h2>Ben:</h2>
 
 </div>
 <div class="sevencol last text-left">
 
-<h4 class="special">@laras126</h4>
-<h4 class="special">@melissahsiung</h4>
-<h4 class="special">@papercutny</h4>
-<h4 class="special">@bfreda</h4>
+<h2 class="special">@laras126</h2>
+<h2 class="special">@melissahsiung</h2>
+<h2 class="special">@papercutny</h2>
+<h2 class="special">@bfreda</h2>
 
 </div>
+--
+#Let's talk
+<div class="sixcol first">
+<h2>Free M.B.A.</h2>
+<h2>Clients</h2>
+<h2>Estimating</h2>
+<h2>Closing</h2>
+<h2></h2>
+</div>
+<div class="sixcol last">
+<h2>The Project</h2>
+<h2>Estimating</h2>
+<h2>$$$$</h2>
+<h2>After the fact</h2>
+</div>
+
+--
+
+#<span class="margin-left:-10%">j.mp/<span class="special">realtalkwc</span></span>
+
