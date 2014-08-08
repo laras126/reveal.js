@@ -12,12 +12,12 @@
 #### A dirty word.
 --
 
-![Growing a business](img/perscholas/running_business.jpg)
+![Growing a business](../img/perscholas/running_business.jpg)
 ###What it _is_
 
 --
 
-![Broke](img/perscholas/begging.jpg)
+![Broke](../img/perscholas/begging.jpg)
 ###What it _isn't_
 
 --
@@ -26,17 +26,17 @@
 
 --
 
-![Vacation](img/perscholas/vacation.jpg)
+![Vacation](../img/perscholas/vacation.jpg)
 ###Unlimited vacation days!
 
 --
 
-![In PJs](img/perscholas/in_pjs.png)
+![In PJs](../img/perscholas/in_pjs.png)
 ###Work in your pajamas!
 
 --
 
-![No boss!](img/perscholas/bad_boss.jpg)
+![No boss!](../img/perscholas/bad_boss.jpg)
 ###No boss!
 
 
@@ -46,17 +46,17 @@
 
 --
 
-![Working on Vaca](img/perscholas/working_vaca.jpg)
+![Working on Vaca](../img/perscholas/working_vaca.jpg)
 ###Always working
 
 --
 
-![Pay me](img/perscholas/pay_me.jpg)
+![Pay me](../img/perscholas/pay_me.jpg)
 ###Indeterminate income
 
 --
 
-![Stress](img/perscholas/stress.jpg)
+![Stress](../img/perscholas/stress.jpg)
 ###It's all on you
 
 --
@@ -65,12 +65,12 @@
 
 --
 
-![Microsoft](img/perscholas/microsoft.png)
+![Microsoft](../img/perscholas/microsoft.png)
 ###Do the work you want.
 
 --
 
-![Coworking](img/perscholas/coworking.jpg)
+![Coworking](../img/perscholas/coworking.jpg)
 ###_Don't_ work in your PJs! 
 
 Coworking FTW.
@@ -78,14 +78,14 @@ Coworking FTW.
 
 --
 
-![Take improv](img/perscholas/improv.jpg)
+![Take improv](../img/perscholas/improv.jpg)
 ###Take an improv class 
 
 i.e. people skills
 
 --
 
-![Real business](img/perscholas/contract.jpg)
+![Real business](../img/perscholas/contract.jpg)
 ###Be pro.
 i.e. Do "real business" things
 
@@ -95,7 +95,7 @@ i.e. Do "real business" things
 
 --
 
-![Women in Tech](img/perscholas/women_tech.jpg)
+![Women in Tech](../img/perscholas/women_tech.jpg)
 ###Enough already!
 
 --

@@ -27,16 +27,16 @@ For Creative Professionals
 #So, the Internet...
 
 	--
-	![comic](img/comic.png)
+	![comic](../img/comic.png)
 	<small>via <a href="http://www.vladstudio.com/wallpaper/?how_internet_works">VladStudio</a></small>
 	--
 	
 	##Front-end vs. Back-end
 
 	--
-	![frontend backend](img/backendfrontend.png)
+	![frontend backend](../img/backendfrontend.png)
 	--
-	![browsers](img/browsers.jpg)
+	![browsers](../img/browsers.jpg)
 
 	<small>via <a href="https://www.liquidmatrix.org/blog/2011/08/03/internet-explorer-users-eat-paste/">Liquid Matrix</a></small>
 	--
@@ -54,7 +54,7 @@ For Creative Professionals
 #CMS
 ###Content Management Systems
 	--
-	![CMSs](img/cmss.png)
+	![CMSs](../img/cmss.png)
 	
 	###So many!
 
@@ -62,8 +62,8 @@ For Creative Professionals
 	
 	###Let's compare
 
-	<div class="half"><a href="https://lara-schenck-mds6.squarespace.com/index">![squarespace](img/squarespace.png)</a></div>
-	<div class="half"><a href="http://wp.local/">![wordpress](img/wordpress2.png)</a></div>
+	<div class="half"><a href="https://lara-schenck-mds6.squarespace.com/index">![squarespace](../img/squarespace.png)</a></div>
+	<div class="half"><a href="http://wp.local/">![wordpress](../img/wordpress2.png)</a></div>
 
 	--
 	###Use WordPress, IMHO
@@ -74,7 +74,7 @@ For Creative Professionals
 	
 	--
 	
-	![CMSs](img/wordpress-com2.png)
+	![CMSs](../img/wordpress-com2.png)
 	###??
 
 

@@ -1,21 +1,70 @@
-.text-right {
-  text-align: right; }
+body {
+  color: #3e3739;
+  font-family: "museo-sans-1", Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  background-color: white; }
 
-.text-left {
-  text-align: left; }
+a, a:visited {
+  color: #237fa9;
+  text-decoration: none; }
+  a:hover, a:focus, a:visited:hover, a:visited:focus {
+    color: #1b6283; }
+  a:active, a:visited:active {
+    color: #0a232e; }
+  a:link, a:visited:link {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
 
-.grey {
-  color: #c4c4c4; }
-
-hr {
-  border: 1px dotted #237fa9; }
+.reveal strong {
+  font-weight: 500; }
+.reveal p {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-weight: 300; }
+.reveal hr {
+  margin-bottom: 1em; }
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  margin-bottom: 0.8em; }
+.reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-weight: 500 !important; }
+.reveal h2, .reveal h3 {
+  font-family: "museo-sans-1", Helvetica, sans-serif; }
+.reveal h4, .reveal h5, .reveal h6 {
+  font-family: "museo-slab-1", Georgia, serif;
+  margin-top: 1.2em; }
+.reveal h1 {
+  font-size: 3em;
+  margin-top: 0.8em;
+  font-family: "museo-sans-1", Helvetica, sans-serif; }
+.reveal h2 {
+  font-size: 2.2em;
+  margin-top: 1.4em; }
+.reveal h3 {
+  font-size: 1.4em;
+  margin-top: 1.2em; }
+.reveal h4 {
+  font-size: 1.2em; }
+.reveal h5 {
+  font-size: 1em; }
+.reveal h6 {
+  font-size: 0.8em; }
+.reveal pre.heading {
+  font-size: 1.6em;
+  box-shadow: none;
+  display: inline; }
+.reveal pre, .reveal code {
+  box-shadow: none; }
+.reveal code {
+  font-size: 2.2em;
+  line-height: 1.4em; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
   background: white;
-  border-top: 10px solid #237fa9;
   background-color: white; }
 
 .reveal {
@@ -42,7 +91,7 @@ body {
   margin: 0 0 0 0;
   color: #111111;
   font-family: "museo-sans-1", Helvetica, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0;
   text-transform: none;
@@ -204,87 +253,28 @@ body {
   margin-left: 0; }
 
 body {
-  color: #3e3739;
-  font-family: "museo-sans-1", Helvetica, sans-serif;
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.5;
-  background-color: white; }
-
-a, a:visited {
-  color: #237fa9;
-  text-decoration: none; }
-  a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #1b6283; }
-  a:active, a:visited:active {
-    color: #0a232e; }
-  a:link, a:visited:link {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
-
-header p {
-  margin: 0; }
-
-strong {
-  font-weight: 500; }
-
-p {
-  font-size: 1em;
-  margin-top: 0;
-  margin-bottom: 1em;
-  font-weight: 300; }
-
-p + p {
-  text-indent: 1.4em;
-  margin-top: -1em; }
-
-hr {
-  margin-bottom: 1em; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.8em; }
-
-h1 {
-  font-weight: 700 !important; }
-
-h2, h3 {
-  font-family: "museo-sans-1", Helvetica, sans-serif;
-  font-weight: 700; }
-
-h4, h5, h6 {
-  font-family: "museo-slab-1", Georgia, serif;
-  font-weight: 500;
-  margin-top: 1.2em; }
-
-h1 {
-  font-size: 2.6em;
-  margin-top: 0.8em;
-  font-weight: 300;
-  font-family: "museo-sans-1", Helvetica, sans-serif; }
-
-h2 {
-  font-size: 2em;
-  margin-top: 1.4em; }
-
-h3 {
-  font-size: 1.4em;
-  margin-top: 1.2em; }
-
-h4 {
-  font-size: 1.2em; }
-
-h5 {
-  font-size: 1em; }
-
-h6 {
-  font-size: 0.8em; }
+  background: white;
+  border-top: 10px solid #237fa9; }
 
 .reveal {
   font-weight: 300;
   letter-spacing: 0; }
-  .reveal .slides {
+  .reveal .text-right {
+    text-align: right; }
+  .reveal .text-center {
+    text-align: center; }
+  .reveal .text-left {
     text-align: left; }
+  .reveal .center-block {
+    margin: 0 auto; }
+  .reveal .grey {
+    color: #c4c4c4; }
+  .reveal hr {
+    border: 1px dotted #237fa9; }
   .reveal .special {
     color: #237fa9; }
+  .reveal .pink {
+    color: #cc6699; }
   .reveal a span.special {
     color: #3e3739 !important; }
   .reveal a:not(.image), .reveal a:not(.image):hover {
@@ -318,3 +308,7 @@ h6 {
     content: "";
     display: table;
     clear: both; }
+  .reveal .hljs {
+    background-color: #f4f7f9;
+    padding: 1em;
+    border: 1px dotted #c4c4c4; }

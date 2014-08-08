@@ -1,16 +1,4 @@
 // ----
-// Screen sizes
-// ----
-
-$screen-sm: 		481px;
-$screen-md: 		768px;
-$screen-lg: 		990px;
-
-$slicer-breakpoints: 0 $screen-sm $screen-md $screen-lg;
-
-
-
-// ----
 // Colors
 // ----
 
@@ -31,6 +19,9 @@ $light-blue: 		#86b2c6;
 $grey: 				#c4c4c4;
 $orange: 			#A94D23;
 $dark-grey: 		#3e3739;
+
+// Misc colors
+$pink: 				#CC6699;
 
 
 // Purposeful color names
@@ -74,8 +65,8 @@ $base:  			1em;
 $line-height-base: 	1.5;
 $sml:  				$base*0.8;
 
-$h1:  				$base*2.6;
-$h2:  				$base*2;
+$h1:  				$base*3;
+$h2:  				$base*2.2;
 $h3:  				$base*1.4;
 $h4:  				$base*1.2;
 $h5:  				$base;
@@ -85,3 +76,32 @@ $sans-serif: 		'museo-sans-1', Helvetica, sans-serif;
 $serif:             'museo-slab-1', Georgia, serif;
 
 
+// ----
+// Reveal Settings
+// ----
+
+$backgroundColor: $white;
+
+// Primary/body text
+$mainFont: $sans-serif, sans-serif;
+$mainFontSize: $contain;
+$mainColor: $main-font;
+
+// Headings
+$headingFont: $sans-serif;
+$headingColor: $black;
+$headingLetterSpacing: 0;
+$headingMargin: 0 0 0 0;
+$headingLineHeight: $line-height-base;
+$headingTextTransform: none;
+$headingTextShadow: none;
+$heading1TextShadow: $headingTextShadow;
+$headingFontWeight: 700;
+
+// Links and actions
+$linkColor: $link-color;
+$linkColorHover: $link-hover;
+
+// Text selection
+$selectionBackgroundColor: lighten($alert-yellow, 10%);
+$selectionColor: $black;

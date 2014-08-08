@@ -1,4 +1,4 @@
-<span class="unstyle-img">![fishing](img/fishing/me-fish.svg)</span>
+<span class="unstyle-img">![fishing](../img/fishing/me-fish.svg)</span>
 
 --
 
@@ -6,22 +6,22 @@
 
 --
 
-<span class="unstyle-img">![fishing](img/fishing/wordpress-catch.svg)</span>
+<span class="unstyle-img">![fishing](../img/fishing/wordpress-catch.svg)</span>
 
 ---
 
-![Programming](img/programming.gif)
+![Programming](../img/programming.gif)
 <p>Source: <a href="http://reddit.com/r/gifs">r/gifs</a></p>
 
 --
 
-<span class="unstyle-img">![lmgtfy](img/lmgtfy.png)</span>
+<span class="unstyle-img">![lmgtfy](../img/lmgtfy.png)</span>
 <p>Source: <a href="lmgtfy.com">lmgtfy.com</a></p>
 
 
 --
 
-![comic](img/comic.png)
+![comic](../img/comic.png)
 <p>Source: <a href="http://www.vladstudio.com/wallpaper/?how_internet_works">VladStudio</a></p>
 
 ---
@@ -30,11 +30,11 @@
 
 --
 
-![Sublime Text](img/fishing/sublime.png)
+![Sublime Text](../img/fishing/sublime.png)
 
 --
 
-<span class="unstyle-img">![We Fish](img/fishing/we-fish.svg)</span>
+<span class="unstyle-img">![We Fish](../img/fishing/we-fish.svg)</span>
 
 --
 

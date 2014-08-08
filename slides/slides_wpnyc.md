@@ -15,7 +15,7 @@
 
 --
 
-![kid](img/wpnyc/child.png)
+![kid](../img/wpnyc/child.png)
 (that's not me)
 
 --
@@ -40,12 +40,12 @@ Good question.
 ---
 
 Like this:
-![Screenshot](img/wpnyc/finder.png)
+![Screenshot](../img/wpnyc/finder.png)
 
 ---
 
 Then this:
-![Screenshot](img/wpnyc/finder2.png)
+![Screenshot](../img/wpnyc/finder2.png)
 
 
 --
@@ -76,7 +76,7 @@ Then this:
 
 ---
 
-<span class="unstyle-img" id="bad">![bad](img/wpnyc/bad.png)</span>
+<span class="unstyle-img" id="bad">![bad](../img/wpnyc/bad.png)</span>
 
 --
 
@@ -101,14 +101,14 @@ Then this:
 
 --
 
-<span class="unstyle-img">![Frameworks](img/wpnyc/frameworks.png)</span>
+<span class="unstyle-img">![Frameworks](../img/wpnyc/frameworks.png)</span>
 ###Frameworks
 
 --
 
 <div class="clearfix">
-	<div class="half">[![Bootstrap](img/wpnyc/bootstrap.png)](http://320press.com/wpbs/)</div>
-	<div class="half">[![Skeleton](img/wpnyc/skeleton.png)](http://themes.simplethemes.com/skeleton/)</div>
+	<div class="half">[![Bootstrap](../img/wpnyc/bootstrap.png)](http://320press.com/wpbs/)</div>
+	<div class="half">[![Skeleton](../img/wpnyc/skeleton.png)](http://themes.simplethemes.com/skeleton/)</div>
 </div>
 ###Starter-esque themes
 

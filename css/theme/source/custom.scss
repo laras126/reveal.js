@@ -4,98 +4,76 @@
 // notlaura.com
 //
 
- @import 'nl-settings';
 
-
-// Default mixins and settings -----------------
-@import "../template/mixins";
+// Reveal
 @import "../template/settings";
-// ---------------------------------------------
+@import "../template/mixins";
+
+// Custom
+@import 'nl-settings';
+@import 'nl-typography';
+@import "../template/theme";
+
+// Custom
+@import 'nl-grid';
 
 
-// Base settings for all themes that can optionally be
-// overridden by the super-theme
-
-// Background of the presentation
-$backgroundColor: $white;
-
-// Primary/body text
-$mainFont: $sans-serif, sans-serif;
-$mainFontSize: $contain;
-$mainColor: $main-font;
-
-// Headings
-$headingFont: $sans-serif;
-$headingColor: $black;
-$headingLetterSpacing: 0;
-$headingMargin: 0 0 0 0;
-$headingLineHeight: $line-height-base;
-$headingTextTransform: none;
-$headingTextShadow: none;
-$heading1TextShadow: $headingTextShadow;
-$headingFontWeight: 500;
-
-// Links and actions
-$linkColor: $link-color;
-$linkColorHover: $link-hover;
-
-// Text selection
-$selectionBackgroundColor: lighten($alert-yellow, 10%);
-$selectionColor: $black;
 
 // Generates the presentation background, can be overridden
 // to return a background image or gradient
-@mixin bodyBackground() {
+body {
 	background: $backgroundColor;
 	border-top: 10px solid $dark-blue;
 }
-
-
-.text-right {
-	text-align: right;
-}
-
-.text-left {
-	text-align: left;
-}
-
-.grey {
-	color: $light-accent;
-}
-
-hr {
-	border: 1px dotted $link-color;	
-}
-
-
-// Theme template ------------------------------
-
-@import "../template/theme";
-
-// ---------------------------------------------
-
- @import 'nl-grid';
- @import 'nl-typography';
 
 .reveal {
 	font-weight: 300;
 	letter-spacing: 0;
 
-	.slides {
-		text-align: left;	
+
+	.text-right {
+		text-align: right;
 	}
-	
+
+	.text-center {
+		text-align: center;
+	}
+
+	.text-left {
+		text-align: left;
+	}
+
+	.center-block {
+		margin: 0 auto;
+	}
+
+	.grey {
+		color: $light-accent;
+	}
+
+	hr {
+		border: 1px dotted $link-color;
+	}
+
+
+	.slides {
+		// text-align: left;
+	}
 
 	.special {
 		color: $dark-blue;
 	}
 
+	.pink {
+		color: $pink;
+	}
+
 	a span.special {
-		color: $dark-grey !important;	
+		color: $dark-grey !important;
 	}
 
 	a:not(.image), a:not(.image):hover {
-		border-bottom: $accent-border;	
+		border-bottom: $accent-border;
 	}
 
 	.callout-quote {
@@ -142,4 +120,13 @@ hr {
 	    clear: both;
 	  }
 	}
+
+	.hljs {
+		background-color: $offwhite;
+		padding: $base;
+		border: 1px dotted $light-accent;
+	}
+
 }
+
+

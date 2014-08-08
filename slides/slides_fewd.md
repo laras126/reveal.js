@@ -4,23 +4,23 @@
 * Make a class folder
 
 ---
-![Internet](img/internet.jpg)
+![Internet](../img/internet.jpg)
 	--
-	![comic](img/comic.png)
+	![comic](../img/comic.png)
 	--
-	![browsers](img/browsers.jpg)
+	![browsers](../img/browsers.jpg)
 	--
-	![client server](img/client-server.jpg)
+	![client server](../img/client-server.jpg)
 ---
 #POP QUIZ, YA'll
 	--
-	![Waiter](img/waiter.jpeg)
+	![Waiter](../img/waiter.jpeg)
 	--
-	![Piano](img/piano.jpg)	
+	![Piano](../img/piano.jpg)	
 	--
-	![html](img/html_only.png)
+	![html](../img/html_only.png)
 	--
-	![html](img/php.png)
+	![html](../img/php.png)
 ---
 #HTML
 ###How To Make Love
@@ -49,7 +49,7 @@
 #CSS
 ###Cascading Style Sheets
 	--
-	![nice css](img/nice-css.jpg)
+	![nice css](../img/nice-css.jpg)
 	--
 
 		p {
@@ -70,7 +70,7 @@
 		}
 
 	--
-	![nice css](img/important-inheritance.png)
+	![nice css](../img/important-inheritance.png)
 	--
 	##http://cdpn.io/ykewo
 	--

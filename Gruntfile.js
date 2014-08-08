@@ -98,6 +98,15 @@ module.exports = function(grunt) {
 			]
 		},
 
+		reveal: {
+			options: {
+				// Task-specific options go here.
+		    },
+			your_target: {
+				// Target-specific file lists and/or options go here.
+			},
+		},
+
 		watch: {
 			main: {
 				files: [ 'Gruntfile.js', 'js/reveal.js', 'css/reveal.css' ],
