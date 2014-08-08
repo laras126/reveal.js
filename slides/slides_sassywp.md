@@ -3,38 +3,87 @@
 
 --
 
-But it's hardcore and so hard...
-(picture of grunt, complicated mixin)
+<div class="small-code full">
+	<pre>
+		<code class="lang-scss">
+		@mixin gs-media($prefix, $type: false){
+			@if $prefix == d {
+				@if ($type == min) or ($type == min-max) { 
+					@media only screen and (min-width: 990px) { @content; } 
+				} @else { @content; }
+			}
+			@else if $prefix == t {
+				@if ($type == min) or ($type == min-max) { 
+					@media only screen and (min-width: 768px) { @content; } 
+				} @else { @content; }
+			}
+		}
+		</code>
+	</pre>
+	<p>Mixin from <a href="http://gridsetapp.com" target="blank">Gridset</a></p>
+</div>
 
 --
 
-No way!
+<div class="sixcol first">
+	<img src="../img/sass/scared.png" alt="Scared!" class="unstyle-img">	
+</div>
 
-It can be this simple:
-variable example
+<div class="sixcol last fragment fade-in">
+	<h1 class="center-vert">Yeah, same.</h1>
+</div>
+
 ---
 
-#Preprocessors 101
+
+<div class="fourcol first unstyle-img fragment" data-fragment-index="1">
+	<span class="fragment" data-fragment-index="2">
+		<h3>Code (Sublime)</h3>
+		<ul>
+			<li><span class="fragment highlight-red" data-fragment-index="7">Preprocessors: Sass, Less, Stylus</span></li>
+			<li>Bootstrap, Foundation, Bourbon, Compass</li>
+			<li>Coffeescript, HAML, Jade</li>
+		</ul>
+	</span>
+</div>
+
+
+<div class="fourcol unstyle-img fragment" data-fragment-index="3">
+	<span class="fragment" data-fragment-index="4">
+		<h3>Tasks (CLI)</h3>
+		<ul>
+			<li>Jekyll</li>
+			<li>Yoeman</li>
+			<li>Grunt, Gulp</li>
+		</ul>
+	</span>
+</div>
+
+<div class="fourcol last unstyle-img fragment" data-fragment-index="5">
+	<span class="fragment" data-fragment-index="6">
+		<h3>Deploy (your server)</h3>
+		<ul>
+			<li>Version control (Github, SVN)</li>
+			<li>Beanstalk, d.ploy</li>
+			<li>Heroku</li>
+		</ul>
+	</span>
+</div>
+
+---
+
+<h1><span class="fragment highlight-blue" data-fragment-index="1">Pre</span><span class="fragment highlight-blue" data-fragment-index="2">process</span>ors</h1>
+
 
 --
 
-<h3 class="snippet-title">SCSS</h3>
+<video controls autoplay loop src="../img/sass/compiler.mov"></video>
 
-	$font-stack:    Helvetica, sans-serif;
-	$primary-color: #333;
+--
 
-	body {
-	  font: 100% $font-stack;
-	  color: $primary-color;
-	}
-
-<h3 class="snippet-title">CSS</h3>
-
-	body {
-		font: 100% Helvetica, sans-serif;
-		color: #333;
-	}
-
+<a href="http://sassmeister.com/gist/e22487f52db9cdcff165" target="blank">
+![Sassmeister](../img/sass/sassmeister.png)
+</a>
 
 --
 
@@ -53,7 +102,9 @@ variable example
 
 --
 
-# #<span class="special ">team</span>Sass
+<span class="unstyle-img">
+	![Sass wins](../img/sass/thesassway.svg)
+</span>
 
 <aside class="notes">
 	[Sass Community](http://sass-lang.com/community)
@@ -61,20 +112,18 @@ variable example
 
 ---
 
-#Some Clarifications
-
---
-
 #Sass <span class="grey">vs</span> SASS
 
 --
 
-<h1 class="text-left">
-	<span class="fragment roll-in"><span class="special">S</span>yntactically</span> <br>
-	<span class="fragment roll-in"><span class="special">A</span>wesome</span> <br>
-	<span class="fragment roll-in"><span class="special">S</span>tyle</span> <br>
-	<span class="fragment roll-in"><span class="special">S</span>heets</span>
-</h1>
+<div class="tencol last">
+	<h1 class="text-left">
+		<span class="fragment roll-in"><span class="special">S</span>yntactically</span> <br>
+		<span class="fragment roll-in"><span class="special">A</span>wesome</span> <br>
+		<span class="fragment roll-in"><span class="special">S</span>tyle</span> <br>
+		<span class="fragment roll-in"><span class="special">S</span>heets</span>
+	</h1>
+</div>
 
 --
 
@@ -90,35 +139,42 @@ variable example
 
 --
 
-<h3 class="code-title">Sass</h3>
+<div class="sixcol first small-code">
+<p class="code-title">style<span class="special">.sass</span></p>
 
-<pre class="language-scss">
-	<code>
-	$grey: #333
-	$light-grey: #999
+<pre class="language-sass">
+<code>$gray: #a4a4a4
+$blue: #237FA9
 
-	.block
-		background-color: $grey
-		.sub-block
-			background-color: $light-grey
-	</code>
+.block
+	color: $gray
+
+	.sub-block
+		color: $blue
+
+
+</code>
 </pre>
 
-<h3 class="code-title">SCSS</h3>
+</div>
 
-<pre class="language-scss">
-	<code>
-	$grey: #333
-	$light-grey: #999
+<div class="sixcol last small-code ">
+<p class="code-title">style<span class="special">.scss</span></p>
 
-	.block {
-		background-color: $grey;
-		.sub-block {
-			background-color: $light-grey;
-		}
+<pre ><code>$gray: #a4a4a4;
+$blue: #237FA9;
+
+.block {
+	color: $gray;
+
+	.sub-block{
+		color: $blue;
 	}
-	</code>
+}
+</code>
 </pre>
+</div>
+
 
 --
 

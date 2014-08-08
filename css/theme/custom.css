@@ -50,15 +50,27 @@ a, a:visited {
   font-size: 1em; }
 .reveal h6 {
   font-size: 0.8em; }
-.reveal pre.heading {
-  font-size: 1.6em;
-  box-shadow: none;
-  display: inline; }
+.reveal pre {
+  margin: 0; }
+  .reveal pre.heading {
+    font-size: 1.6em;
+    box-shadow: none;
+    display: inline; }
 .reveal pre, .reveal code {
   box-shadow: none; }
+.reveal pre code {
+  max-height: 800px;
+  word-wrap: break-word; }
 .reveal code {
   font-size: 2.2em;
   line-height: 1.4em; }
+.reveal .small-code {
+  font-size: 0.8em; }
+.reveal .code-title {
+  color: #b4b4b4;
+  font-size: 1.4em;
+  text-align: left;
+  font-family: monospace; }
 
 /*********************************************
  * GLOBAL STYLES
@@ -268,7 +280,7 @@ body {
   .reveal .center-block {
     margin: 0 auto; }
   .reveal .grey {
-    color: #c4c4c4; }
+    color: #b4b4b4; }
   .reveal hr {
     border: 1px dotted #237fa9; }
   .reveal .special {
@@ -287,13 +299,13 @@ body {
     border: none;
     font-size: 1.4em;
     line-height: 1.5;
-    border-left: 1px solid #c4c4c4; }
+    border-left: 1px solid #b4b4b4; }
     .reveal .callout-quote .special {
       color: #86b2c6; }
   .reveal section img {
-    border: #c4c4c4 5px solid;
+    border: #b4b4b4 5px solid;
     box-shadow: none; }
-  .reveal section .unstyle-img img {
+  .reveal section .unstyle-img img, .reveal .unstyle-img {
     border: none;
     box-shadow: none; }
   .reveal .illustration img {
@@ -311,4 +323,8 @@ body {
   .reveal .hljs {
     background-color: #f4f7f9;
     padding: 1em;
-    border: 1px dotted #c4c4c4; }
+    border: 1px dotted #b4b4b4; }
+  .reveal .center-vert {
+    margin-top: 50%; }
+  .reveal .slides section .fragment.highlight-blue.visible {
+    color: #237fa9; }

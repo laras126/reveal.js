@@ -16,7 +16,7 @@ $alert-blue:        #d5edf8;
 $dark-blue:      	#237fa9;
 $offwhite:     		#f4f7f9;
 $light-blue: 		#86b2c6;
-$grey: 				#c4c4c4;
+$grey: 				#b4b4b4;
 $orange: 			#A94D23;
 $dark-grey: 		#3e3739;
 
@@ -105,3 +105,13 @@ $linkColorHover: $link-hover;
 // Text selection
 $selectionBackgroundColor: lighten($alert-yellow, 10%);
 $selectionColor: $black;
+
+
+
+
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

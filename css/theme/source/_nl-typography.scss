@@ -91,8 +91,9 @@ a, a:visited {
 	}
 
 	pre {
+		margin: 0;
 		&.heading {
-			font-size: 1.6em;	
+			font-size: 1.6em;
 			box-shadow: none;
 			display: inline;
 		}
@@ -102,9 +103,25 @@ a, a:visited {
 		box-shadow: none;
 	}
 
+	pre code {
+		max-height: 800px;
+		word-wrap: break-word;
+	}
+
 	code {
 		font-size: $h2;
 		line-height: $h3;
 	}
+		.small-code {
+			font-size: $sml;
+		}
+
+		.code-title {
+			color: $grey;
+			font-size: $h3;
+			text-align: left;
+			font-family: monospace;
+		}
+
 }
 
