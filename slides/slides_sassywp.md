@@ -4,29 +4,29 @@
 --
 
 <div class="small-code full">
-	<pre>
-		<code class="lang-scss">
-		@mixin gs-media($prefix, $type: false){
-			@if $prefix == d {
-				@if ($type == min) or ($type == min-max) { 
-					@media only screen and (min-width: 990px) { @content; } 
-				} @else { @content; }
-			}
-			@else if $prefix == t {
-				@if ($type == min) or ($type == min-max) { 
-					@media only screen and (min-width: 768px) { @content; } 
-				} @else { @content; }
-			}
-		}
-		</code>
-	</pre>
+<pre>
+<code class="lang-scss">
+@mixin gs-media($prefix, $type: false){
+	@if $prefix == d {
+		@if ($type == min) or ($type == min-max) {
+			@media only screen and (min-width: 990px) { @content; }
+		} @else { @content; }
+	}
+	@else if $prefix == t {
+		@if ($type == min) or ($type == min-max) {
+			@media only screen and (min-width: 768px) { @content; }
+		} @else { @content; }
+	}
+}
+</code>
+</pre>
 	<p>Mixin from <a href="http://gridsetapp.com" target="blank">Gridset</a></p>
 </div>
 
 --
 
 <div class="sixcol first">
-	<img src="../img/sass/scared.png" alt="Scared!" class="unstyle-img">	
+	<img src="../img/sass/scared.png" alt="Scared!" class="unstyle-img">
 </div>
 
 <div class="sixcol last fragment fade-in">
@@ -36,54 +36,73 @@
 ---
 
 
-<div class="fourcol first unstyle-img fragment" data-fragment-index="1">
-	<span class="fragment" data-fragment-index="2">
-		<h3>Code (Sublime)</h3>
-		<ul>
-			<li><span class="fragment highlight-red" data-fragment-index="7">Preprocessors: Sass, Less, Stylus</span></li>
-			<li>Bootstrap, Foundation, Bourbon, Compass</li>
-			<li>Coffeescript, HAML, Jade</li>
-		</ul>
-	</span>
+<div class="clearfix img-row">
+	<div class="threecol text-right first">
+		<h3 class="strong">Write</h3>
+	</div>
+	<div class="last ninecol unstyle-img">
+		![Write code](img/sass/write-code.png)
+	</div>
 </div>
 
-
-<div class="fourcol unstyle-img fragment" data-fragment-index="3">
-	<span class="fragment" data-fragment-index="4">
-		<h3>Tasks (CLI)</h3>
-		<ul>
-			<li>Jekyll</li>
-			<li>Yoeman</li>
-			<li>Grunt, Gulp</li>
-		</ul>
-	</span>
+<div class="clearfix img-row">
+	<div class="threecol text-right first">
+		<h3 class="strong">Manage</h3>
+	</div>
+	<div class="last ninecol unstyle-img">
+		![Manage code](img/sass/manage-code.png)
+	</div>
 </div>
 
-<div class="fourcol last unstyle-img fragment" data-fragment-index="5">
-	<span class="fragment" data-fragment-index="6">
-		<h3>Deploy (your server)</h3>
-		<ul>
-			<li>Version control (Github, SVN)</li>
-			<li>Beanstalk, d.ploy</li>
-			<li>Heroku</li>
-		</ul>
-	</span>
+<div class="clearfix img-row">
+	<div class="threecol text-right first">
+		<h3 class="strong">Launch</h3>
+	</div>
+	<div class="last ninecol unstyle-img">
+		![Launch code](img/sass/deploy-code.png)
+	</div>
 </div>
+
 
 ---
 
-<h1><span class="fragment highlight-blue" data-fragment-index="1">Pre</span><span class="fragment highlight-blue" data-fragment-index="2">process</span>ors</h1>
-
-
---
-
-<video controls autoplay loop src="../img/sass/compiler.mov"></video>
+<h1><span class="fragment highlight-blue" data-fragment-index="1">Pre</span>-<span class="fragment highlight-blue" data-fragment-index="2">process</span>ors</h1>
 
 --
 
-<a href="http://sassmeister.com/gist/e22487f52db9cdcff165" target="blank">
-![Sassmeister](../img/sass/sassmeister.png)
-</a>
+
+<div class="sevencol first small-code">
+<p class="code-title"><span class="special">Before</span> (Sass)</p>
+
+<pre class="language-sass">
+<code>$blue: #237FA9;
+
+.block {
+	color: $blue;
+
+	.sub-block {
+		color: darken($blue, 20%);
+	}
+}
+</code>
+</pre>
+
+</div>
+
+<div class="fivecol last small-code ">
+<p class="code-title"><span class="special">After</span> (CSS)</p>
+<pre><code>.block {
+	color: #237fa9;
+}
+
+.block .sub-block {
+	color: #124055;
+}
+
+
+</code>
+</pre>
+</div>
 
 --
 
@@ -143,14 +162,14 @@
 <p class="code-title">style<span class="special">.sass</span></p>
 
 <pre class="language-sass">
-<code>$gray: #a4a4a4
-$blue: #237FA9
+<code>$blue: #237FA9
+$green: #8F9D6A
 
 .block
-	color: $gray
+	color: $blue
 
 	.sub-block
-		color: $blue
+		color: $green
 
 
 </code>
@@ -160,15 +179,15 @@ $blue: #237FA9
 
 <div class="sixcol last small-code ">
 <p class="code-title">style<span class="special">.scss</span></p>
-
-<pre ><code>$gray: #a4a4a4;
-$blue: #237FA9;
+<pre class="language-scss">
+<code>$blue: #237FA9;
+$green: #8F9D6A;
 
 .block {
-	color: $gray;
+	color: $blue;
 
-	.sub-block{
-		color: $blue;
+	.sub-block {
+		color: $green;
 	}
 }
 </code>
@@ -182,31 +201,42 @@ $blue: #237FA9;
 
 ---
 
-#Where to start?
+#That's cool but...<span class="fragment special">?</span>
 
 --
 #1
-##Install
 ##http://sass-lang.com/install
+
+--
+
+![Codekit](../img/sass/codekit.png)
+
+<small>
+[Codekit](http://incident57.com/codekit/)
+</small>
+
+--
+
+![terminal](../img/sass/compass_compile.png)
+
+--
+
+
+<video controls autoplay loop src="../img/sass/compiler.mov"></video>
+
+--
+
+<pre>
+	<code class="fragment">lara$ gem install sass</code>
+	<code class="fragment">lara$ Permission Denied</code>
+	<code class="fragment">lara$ sudo gem install sass</code>
+</pre>
 
 ---
 
 #2
-##Change where your stylesheet is
-
---
-
-<pre>functions.php</pre>
-
-	function my_styles() {
-		wp_enqueue_style('my_styles', get_template_directory_uri() . '/assets/css/main.min.css', false);
-	}
-	add_action('wp_enqueue_scripts', 'my_styles', 100);
-
----
-
-#3
 ##Make a lot of files
+(or grab them [on Github]())
 
 <aside class="notes">
 	[Structuring a Project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
@@ -214,29 +244,13 @@ $blue: #237FA9;
 
 --
 
-###Like this:
+<div class="sixcol first unstyle-img">
+	![File structure](img/sass/file-structure.png)
+</div>
 
-	scss/
-		modules/              # Common modules
-			_all.scss         # Include to get all modules
-			_utility.scss     # Module name
-			_mixins.scss 	  # Mixins
-			_settings.scss 	  # Variables
-
-		partials/             # Partials
-			_all.scss         # imports for all mixins + global project variables
-			_buttons.scss     # buttons
-			_figures.scss     # figures
-			_grids.scss       # grids
-			_typography.scss  # typography
-			_reset.scss       # reset
-	
-		vendor/               # CSS or Sass from other projects
-			_fancybox.scss
-			_jquery.ui.core.scss
-	
-		main.scss            # primary Sass file
-
+<div class="sixcol last unstyle-img">
+	<img src="img/sass/file-structure-detail.png">
+</div>
 --
 
 #Overkill?
@@ -265,9 +279,40 @@ $blue: #237FA9;
 
 ---
 
+#3
+##Compile!
+###(But not in main.scss)
+
+--
+
+	sass --watch main.scss
+
+---
+
+
+<span class="unstyle-img">![WP logo](img/sass/wp.png)</span>
+
+--
+
+<p class="code-title"><span class="special">functions</span>.php</p>
+<div class="small-code">
+<pre class="language-php">
+<code>function sassy_styles() {
+	wp_enqueue_style('my_styles', get_template_directory_uri() . '/assets/css/main.css', false);
+}
+add_action('wp_enqueue_scripts', 'sassy_styles');
+</code>
+</pre>
+</div>
+
+<aside class="notes">
+[Compass compiling and WP](http://css-tricks.com/compass-compiling-and-wordpress-themes/)
+</aside>
+
+---
+
 #4
 ##Code!
-###(But not in main.scss)
 
 --
 
@@ -275,10 +320,13 @@ $blue: #237FA9;
 ###(My favorite)
 
 --
+<!---
+What is a variable?
+-->
 
-	$base: 1.6rem;
+	$base: 1em;
 	$sml: $base*0.8;
-	
+
 	$h1: $base*3;
 	$h2: $base*2.2;
 	$h3: $base*1.4;
@@ -300,6 +348,8 @@ $blue: #237FA9;
 
 --
 
+<!-- Change color scheme video -->
+
 	$screen-sm:			481px;
 	$screen-md: 		768px;
 	$screen-lg: 		1040px;
@@ -312,7 +362,7 @@ $blue: #237FA9;
 --
 
 ###Encourages breakpoints via design rather than device
-
+<!-- Better code -->
 	$screen-sm: 320px;
 
 	.profile-pic {
@@ -336,6 +386,11 @@ $blue: #237FA9;
 
 #Extends
 (I don't use them that much)
+
+	%btn {
+		padding: 10px;
+		border-radius: 10px;
+	}
 
 --
 

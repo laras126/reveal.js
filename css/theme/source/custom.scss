@@ -131,6 +131,15 @@ body {
 		margin-top: 50%;
 	}
 
+	.img-row {
+		display: table;
+		width: 100%;
+		.threecol {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+
 	.slides section .fragment.highlight-blue.visible {
 		color: $dark-blue;
 	}

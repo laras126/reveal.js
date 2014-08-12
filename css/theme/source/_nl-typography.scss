@@ -29,10 +29,6 @@ a, a:visited {
 
 .reveal {
 
-	strong {
-		font-weight: 500;
-	}
-
 	p {
 		font-size: $base;
 		margin-top: 0;
@@ -59,7 +55,6 @@ a, a:visited {
 	h4, h5, h6 {
 		font-family: $serif;
 		margin-top: $h4;
-
 	}
 
 	h1 {
@@ -91,7 +86,7 @@ a, a:visited {
 	}
 
 	pre {
-		margin: 0;
+		margin: 0 auto;
 		&.heading {
 			font-size: 1.6em;
 			box-shadow: none;
