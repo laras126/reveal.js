@@ -1,7 +1,7 @@
 
 #Sassy WordPress
 
---
+/--/
 
 <div class="small-code full">
 <pre>
@@ -23,7 +23,7 @@
 	<p>Mixin from <a href="http://gridsetapp.com" target="blank">Gridset</a></p>
 </div>
 
---
+/--/
 
 <div class="sixcol first">
 	<img src="../img/sass/scared.png" alt="Scared!" class="unstyle-img">
@@ -33,7 +33,7 @@
 	<h1 class="center-vert">Yeah, same.</h1>
 </div>
 
----
+/---/
 
 
 <div class="clearfix img-row">
@@ -64,11 +64,11 @@
 </div>
 
 
----
+/---/
 
 <h1><span class="fragment highlight-blue" data-fragment-index="1">Pre</span>-<span class="fragment highlight-blue" data-fragment-index="2">process</span>ors</h1>
 
---
+/--/
 
 
 <div class="sevencol first small-code">
@@ -104,7 +104,7 @@
 </pre>
 </div>
 
---
+/--/
 
 <span class="unstyle-img">
 	![Preprocessors](../img/sass/preprocessors.png)
@@ -119,7 +119,7 @@
 	</ul>
 </aside>
 
---
+/--/
 
 <span class="unstyle-img">
 	![Sass wins](../img/sass/thesassway.svg)
@@ -129,11 +129,11 @@
 	[Sass Community](http://sass-lang.com/community)
 </aside>
 
----
+/---/
 
 #Sass <span class="grey">vs</span> SASS
 
---
+/--/
 
 <div class="tencol last">
 	<h1 class="text-left">
@@ -144,11 +144,11 @@
 	</h1>
 </div>
 
---
+/--/
 
 <span class="unstyle-img">![Sass](../img/sass/sass-logo.png)</span>
 
----
+/---/
 
 #<pre class="heading">.sass</pre> <span class="grey">vs</span> <pre class="heading">.scss</pre>
 
@@ -156,7 +156,7 @@
 	[Sass vs SCSS - which syntax is better?](http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better)
 </aside>
 
---
+/--/
 
 <div class="sixcol first small-code">
 <p class="code-title">style<span class="special">.sass</span></p>
@@ -195,19 +195,19 @@ $green: #8F9D6A;
 </div>
 
 
---
+/--/
 
 #<pre class="heading text-center">.scss</pre>
 
----
+/---/
 
 #That's cool but...<span class="fragment special">?</span>
 
---
+/--/
 #1
 ##http://sass-lang.com/install
 
---
+/--/
 
 ![Codekit](../img/sass/codekit.png)
 
@@ -215,24 +215,24 @@ $green: #8F9D6A;
 [Codekit](http://incident57.com/codekit/)
 </small>
 
---
+/--/
 
 ![terminal](../img/sass/compass_compile.png)
 
---
+/--/
 
 
 <video controls autoplay loop src="../img/sass/compiler.mov"></video>
 
---
+/--/
 
 <pre>
-	<code class="fragment">lara$ gem install sass</code>
-	<code class="fragment">lara$ Permission Denied</code>
-	<code class="fragment">lara$ sudo gem install sass</code>
+	<code class="fragment terminal">lara$ gem install sass</code>
+	<code class="fragment terminal">lara$ Permission Denied</code>
+	<code class="fragment terminal">lara$ sudo gem install sass</code>
 </pre>
 
----
+/---/
 
 #2
 ##Make a lot of files
@@ -242,57 +242,87 @@ $green: #8F9D6A;
 	[Structuring a Project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
 </aside>
 
---
+/--/
 
 <div class="sixcol first unstyle-img">
 	![File structure](img/sass/file-structure.png)
 </div>
 
-<div class="sixcol last unstyle-img">
-	<img src="img/sass/file-structure-detail.png">
+<div class="sixcol unstyle-img text-left">
+	![File structure](img/sass/file-structure-detail.png)
 </div>
---
+/--/
 
 #Overkill?
 ##<p class="fragment">Maybe, but not really.</p>
 
---
-###Import 'em
-<pre>main.scss</pre>
+/--/
 
-	// Modules and Variables
-	@import "partials/base";
+<div class="sixcol">
+<p class="code-title">modules/<span class="special">_all</span>.scss</p>
+<pre><code>// Collect the Modules
+@import "settings";
+@import "utility";
+@import "mixins";
 
-	// Partials
-	@import "partials/reset";
-	@import "partials/typography";
-	@import "partials/buttons";
-	@import "partials/figures";
-	@import "partials/grids";
-	// ...
 
-	// Third-party
-	@import "vendor/colorpicker";
-	@import "vendor/jquery.ui.core";
-	@import('settings');
-	@import('typography');
 
----
+</code></pre>
+</div>
+
+<div class="sixcol">
+<p class="code-title">partials/<span class="special">_all</span>.scss</p>
+<pre><code>// Collect the Partials
+@import "reset";
+@import "typography";
+@import "forms";
+@import "layout";
+@import "content";
+
+</code></pre>
+
+</div>
+
+/--/
+
+<div class="twocol">&nbsp;</div>
+<div class="eightcol">
+<p class="code-title"><span class="special">main</span>.scss</p>
+<pre><code>// Import everything
+@import "modules";
+@import "partials";
+@import "vendor";
+</code></pre>
+
+</div>
+
+/---/
 
 #3
 ##Compile!
-###(But not in main.scss)
 
---
+/--/
+<pre><code class="terminal fragment">lara$ cd project/scss</code></pre>
+<br>
+<pre><code class="terminal fragment">scss lara$ sass --watch main.scss</code></pre>
 
-	sass --watch main.scss
+/--/
+<pre class="language-html"><code class="terminal">scss lara$ sass --watch main.scss
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+>>> Change detected to: main.scss
+      write main.css
+>>> Change detected to: main.scss
+      write main.css</code></pre>
 
----
+/--/
 
+<span class="unstyle-img">![Compiled Finder](img/sass/compile-finder.png)</span>
+
+/---/
 
 <span class="unstyle-img">![WP logo](img/sass/wp.png)</span>
 
---
+/--/
 
 <p class="code-title"><span class="special">functions</span>.php</p>
 <div class="small-code">
@@ -309,20 +339,17 @@ add_action('wp_enqueue_scripts', 'sassy_styles');
 [Compass compiling and WP](http://css-tricks.com/compass-compiling-and-wordpress-themes/)
 </aside>
 
----
+/---/
 
 #4
 ##Code!
 
---
+/--/
 
 #Variables
 ###(My favorite)
 
---
-<!---
-What is a variable?
--->
+/--/
 
 	$base: 1em;
 	$sml: $base*0.8;
@@ -334,7 +361,7 @@ What is a variable?
 	$h5: $base;
 	$h6: $sml;
 
---
+/--/
 
 	// nl colors
 
@@ -346,7 +373,7 @@ What is a variable?
 	$link-color:		$dark-accent;
 	$link-hover: 		$med-accent;
 
---
+/--/
 
 <!-- Change color scheme video -->
 
@@ -354,12 +381,12 @@ What is a variable?
 	$screen-md: 		768px;
 	$screen-lg: 		1040px;
 
----
+/---/
 
 #Media Query Bubbles
 ###(My second favorite)
 
---
+/--/
 
 ###Encourages breakpoints via design rather than device
 <!-- Better code -->
@@ -373,7 +400,7 @@ What is a variable?
 	}
 
 
---
+/--/
 
 #Functions
 (not my favorite but cool)
@@ -382,7 +409,7 @@ What is a variable?
 	saturate()
 	etc, etc.
 
---
+/--/
 
 #Extends
 (I don't use them that much)
@@ -392,12 +419,12 @@ What is a variable?
 		border-radius: 10px;
 	}
 
---
+/--/
 
 #Mixins
 (Starting to get a little complicated)
 
----
+/---/
 
 	@mixin centerer {
 		position: absolute;
@@ -406,13 +433,13 @@ What is a variable?
 		transform: translate(-50%, -50%);
 	}
 
---
+/--/
 
 	.nice-picture {
 		@include centerer;
 	}
 
----
+/---/
 
 #Extends
 
@@ -423,18 +450,18 @@ What is a variable?
 		transform: translate(-50%, -50%);
 	}
 
---
+/--/
 
 	.nice-picture {
 		@extend %centerer;
 	}
---
+/--/
 
 #Compass
 
 	@include transition(0.2 all ease-in);
 
---
+/--/
 
 #Bourbon
 

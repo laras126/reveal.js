@@ -125,6 +125,12 @@ body {
 		background-color: $offwhite;
 		padding: $base;
 		border: 1px dotted $light-accent;
+
+		&.terminal {
+			background-color: $black;
+			border: 0;
+			color: $lime;
+		}
 	}
 
 	.center-vert {

@@ -57,8 +57,7 @@ a, a:visited {
 .reveal pre, .reveal code {
   box-shadow: none; }
 .reveal pre code {
-  max-height: 800px;
-  word-wrap: break-word; }
+  max-height: 800px; }
 .reveal code {
   font-size: 2.2em;
   line-height: 1.4em; }
@@ -322,6 +321,10 @@ body {
     background-color: #f4f7f9;
     padding: 1em;
     border: 1px dotted #b4b4b4; }
+    .reveal .hljs.terminal {
+      background-color: #111111;
+      border: 0;
+      color: #28ff49; }
   .reveal .center-vert {
     margin-top: 50%; }
   .reveal .img-row {
