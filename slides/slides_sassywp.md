@@ -107,7 +107,7 @@
 /--/
 
 <span class="unstyle-img">
-	![Preprocessors](../img/sass/preprocessors.png)
+	![Preprocessors](img/sass/preprocessors.png)
 </span>
 
 <aside class="notes">
@@ -122,7 +122,7 @@
 /--/
 
 <span class="unstyle-img">
-	![Sass wins](../img/sass/thesassway.svg)
+	![Sass wins](img/sass/thesassway.svg)
 </span>
 
 <aside class="notes">
@@ -146,7 +146,7 @@
 
 /--/
 
-<span class="unstyle-img">![Sass](../img/sass/sass-logo.png)</span>
+<span class="unstyle-img">![Sass](img/sass/sass-logo.png)</span>
 
 /---/
 
@@ -209,7 +209,7 @@ $green: #8F9D6A;
 
 /--/
 
-![Codekit](../img/sass/codekit.png)
+![Codekit](img/sass/codekit.png)
 
 <small>
 [Codekit](http://incident57.com/codekit/)
@@ -217,12 +217,12 @@ $green: #8F9D6A;
 
 /--/
 
-![terminal](../img/sass/compass_compile.png)
+![terminal](img/sass/compass_compile.png)
 
 /--/
 
 
-<video controls autoplay loop src="../img/sass/compiler.mov"></video>
+<video controls autoplay loop src="img/sass/compiler.mov"></video>
 
 /--/
 
