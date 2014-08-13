@@ -26,7 +26,7 @@
 /--/
 
 <div class="sixcol first">
-	<img src="../img/sass/scared.png" alt="Scared!" class="unstyle-img">
+	<img src="img/sass/scared.png" alt="Scared!" class="unstyle-img">
 </div>
 
 <div class="sixcol last fragment fade-in">
