@@ -201,7 +201,7 @@ $green: #8F9D6A;
 
 /---/
 
-#That's cool but...<span class="fragment special">?</span>
+#That's cool, but...<span class="fragment special">?</span>
 
 /--/
 #1
@@ -216,11 +216,6 @@ $green: #8F9D6A;
 </small>
 
 /--/
-
-![terminal](img/sass/compass_compile.png)
-
-/--/
-
 
 <video controls autoplay loop src="img/sass/compiler.mov"></video>
 
@@ -251,10 +246,6 @@ $green: #8F9D6A;
 <div class="sixcol unstyle-img text-left">
 	![File structure](img/sass/file-structure-detail.png)
 </div>
-/--/
-
-#Overkill?
-##<p class="fragment">Maybe, but not really.</p>
 
 /--/
 
@@ -289,12 +280,17 @@ $green: #8F9D6A;
 <div class="eightcol">
 <p class="code-title"><span class="special">main</span>.scss</p>
 <pre><code>// Import everything
-@import "modules";
-@import "partials";
-@import "vendor";
+@import "modules/all";
+@import "partials/all";
+@import "vendor/all";
 </code></pre>
 
 </div>
+
+/--/
+
+#Overkill?
+##<p class="fragment">Maybe, but not really.</p>
 
 /---/
 
@@ -318,24 +314,7 @@ $green: #8F9D6A;
 
 /---/
 
-<span class="unstyle-img">![WP logo](img/sass/wp.png)</span>
-
-/--/
-
-<p class="code-title"><span class="special">functions</span>.php</p>
-<div class="small-code">
-<pre class="language-php">
-<code>function sassy_styles() {
-	wp_enqueue_style('sassy_styles', get_stylesheet_directory_uri() . '/assets/css/main.css');
-}
-add_action('wp_enqueue_scripts', 'sassy_styles');
-</code>
-</pre>
-</div>
-
-<aside class="notes">
-[Compass compiling and WP](http://css-tricks.com/compass-compiling-and-wordpress-themes/)
-</aside>
+#Errors!
 
 /---/
 
@@ -344,12 +323,17 @@ add_action('wp_enqueue_scripts', 'sassy_styles');
 
 /--/
 
+#Nesting
+
+/--/
+
 #Variables
 ###(My favorite)
 
 /--/
-
-	$base: 1em;
+<p class="code-title">modules/<span class="special">_settings</span>.scss</p>
+	
+	$base: 1em; // 16px
 	$sml: $base*0.8;
 
 	$h1: $base*3;
@@ -361,23 +345,28 @@ add_action('wp_enqueue_scripts', 'sassy_styles');
 
 /--/
 
-	// nl colors
+<p class="code-title">modules/<span class="special">_settings</span>.scss</p>
+	
+	// Colors
+	$dark-blue: 		#334D5C;
+	$teal: 				#45B29D;
+	$yellow: 			#EFC94C;
 
-	$dark-blue:      	#237fa9;
-	$offwhite:     		#f4f7f9;
+	$light-accent: 		$yellow;
+	$med-accent: 		$teal;
+	$dark-accent:		$dark-blue;
 
-	$dark-accent: 		$dark-blue;
-
-	$link-color:		$dark-accent;
-	$link-hover: 		$med-accent;
+	// Semantic names
+	$link-color: 		$med-accent;
+	$link-hover:		$dark-accent;
 
 /--/
 
-<!-- Change color scheme video -->
+<p class="code-title">modules/<span class="special">_settings</span>.scss</p>
 
-	$screen-sm:			481px;
-	$screen-md: 		768px;
-	$screen-lg: 		1040px;
+	$screen-sm: 		30em;
+	$screen-md: 		48em;
+	$screen-lg: 		60em;
 
 /---/
 
@@ -387,8 +376,6 @@ add_action('wp_enqueue_scripts', 'sassy_styles');
 /--/
 
 ###Encourages breakpoints via design rather than device
-<!-- Better code -->
-	$screen-sm: 320px;
 
 	.profile-pic {
 		@media only screen and (max-width: $screen-sm) {
@@ -463,3 +450,29 @@ add_action('wp_enqueue_scripts', 'sassy_styles');
 
 #Bourbon
 
+/---/
+
+<span class="unstyle-img">![WP logo](img/sass/wp.png)</span>
+
+/--/
+
+<p class="code-title"><span class="special">functions</span>.php</p>
+<div class="small-code">
+<pre class="language-php">
+<code>function sassy_styles() {
+	wp_enqueue_style('sassy_styles', get_stylesheet_directory_uri() . '/assets/css/main.css');
+}
+add_action('wp_enqueue_scripts', 'sassy_styles');
+</code>
+</pre>
+</div>
+
+<aside class="notes">
+[Compass compiling and WP](http://css-tricks.com/compass-compiling-and-wordpress-themes/)
+</aside>
+
+/--/
+
+#Starter themes
+
+/--/
