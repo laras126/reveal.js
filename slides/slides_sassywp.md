@@ -305,14 +305,12 @@ $green: #8F9D6A;
 <pre><code class="terminal fragment">lara$ cd project/scss</code></pre>
 <br>
 <pre><code class="terminal fragment">scss lara$ sass --watch main.scss</code></pre>
-
-/--/
-<pre class="language-html"><code class="terminal">scss lara$ sass --watch main.scss
->>> Sass is watching for changes. Press Ctrl-C to stop.
+<pre><code style="margin-top:-1em; padding-top: 0" class="terminal language-html fragment">>>> Sass is watching for changes. Press Ctrl-C to stop.
 >>> Change detected to: main.scss
       write main.css
 >>> Change detected to: main.scss
-      write main.css</code></pre>
+      write main.css
+</code></pre>
 
 /--/
 
@@ -328,7 +326,7 @@ $green: #8F9D6A;
 <div class="small-code">
 <pre class="language-php">
 <code>function sassy_styles() {
-	wp_enqueue_style('my_styles', get_template_directory_uri() . '/assets/css/main.css', false);
+	wp_enqueue_style('sassy_styles', get_stylesheet_directory_uri() . '/assets/css/main.css');
 }
 add_action('wp_enqueue_scripts', 'sassy_styles');
 </code>
