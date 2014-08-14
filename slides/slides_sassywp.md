@@ -7,7 +7,7 @@
 
 /--/
 
-<span class="unstyle-img">![Sass](img/sass/redo/talk-logo.png)</span>	
+<span class="unstyle-img">![Sass](img/sass/redo/talk-logo.png)</span>
 
 /--/
 
@@ -132,18 +132,18 @@
 
 <div class="small-code">
 <p class="code-title"><span class="special">Gross</span> CSS</p>
-</div>
 
 <pre><code>.tab {
 	border-top-left-radius: 25px;
 	-moz-border-radius-topleft: 25px;
 	-webkit-border-top-left-radius: 25px;
-	
+
 	border-top-right-radius: 25px;
 	-moz-border-radius-topright: 25px;
 	-webkit-border-top-right-radius: 25px;
 }
 </code></pre>
+</div>
 
 /--/
 
@@ -161,7 +161,7 @@
 <p class="code-title"><span class="special">Variables</span> FTW</p>
 
 
-<pre><code>$main-color:  	 #32425C;
+<pre><code>$main-c.olor:  	 #32425C;
 $heading-font: 	Helvetica, sans-serif;
 
 .site-title {
@@ -170,6 +170,13 @@ $heading-font: 	Helvetica, sans-serif;
 }
 </code></pre>
 
+
+/--/
+
+<div class="small-code">
+<p class="code-title">style.<span class="special">min</span>.css</p>
+<pre><code style="word-wrap:break-word;">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}</code></pre>
+</div>
 
 
 /---/
@@ -277,7 +284,7 @@ $green: #8F9D6A;
 <!-- 4. Installing -->
 <!-- ************* -->
 
-#Cool, but...<span class="special fragment">?</span>
+#Um, cool...<span class="special fragment">?</span>
 
 /--/
 
@@ -311,25 +318,58 @@ $green: #8F9D6A;
 
 <video controls autoplay loop src="img/sass/compiler.mov"></video>
 
-/---/
+/--/
 
-#Ehh...
+<span class="unstyle-img">![Compiled Finder](img/sass/compile-finder.png)</span>
 
 /--/
 
-<div class="fragment small-code">
-<p class="code-title">style.<span class="special">min</span>.css</p>
-<pre><code style="word-wrap:break-word;">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}</code></pre>
+<div class="unstyle-img">![cookies](img/sass/redo/happycookiemonster.png)</div>
+
+/---/
+
+#Let's go!
+
+/--/
+
+<div class="unstyle-img">![files](img/sass/redo/partials.png)</div>
+
+/--/
+
+<div class="unstyle-img">![files](img/sass/redo/files-graphic.png)</div>
+
+/--/
+
+<div class="sixcol">
+<p class="code-title">partials/<span class="special">_all</span>.scss</p>
+<pre><code>// Import the Partials
+@import "reset";
+@import "typography";
+@import "forms";
+@import "layout";
+@import "content";
+</code></pre>
+
+</div>
+
+<div class="sixcol">
+<p class="code-title"><span class="special">main</span>.scss</p>
+<pre><code>
+// Import everything
+@import "modules/all";
+@import "partials/all";
+@import "vendor/all";
+
+</code></pre>
 </div>
 
 /--/
 
-
-<div class="unstyle-img">![cookies](img/sass/redo/happycookiemonster.png)</div>
+#Note!
+###That's Sass only.
 
 /--/
 
-Code
 
 nesting
 
