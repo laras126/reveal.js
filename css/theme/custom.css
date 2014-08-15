@@ -320,9 +320,7 @@ body {
     display: table;
     clear: both; }
   .reveal .hljs {
-    background-color: #f4f7f9;
-    padding: 1em;
-    border: 1px dotted #b4b4b4; }
+    padding: 1em; }
     .reveal .hljs.terminal {
       background-color: #111111;
       border: 0;

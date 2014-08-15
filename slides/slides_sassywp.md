@@ -1,5 +1,5 @@
 
-#Hey!
+#<span class="fragment">Hey!</span>
 ##<span class="fragment">I'm <span class="special">Lara</span></span> <span class="fragment">(not Laura)</span>
 <br>
 <br>
@@ -15,28 +15,33 @@
 
 /--/
 
+<div class="illustration unstyle-img">![Fishing](img/fishing/wordpress-catch.svg)</div>
+
+/---/
+
 <span class="unstyle-img">![Sass](img/sass/sass-logo.png)</span>
 
 /--/
 
-<div class="small-code full">
-<pre>
-<code class="lang-scss">
-@mixin gs-media($prefix, $type: false){
-	@if $prefix == d {
-		@if ($type == min) or ($type == min-max) {
-			@media only screen and (min-width: 990px) { @content; }
-		} @else { @content; }
+<div class="twocol">&nbsp;</div>
+<div class="tencol">
+<pre><code class="lang-scss">$link-color: #4A8BBD;
+$link-hover: darken($link-color, 20%);
+
+.main-nav li {
+	background-color: lighten($link-color, 50%);
+	a {
+		color: $link-color;
+
+		&:hover {
+			color: $link-hover;				
+		}
+
+		&:active {
+			color: darken($link-hover, 30%);				
+		}
 	}
-	@else if $prefix == t {
-		@if ($type == min) or ($type == min-max) {
-			@media only screen and (min-width: 768px) { @content; }
-		} @else { @content; }
-	}
-}
-</code>
-</pre>
-	<p>Mixin from <a href="http://gridsetapp.com" target="blank">Gridset</a></p>
+}</code></pre>
 </div>
 
 /--/
@@ -146,7 +151,7 @@
 .main-nav ul li {}
 .main-nav ul li a {}
 .main-nav ul li a:hover {}
-.main-nav ul li a:hover {}
+.main-nav ul li a:active {}
 
 
 </code></pre>
@@ -203,6 +208,9 @@ $heading-font: 	Helvetica, sans-serif;
 <pre><code style="word-wrap:break-word;">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}</code></pre>
 </div>
 
+/--/
+
+![Boxing](img/sass/eyebleach3.jpg)
 
 /---/
 
@@ -277,7 +285,7 @@ $heading-font: 	Helvetica, sans-serif;
 
 /--/
 
-<video controls loop src="img/sass/compiler.mov"></video>
+<video controls src="img/sass/compiler.mov"></video>
 
 /--/
 
@@ -307,15 +315,15 @@ Here it is <a href="http://sassmeister.com/gist/1f63b704f89523b8120c">on Sassmei
 
 /--/
 
-<video controls loop src="img/sass/link-example.mov"></video>
+<video controls src="img/sass/link-example.mov"></video>
 
 /--/
 
-<video controls loop src="img/sass/semantic-variables.mov"></video>
+<video controls src="img/sass/semantic-variables.mov"></video>
 
 /--/
 
-<video controls loop src="img/sass/minify.mov"></video>
+<video controls src="img/sass/minify.mov"></video>
 
 /--/
 
@@ -328,7 +336,7 @@ Here it is <a href="http://sassmeister.com/gist/ad8fa52ea853d84da153">on Sassmei
 
 /--/
 
-<video controls loop src="img/sass/button-mixin-bad.mov"></video>
+<video controls src="img/sass/button-mixin-bad.mov"></video>
 
 /--/
 
@@ -337,7 +345,7 @@ Here it is <a href="http://sassmeister.com/gist/9eca4dbb5ac01a5d8f60">on Sassmei
 
 /--/
 
-<video controls loop src="img/sass/button-extend-better.mov"></video>
+<video controls src="img/sass/button-extend-better.mov"></video>
 
 /--/
 
@@ -360,11 +368,11 @@ Here it is <a href="http://sassmeister.com/gist/17f99ab2d74c46ca3cb9">on Sassmei
 
 /--/
 
-<video controls loop src="img/sass/mq-bubbles.mov"></video>
+<video controls src="img/sass/mq-bubbles.mov"></video>
 
 /--/
 
-<video controls loop src="img/sass/mq-extend-fail.mov"></video>
+<video controls src="img/sass/mq-extend-fail.mov"></video>
 
 /--/
 
@@ -390,7 +398,7 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /--/
 
-<video controls loop src="img/sass/compass.mov"></video>
+<video controls src="img/sass/compass.mov"></video>
 
 /--/
 
@@ -398,11 +406,13 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /---/
 
-#My gift to you.
+#But wait...
+<div class="fragment"><h1>I made you a gift!</h1></div>
 
 /--/
 
-#[Simple Sassy Starter](https://github.com/laras126/simple-sassy-starter)
+#Simple Sassy Starter
+##http://j.mp/ssystrtr
 
 /---/
 

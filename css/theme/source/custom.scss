@@ -126,9 +126,9 @@ body {
 	}
 
 	.hljs {
-		background-color: $offwhite;
+		// background-color: $black;
 		padding: $base;
-		border: 1px dotted $light-accent;
+		// border: 1px dotted $light-accent;
 
 		&.terminal {
 			background-color: $black;
