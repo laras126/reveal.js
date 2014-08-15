@@ -30,6 +30,10 @@ body {
 	font-weight: 300;
 	letter-spacing: 0;
 
+	.slides>section, .slides>section>section {
+		padding: 0;
+	}
+
 
 	.text-right {
 		text-align: right;

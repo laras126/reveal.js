@@ -161,7 +161,7 @@
 <p class="code-title"><span class="special">Variables</span> FTW</p>
 
 
-<pre><code>$main-c.olor:  	 #32425C;
+<pre><code>$main-color:  	 #32425C;
 $heading-font: 	Helvetica, sans-serif;
 
 .site-title {
@@ -230,56 +230,6 @@ $heading-font: 	Helvetica, sans-serif;
 
 /---/
 
-#<pre class="heading">.sass</pre> <span class="grey">vs</span> <pre class="heading">.scss</pre>
-
-<aside class="notes">
-	[Sass vs SCSS - which syntax is better?](http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better)
-</aside>
-
-/--/
-
-<div class="sixcol first small-code">
-<p class="code-title">style<span class="special">.sass</span></p>
-
-<pre class="language-sass">
-<code>$blue: #237FA9
-$green: #8F9D6A
-
-.block
-	color: $blue
-
-	.sub-block
-		color: $green
-
-
-</code>
-</pre>
-</div>
-
-<div class="sixcol last small-code ">
-<p class="code-title">style<span class="special">.scss</span></p>
-<pre class="language-scss">
-<code>$blue: #237FA9;
-$green: #8F9D6A;
-
-.block {
-	color: $blue;
-
-	.sub-block {
-		color: $green;
-	}
-}
-</code>
-</pre>
-</div>
-
-
-/--/
-
-#<pre class="heading text-center">.scss</pre>
-
-/---/
-
 <!-- ************* -->
 <!-- 4. Installing -->
 <!-- ************* -->
@@ -302,21 +252,11 @@ $green: #8F9D6A;
 
 /--/
 
-<pre>
-	<code class="fragment terminal">lara$ gem install sass</code>
-	<code class="fragment terminal">lara$ Permission Denied</code>
-	<code class="fragment terminal">lara$ sudo gem install sass</code>
-</pre>
+<video controls loop src="img/sass/compiler.mov"></video>
 
 /--/
 
-<pre><code class="terminal fragment">lara$ cd project/scss</code></pre>
-<br>
-<pre><code class="terminal fragment">scss lara$ sass --watch main.scss</code></pre>
-
-/--/
-
-<video controls autoplay loop src="img/sass/compiler.mov"></video>
+<div class="unstyle-img">![Oven on](img/sass/redo/oven-knob.jpg)</div>
 
 /--/
 
@@ -328,47 +268,84 @@ $green: #8F9D6A;
 
 /---/
 
-#Let's go!
+<!-- ************* -->
+<!-- Intro to code stuff -->
+<!-- ************* -->
+
+##http://sass-lang.com/guide
 
 /--/
 
-<div class="unstyle-img">![files](img/sass/redo/partials.png)</div>
+#Let's make a <span class="special">link</span>.
+
+Here it is <a href="http://sassmeister.com/gist/1f63b704f89523b8120c">on Sassmeister</a>.
 
 /--/
 
-<div class="unstyle-img">![files](img/sass/redo/files-graphic.png)</div>
+<video controls loop src="img/sass/link-example.mov"></video>
 
 /--/
 
-<div class="sixcol">
-<p class="code-title">partials/<span class="special">_all</span>.scss</p>
-<pre><code>// Import the Partials
-@import "reset";
-@import "typography";
-@import "forms";
-@import "layout";
-@import "content";
-</code></pre>
+<video controls loop src="img/sass/semantic-variables.mov"></video>
 
+/--/
+
+<video controls loop src="img/sass/minify.mov"></video>
+
+/--/
+
+![hamster thing](img/sass/redo/eyebleach1.jpg)
+
+/---/
+
+#Let's make a <span class="special">button</span>.
+Here it is <a href="http://sassmeister.com/gist/ad8fa52ea853d84da153">on Sassmeister</a>.
+
+/--/
+
+<video controls loop src="img/sass/button-mixin-bad.mov"></video>
+
+/---/
+
+#Ew, make that <span class="special">better</span>.
+Here it is <a href="http://sassmeister.com/gist/9eca4dbb5ac01a5d8f60">on Sassmeister</a>.
+
+/--/
+
+<video controls loop src="img/sass/button-extend-better.mov"></video>
+
+/--/
+
+<div class="fragment" data-fragment-index="4"><h1>Amazing!</h1></div>
+
+<div class="fourcol fragment" data-fragment-index="1">
+![ingredients](img/sass/redo/ingredients-separate.jpg)
+</div>
+<div class="fourcol fragment" data-fragment-index="2">
+![ingredients](img/sass/redo/ingredients-bowl.jpg)
+</div>
+<div class="fourcol fragment" data-fragment-index="3">
+![ingredients](img/sass/redo/ingredients-bowl-mms.png)
 </div>
 
-<div class="sixcol">
-<p class="code-title"><span class="special">main</span>.scss</p>
-<pre><code>
-// Import everything
-@import "modules/all";
-@import "partials/all";
-@import "vendor/all";
+/--/
 
-</code></pre>
-</div>
+![horse](img/sass/redo/eyebleach2.jpg)
 
 /--/
 
-#Note!
-###That's Sass only.
+#More, more!
 
 /--/
+
+
+
+/--/
+
+#Oh, a gift!
+
+
+
 
 
 nesting
