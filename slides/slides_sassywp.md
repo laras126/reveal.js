@@ -305,8 +305,6 @@ Here it is <a href="http://sassmeister.com/gist/ad8fa52ea853d84da153">on Sassmei
 
 <video controls loop src="img/sass/button-mixin-bad.mov"></video>
 
-/---/
-
 #Ew, make that <span class="special">better</span>.
 Here it is <a href="http://sassmeister.com/gist/9eca4dbb5ac01a5d8f60">on Sassmeister</a>.
 
@@ -316,33 +314,51 @@ Here it is <a href="http://sassmeister.com/gist/9eca4dbb5ac01a5d8f60">on Sassmei
 
 /--/
 
-<div class="fragment" data-fragment-index="4"><h1>Amazing!</h1></div>
+<div class="fragment" data-fragment-index="3"><h1>Amazing!</h1></div>
 
-<div class="fourcol fragment" data-fragment-index="1">
+<div class="fourcol">
 ![ingredients](img/sass/redo/ingredients-separate.jpg)
 </div>
-<div class="fourcol fragment" data-fragment-index="2">
+<div class="fourcol fragment" data-fragment-index="1">
 ![ingredients](img/sass/redo/ingredients-bowl.jpg)
 </div>
-<div class="fourcol fragment" data-fragment-index="3">
+<div class="fourcol fragment" data-fragment-index="2">
 ![ingredients](img/sass/redo/ingredients-bowl-mms.png)
 </div>
+
+/---/
+
+#Media Query <span class="special">Bubbles</span>
+Here it is <a href="http://sassmeister.com/gist/17f99ab2d74c46ca3cb9">on Sassmeister</a>.
+
+/--/
+
+<video controls loop src="img/sass/mq-bubbles.mov"></video>
+
+/--/
+
+<video controls loop src="img/sass/mq-extend-fail.mov"></video>
+
+/--/
+
+#Crap.
+Here it is <a href="http://sassmeister.com/gist/98f202071af56724dd5a">on Sassmeister</a>.
 
 /--/
 
 ![horse](img/sass/redo/eyebleach2.jpg)
 
-/--/
+/---/
 
-#More, more!
-
-/--/
-
-
+#<span class="special">Libraries</span> save the day!
 
 /--/
 
-#Oh, a gift!
+
+
+/---/
+
+#My gift to you.
 
 
 
