@@ -7,7 +7,15 @@
 
 /--/
 
-<span class="unstyle-img">![Sass](img/sass/redo/talk-logo.png)</span>
+![NYC](img/sass/nyc.jpg)
+
+/--/
+
+![East Village](img/sass/east-village.jpg)
+
+/--/
+
+<span class="unstyle-img">![Sass](img/sass/sass-logo.png)</span>
 
 /--/
 
@@ -38,12 +46,29 @@
 /---/
 
 ##WTF
-#<span class="special">Preprocess</span>ors
+#Pre-processors
 
 /--/
 <!-- ************** -->
 <!-- 2. If code was a cookie... -->
 <!-- ************** -->
+
+<div class="fourcol">
+	<h2>Code</h2>
+	<span class="unstyle-img">![Code](img/sass/redo/code.png)</span>
+</div>
+
+<div class="fourcol">
+	<h2>Compile</h2>
+	<span class="unstyle-img">![Compile](img/sass/redo/compile.png)</span>
+</div>
+
+<div class="fourcol">
+	<h2>Render</h2>
+	<span class="unstyle-img">![Render](img/sass/redo/launch.png)</span>
+</div>
+
+/--/
 
 <span class="unstyle-img">![Cookie](img/sass/redo/cookie.png)</span>
 
@@ -305,6 +330,8 @@ Here it is <a href="http://sassmeister.com/gist/ad8fa52ea853d84da153">on Sassmei
 
 <video controls loop src="img/sass/button-mixin-bad.mov"></video>
 
+/--/
+
 #Ew, make that <span class="special">better</span>.
 Here it is <a href="http://sassmeister.com/gist/9eca4dbb5ac01a5d8f60">on Sassmeister</a>.
 
@@ -341,6 +368,10 @@ Here it is <a href="http://sassmeister.com/gist/17f99ab2d74c46ca3cb9">on Sassmei
 
 /--/
 
+![Errors](img/sass/mad-errors.png)
+
+/--/
+
 #Crap.
 Here it is <a href="http://sassmeister.com/gist/98f202071af56724dd5a">on Sassmeister</a>.
 
@@ -350,73 +381,31 @@ Here it is <a href="http://sassmeister.com/gist/98f202071af56724dd5a">on Sassmei
 
 /---/
 
-#<span class="special">Libraries</span> save the day!
+#Libraries!
+Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassmeister</a>.
 
 /--/
 
+##http://compass-style.org/install/
 
+/--/
+
+<video controls loop src="img/sass/compass.mov"></video>
+
+/--/
+
+![koala](img/sass/koala.png)
 
 /---/
 
 #My gift to you.
 
+/--/
 
+#[Simple Sassy Starter](https://github.com/laras126/simple-sassy-starter)
 
+/---/
 
+#Merci!
+##[notlaura.com](http://notlaura.com)
 
-nesting
-
-what’s an &
-alias for parent selector
-
-no & adds a space
-
-pitfalls of nesting - inception rule
-
-you’ll get errors if you leave out brackets
-
-getting too specificmedia query bubbling (nest actual MQ, can also do regular MQ nesting)
-
-
-whats a $
-
-variables
-lighten/darken
-saturate/desaturate
-
-
-what’s an @
-
-@mixin
-
-@include
-
-@extend
-
-
-
-what’s a %
-extends
-
-btn, btn-small example
-can’t extend out of media query
-
-libraries are pre made recipes/like jquery
-
-
-auto prefixing example
-other functions
-
-
-bourbon/compass
-
-
-import scss files
-Google fonts, you aren’t being crafty just enqueue the style
-
-Show my sassy starter
-
-WP
-
-enqueueing in WP
-Mention starter themes
