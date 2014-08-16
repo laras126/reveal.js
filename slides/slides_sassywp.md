@@ -24,7 +24,7 @@
 /--/
 
 <div class="twocol">&nbsp;</div>
-<div class="tencol">
+<div class="tencol small-code">
 <pre><code class="lang-scss">$link-color: #4A8BBD;
 $link-hover: darken($link-color, 20%);
 
@@ -34,11 +34,11 @@ $link-hover: darken($link-color, 20%);
 		color: $link-color;
 
 		&:hover {
-			color: $link-hover;				
+			color: $link-hover;
 		}
 
 		&:active {
-			color: darken($link-hover, 30%);				
+			color: darken($link-hover, 30%);
 		}
 	}
 }</code></pre>
@@ -240,6 +240,9 @@ $heading-font: 	Helvetica, sans-serif;
 <span class="unstyle-img">![Book apart](img/sass/redo/bookapart.png)</span>
 </div>
 
+/--/
+
+<div class="unstyle-img">![BS tweet](img/sass/mdo-tweet.png)</div>
 
 /---/
 
@@ -286,10 +289,6 @@ $heading-font: 	Helvetica, sans-serif;
 /--/
 
 <video controls src="img/sass/compiler.mov"></video>
-
-/--/
-
-<div class="unstyle-img">![Oven on](img/sass/redo/oven-knob.jpg)</div>
 
 /--/
 
@@ -406,15 +405,14 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /---/
 
-#But wait...
-<div class="fragment"><h1>I made you a gift!</h1></div>
+#But wait...<span class="fragment">a gift!</span>
 
 /--/
 
 #Simple Sassy Starter
 ##http://j.mp/ssystrtr
 
-/---/
+/--/
 
 #Merci!
 ##[notlaura.com](http://notlaura.com)
