@@ -132,7 +132,8 @@ $link-hover: darken($link-color, 20%);
 <!-- Why should I learn this? -->
 <!-- *********** -->
 
-<div class="sixcol small-code">
+<div class="onecol">&nbsp;</div>
+<div class="fivecol small-code">
 <p class="code-title">&hearts; <span class="special">Nesting</span></p>
 <pre><code>.main-nav ul {
 	li {
@@ -144,8 +145,10 @@ $link-hover: darken($link-color, 20%);
 }</code></pre>
 </div>
 
-<div class="sixcol small-code">
+<div class="sixcol">
 <p class="code-title"><span class="special">Ew</span> CSS</p>
+<div class="small-code">
+	
 <pre><code>
 .main-nav ul {}
 .main-nav ul li {}
@@ -156,11 +159,12 @@ $link-hover: darken($link-color, 20%);
 
 </code></pre>
 </div>
+</div>
 
 /--/
 
-
-<div class="small-code">
+<div class="onecol">&nbsp;</div>
+<div class="elevencol">
 <p class="code-title"><span class="special">Gross</span> CSS</p>
 
 <pre><code>.tab {
@@ -177,19 +181,24 @@ $link-hover: darken($link-color, 20%);
 
 /--/
 
-<div class="small-code">
-<p class="code-title">Not with <span class="special">Sass and Compass!</span></p>
-</div>
-<pre><code>.tab {
-	@include border-top-radius(10px);
-}
-</code></pre>
+<div class="onecol">&nbsp;</div>
+<div class="elevencol">
+	<div class="small-code">
+	<p class="code-title">Not with <span class="special">Sass and Compass!</span></p>
+	</div>
+	<pre><code>.tab {
+		@include border-top-radius(10px);
+	}
+	</code></pre>
+	</div>
 </div>
 
 /--/
 
-<p class="code-title"><span class="special">Variables</span> FTW</p>
+<div class="onecol">&nbsp;</div>
+<div class="elevencol">
 
+<p class="code-title"><span class="special">Variables</span> FTW</p>
 
 <pre><code>$main-color:  	 #32425C;
 $heading-font: 	Helvetica, sans-serif;
@@ -199,7 +208,7 @@ $heading-font: 	Helvetica, sans-serif;
 	font-family: $heading-font;
 }
 </code></pre>
-
+</div>
 
 /--/
 
@@ -397,6 +406,10 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /--/
 
+![Compass docs](img/sass/compass-docs.png)
+
+/--/
+
 <video controls src="img/sass/compass.mov"></video>
 
 /--/
@@ -405,7 +418,7 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /---/
 
-#But wait...<span class="fragment">a gift!</span>
+#But wait...<span class="fragment special">a gift!</span>
 
 /--/
 

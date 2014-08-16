@@ -63,7 +63,7 @@ $accent-border: 	1px dotted $med-accent;
 // Root font size is %age in body
 
 $contain: 			2rem;
-$base:  			1em;
+$base:  			$contain;
 $line-height-base: 	1.5;
 $sml:  				$base*0.8;
 
