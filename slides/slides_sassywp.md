@@ -219,7 +219,7 @@ $heading-font: 	Helvetica, sans-serif;
 
 /--/
 
-![Boxing](img/sass/eyebleach3.jpg)
+![Boxing](img/sass/feebs1.png)
 
 /---/
 
@@ -329,13 +329,11 @@ Here it is <a href="http://sassmeister.com/gist/1f63b704f89523b8120c">on Sassmei
 
 <video controls src="img/sass/semantic-variables.mov"></video>
 
-/--/
-
-<video controls src="img/sass/minify.mov"></video>
+<!-- <video controls src="img/sass/minify.mov"></video> -->
 
 /--/
 
-![hamster thing](img/sass/redo/eyebleach1.jpg)
+![hamster thing](img/sass/feebs2.png)
 
 /---/
 
@@ -393,7 +391,7 @@ Here it is <a href="http://sassmeister.com/gist/98f202071af56724dd5a">on Sassmei
 
 /--/
 
-![horse](img/sass/redo/eyebleach2.jpg)
+![feebs 3](img/sass/feebs4.png)
 
 /---/
 
@@ -414,16 +412,24 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /--/
 
-![koala](img/sass/koala.png)
+![koala](img/sass/feebs5.png)
 
 /---/
 
-#But wait...<span class="fragment special">a gift!</span>
+#Now...<span class="fragment special">real life.</span>
 
 /--/
 
-#Simple Sassy Starter
-##http://j.mp/ssystrtr
+<video controls src="img/sass/importing.mov"></video>
+
+/---/
+
+#<span class="fragment">Your gift!</span>
+
+/--/
+
+<h1>Simple Sassy Starter</h1>
+<h2>http://j.mp/ssystrtr</h2>
 
 /--/
 

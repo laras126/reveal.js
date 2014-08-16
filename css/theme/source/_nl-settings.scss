@@ -98,7 +98,7 @@ $headingLineHeight: $line-height-base;
 $headingTextTransform: none;
 $headingTextShadow: none;
 $heading1TextShadow: $headingTextShadow;
-$headingFontWeight: 700;
+$headingFontWeight: 500;
 
 // Links and actions
 $linkColor: $link-color;
@@ -107,13 +107,3 @@ $linkColorHover: $link-hover;
 // Text selection
 $selectionBackgroundColor: lighten($alert-yellow, 10%);
 $selectionColor: $black;
-
-
-
-
-@mixin centerer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}

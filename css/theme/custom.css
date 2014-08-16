@@ -19,23 +19,14 @@ a, a:visited {
 .reveal p {
   font-size: 2rem;
   margin-top: 0;
-  margin-bottom: 2rem;
-  font-weight: 300; }
+  margin-bottom: 2rem; }
 .reveal hr {
   margin-bottom: 2rem; }
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   margin-bottom: 1.6rem; }
-.reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  font-weight: 500 !important; }
-.reveal h2, .reveal h3 {
-  font-family: "museo-sans-1", Helvetica, sans-serif; }
-.reveal h4, .reveal h5, .reveal h6 {
-  font-family: "museo-slab-1", Georgia, serif;
-  margin-top: 2.4rem; }
 .reveal h1 {
   font-size: 6rem;
-  margin-top: 1.6rem;
-  font-family: "museo-sans-1", Helvetica, sans-serif; }
+  font-weight: 700 !important; }
 .reveal h2 {
   font-size: 4.4rem;
   margin-top: 2.8rem; }
@@ -50,22 +41,15 @@ a, a:visited {
   font-size: 1.6rem; }
 .reveal pre {
   margin: 0 auto; }
-  .reveal pre.heading {
-    font-size: 1.6em;
-    box-shadow: none;
-    display: inline; }
 .reveal pre, .reveal code {
   box-shadow: none; }
 .reveal pre code {
   max-height: 800px; }
 .reveal code {
-  font-size: 4.4rem;
-  line-height: 2.8rem; }
-.reveal .small-code {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  line-height: 1.5; }
 .reveal .code-title {
   color: #b4b4b4;
-  font-size: 2.8rem;
   text-align: left;
   font-family: monospace; }
 
@@ -100,7 +84,7 @@ body {
   margin: 0 0 0 0;
   color: #111111;
   font-family: "museo-sans-1", Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0;
   text-transform: none;
