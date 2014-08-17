@@ -366,6 +366,7 @@ Here it is <a href="http://sassmeister.com/gist/9eca4dbb5ac01a5d8f60">on Sassmei
 /--/
 
 <video controls src="img/sass/button-extend-better.mov"></video>
+<!-- <iframe src="//www.youtube.com/embed/jQnIa1O_KRk" frameborder="0" allowfullscreen></iframe> -->
 
 /--/
 
@@ -380,12 +381,15 @@ Here it is <a href="http://sassmeister.com/gist/17f99ab2d74c46ca3cb9">on Sassmei
 
 <video controls src="img/sass/mq-bubbles.mov"></video>
 
-<!-- <video controls src="img/sass/mq-extend-fail.mov"></video> -->
+/--/
 
-<!-- ![Errors](img/sass/mad-errors.png)
+<video controls src="img/sass/mq-extend-fail.mov"></video>
+
+/--/
 
 #Crap.
-Here it is <a href="http://sassmeister.com/gist/98f202071af56724dd5a">on Sassmeister</a>. -->
+
+Here it is <a href="http://sassmeister.com/gist/98f202071af56724dd5a">on Sassmeister</a>.
 
 /--/
 
@@ -414,7 +418,11 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /---/
 
-#Now...<span class="fragment special">real life.</span>
+#Now...<span class="fragment special">real life</span><span class="fragment">-ish.</span>
+
+/--/
+
+![koala](img/sass/file-structure.png)
 
 /--/
 
