@@ -296,8 +296,8 @@ $heading-font: 	Helvetica, sans-serif;
 <div class="tencol">![Codekit](img/sass/codekit.png)</div>
 
 /--/
-
-<video controls src="img/sass/compiler.mov"></video>
+<iframe width="420" height="315" src="//www.youtube.com/embed/rfTHoGZAvkc" frameborder="0" allowfullscreen></iframe>
+<!-- <video controls src="img/sass/compiler.mov"></video> -->
 
 /--/
 
@@ -323,11 +323,13 @@ Here it is <a href="http://sassmeister.com/gist/1f63b704f89523b8120c">on Sassmei
 
 /--/
 
-<video controls src="img/sass/link-example.mov"></video>
+<!-- <video controls src="img/sass/link-example.mov"></video> -->
+<iframe width="420" height="315" src="//www.youtube.com/embed/xxGCbk91AJw" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
-<video controls src="img/sass/semantic-variables.mov"></video>
+<!-- <video controls src="img/sass/semantic-variables.mov"></video> -->
+<iframe width="420" height="315" src="//www.youtube.com/embed/uE0VL-f1-nI" frameborder="0" allowfullscreen></iframe>
 
 <!-- <video controls src="img/sass/minify.mov"></video> -->
 
@@ -356,7 +358,8 @@ Here it is <a href="http://sassmeister.com/gist/ad8fa52ea853d84da153">on Sassmei
 
 /--/
 
-<video controls src="img/sass/button-mixin-bad.mov"></video>
+<!-- <video controls src="img/sass/button-mixin-bad.mov"></video> -->
+<iframe width="420" height="315" src="//www.youtube.com/embed/SWCk1Kir3n4" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
@@ -365,8 +368,8 @@ Here it is <a href="http://sassmeister.com/gist/9eca4dbb5ac01a5d8f60">on Sassmei
 
 /--/
 
-<video controls src="img/sass/button-extend-better.mov"></video>
-<!-- <iframe src="//www.youtube.com/embed/jQnIa1O_KRk" frameborder="0" allowfullscreen></iframe> -->
+<!-- <video controls src="img/sass/button-extend-better.mov"></video> -->
+<iframe src="//www.youtube.com/embed/jQnIa1O_KRk" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
@@ -379,11 +382,13 @@ Here it is <a href="http://sassmeister.com/gist/17f99ab2d74c46ca3cb9">on Sassmei
 
 /--/
 
-<video controls src="img/sass/mq-bubbles.mov"></video>
+<!-- <video controls src="img/sass/mq-bubbles.mov"></video> -->
+<iframe width="420" height="315" src="//www.youtube.com/embed/Xk0zzYHwYuw" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
-<video controls src="img/sass/mq-extend-fail.mov"></video>
+<!-- <video controls src="img/sass/mq-extend-fail.mov"></video> -->
+<iframe width="420" height="315" src="//www.youtube.com/embed/I1e_9_UtR5c" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
@@ -410,7 +415,8 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /--/
 
-<video controls src="img/sass/compass.mov"></video>
+<!-- <video controls src="img/sass/compass.mov"></video> -->
+<iframe width="420" height="315" src="//www.youtube.com/embed/ig6v4JbNEs0" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
@@ -430,7 +436,8 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /--/
 
-<video controls src="img/sass/importing.mov"></video>
+<!-- <video controls src="img/sass/importing.mov"></video> -->
+<iframe width="420" height="315" src="//www.youtube.com/embed/2yLUMPVaJ7o" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
