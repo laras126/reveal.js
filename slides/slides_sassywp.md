@@ -422,11 +422,19 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /--/
 
-![koala](img/sass/file-structure.png)
+![Files](img/sass/theme-file-structure.png)
+
+/--/
+
+![Files](img/sass/assets-structure.png)
 
 /--/
 
 <video controls src="img/sass/importing.mov"></video>
+
+/--/
+
+![feebs](img/sass/feebs4.png)
 
 /---/
 
