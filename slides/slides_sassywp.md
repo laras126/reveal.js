@@ -58,17 +58,17 @@ $link-hover: darken($link-color, 20%);
 <!-- 2. If code was a cookie... -->
 <!-- ************** -->
 
-<div class="fourcol">
+<div class="fourcol fragment">
 	<h2>Code</h2>
 	<span class="unstyle-img">![Code](img/sass/redo/code.png)</span>
 </div>
 
-<div class="fourcol">
+<div class="fourcol fragment">
 	<h2>Compile</h2>
 	<span class="unstyle-img">![Compile](img/sass/redo/compile.png)</span>
 </div>
 
-<div class="fourcol">
+<div class="fourcol fragment">
 	<h2>Render</h2>
 	<span class="unstyle-img">![Render](img/sass/redo/launch.png)</span>
 </div>
@@ -79,19 +79,19 @@ $link-hover: darken($link-color, 20%);
 
 /--/
 
-<div class="fourcol">
+<div class="fourcol fragment">
 	<h2>Mix</h2>
 	<span class="unstyle-img">![Batter](img/sass/redo/batter.jpg)</span>
 </div>
 
 
-<div class="fourcol">
+<div class="fourcol fragment">
 	<h2>Bake</h2>
 	<span class="unstyle-img">![Bake](img/sass/redo/baking.jpg)</span>
 </div>
 
 
-<div class="fourcol">
+<div class="fourcol fragment">
 	<h2>Eat</h2>
 	<span class="unstyle-img">![Cookie Monster](img/sass/redo/cookiemonster.jpg)</span>
 </div>
@@ -342,6 +342,20 @@ Here it is <a href="http://sassmeister.com/gist/ad8fa52ea853d84da153">on Sassmei
 
 /--/
 
+<div class="fragment" data-fragment-index="4"><h1>Amazing!</h1></div>
+
+<div class="fourcol fragment" data-fragment-index="1">
+![ingredients](img/sass/redo/ingredients-separate.jpg)
+</div>
+<div class="fourcol fragment" data-fragment-index="2">
+![ingredients](img/sass/redo/ingredients-bowl.jpg)
+</div>
+<div class="fourcol fragment" data-fragment-index="3">
+![ingredients](img/sass/redo/ingredients-bowl-mms.png)
+</div>
+
+/--/
+
 <video controls src="img/sass/button-mixin-bad.mov"></video>
 
 /--/
@@ -355,17 +369,7 @@ Here it is <a href="http://sassmeister.com/gist/9eca4dbb5ac01a5d8f60">on Sassmei
 
 /--/
 
-<div class="fragment" data-fragment-index="3"><h1>Amazing!</h1></div>
-
-<div class="fourcol">
-![ingredients](img/sass/redo/ingredients-separate.jpg)
-</div>
-<div class="fourcol fragment" data-fragment-index="1">
-![ingredients](img/sass/redo/ingredients-bowl.jpg)
-</div>
-<div class="fourcol fragment" data-fragment-index="2">
-![ingredients](img/sass/redo/ingredients-bowl-mms.png)
-</div>
+![Feebs 6](img/sass/feebs6.png)
 
 /---/
 
@@ -376,22 +380,16 @@ Here it is <a href="http://sassmeister.com/gist/17f99ab2d74c46ca3cb9">on Sassmei
 
 <video controls src="img/sass/mq-bubbles.mov"></video>
 
-/--/
+<!-- <video controls src="img/sass/mq-extend-fail.mov"></video> -->
 
-<video controls src="img/sass/mq-extend-fail.mov"></video>
-
-/--/
-
-![Errors](img/sass/mad-errors.png)
-
-/--/
+<!-- ![Errors](img/sass/mad-errors.png)
 
 #Crap.
-Here it is <a href="http://sassmeister.com/gist/98f202071af56724dd5a">on Sassmeister</a>.
+Here it is <a href="http://sassmeister.com/gist/98f202071af56724dd5a">on Sassmeister</a>. -->
 
 /--/
 
-![feebs 3](img/sass/feebs4.png)
+![feebs 3](img/sass/feebs3.jpg)
 
 /---/
 
@@ -424,7 +422,7 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 
 /---/
 
-#<span class="fragment">Your gift!</span>
+#<span class="fragment">Oh, your <span class="special">gift</span>!</span>
 
 /--/
 
