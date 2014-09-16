@@ -23,25 +23,24 @@
 
 /--/
 
-<div class="twocol">&nbsp;</div>
-<div class="tencol small-code">
-<pre><code class="lang-scss">$link-color: #4A8BBD;
-$link-hover: darken($link-color, 20%);
+<div class="tencol last small-code">
+	<pre><code class="lang-scss">$link-color: #4A8BBD;
+	$link-hover: darken($link-color, 20%);
 
-.main-nav li {
-	background-color: lighten($link-color, 50%);
-	a {
-		color: $link-color;
+	.main-nav li {
+		background-color: lighten($link-color, 50%);
+		a {
+			color: $link-color;
 
-		&:hover {
-			color: $link-hover;
+			&:hover {
+				color: $link-hover;
+			}
+
+			&:active {
+				color: darken($link-hover, 30%);
+			}
 		}
-
-		&:active {
-			color: darken($link-hover, 30%);
-		}
-	}
-}</code></pre>
+	}</code></pre>
 </div>
 
 /--/
@@ -132,57 +131,53 @@ $link-hover: darken($link-color, 20%);
 <!-- Why should I learn this? -->
 <!-- *********** -->
 
-<div class="onecol">&nbsp;</div>
-<div class="fivecol small-code">
-<p class="code-title">&hearts; <span class="special">Nesting</span></p>
-<pre><code>.main-nav ul {
-	li {
-		a {
-			&:hover {}
-			&:active {}
+<div class="sixcol small-code">
+	<p class="code-title">&hearts; <span class="special">Nesting</span></p>
+	<pre><code>.main-nav ul {
+		li {
+			a {
+				&:hover {}
+				&:active {}
+			}
 		}
-	}
-}</code></pre>
+	}</code></pre>
 </div>
 
 <div class="sixcol">
-<p class="code-title"><span class="special">Ew</span> CSS</p>
-<div class="small-code">
+	<p class="code-title"><span class="special">Ew</span> CSS</p>
 	
-<pre><code>
-.main-nav ul {}
-.main-nav ul li {}
-.main-nav ul li a {}
-.main-nav ul li a:hover {}
-.main-nav ul li a:active {}
+	<div class="small-code">		
+		<pre><code>
+		.main-nav ul {}
+		.main-nav ul li {}
+		.main-nav ul li a {}
+		.main-nav ul li a:hover {}
+		.main-nav ul li a:active {}
+		</code></pre>
+	</div>
 
-
-</code></pre>
-</div>
-</div>
-
-/--/
-
-<div class="onecol">&nbsp;</div>
-<div class="elevencol">
-<p class="code-title"><span class="special">Gross</span> CSS</p>
-
-<pre><code>.tab {
-	border-top-left-radius: 25px;
-	-moz-border-radius-topleft: 25px;
-	-webkit-border-top-left-radius: 25px;
-
-	border-top-right-radius: 25px;
-	-moz-border-radius-topright: 25px;
-	-webkit-border-top-right-radius: 25px;
-}
-</code></pre>
 </div>
 
 /--/
 
-<div class="onecol">&nbsp;</div>
-<div class="elevencol">
+<div class="elevencol last">
+	<p class="code-title"><span class="special">Gross</span> CSS</p>
+
+	<pre><code>.tab {
+		border-top-left-radius: 25px;
+		-moz-border-radius-topleft: 25px;
+		-webkit-border-top-left-radius: 25px;
+
+		border-top-right-radius: 25px;
+		-moz-border-radius-topright: 25px;
+		-webkit-border-top-right-radius: 25px;
+	}
+	</code></pre>
+</div>
+
+/--/
+
+<div class="elevencol last">
 	<div class="small-code">
 	<p class="code-title">Not with <span class="special">Sass and Compass!</span></p>
 	</div>
@@ -195,19 +190,17 @@ $link-hover: darken($link-color, 20%);
 
 /--/
 
-<div class="onecol">&nbsp;</div>
-<div class="elevencol">
+<div class="elevencol last">
+	<p class="code-title"><span class="special">Variables</span> FTW</p>
 
-<p class="code-title"><span class="special">Variables</span> FTW</p>
+	<pre><code>$main-color:  	 #32425C;
+	$heading-font: 	Helvetica, sans-serif;
 
-<pre><code>$main-color:  	 #32425C;
-$heading-font: 	Helvetica, sans-serif;
-
-.site-title {
-	color: $main-color;
-	font-family: $heading-font;
-}
-</code></pre>
+	.site-title {
+		color: $main-color;
+		font-family: $heading-font;
+	}
+	</code></pre>
 </div>
 
 /--/
@@ -275,25 +268,23 @@ $heading-font: 	Helvetica, sans-serif;
 
 /---/
 
-<!-- ************* -->
-<!-- 4. Installing -->
-<!-- ************* -->
+<!-- ********** -->
+<!-- Installing -->
+<!-- ********** -->
 
 #Um, cool...<span class="special fragment">?</span>
 
 /--/
 
-<!-- sass on your comp, set up your directory -->
 ##http://sass-lang.com/install
 
 /--/
-<div class="onecol">&nbsp;</div>
-<div class="tencol">![terminal](img/sass/terminal.png)</div>
+
+![terminal](img/sass/terminal.png)
 
 /--/
 
-<div class="onecol">&nbsp;</div>
-<div class="tencol">![Codekit](img/sass/codekit.png)</div>
+![Codekit](img/sass/codekit.png)
 
 /--/
 <iframe width="420" height="315" src="//www.youtube.com/embed/rfTHoGZAvkc" frameborder="0" allowfullscreen></iframe>
@@ -310,7 +301,7 @@ $heading-font: 	Helvetica, sans-serif;
 /---/
 
 <!-- ************* -->
-<!-- Intro to code stuff -->
+<!-- Intro to code -->
 <!-- ************* -->
 
 ##http://sass-lang.com/guide
@@ -331,13 +322,16 @@ Here it is <a href="http://sassmeister.com/gist/1f63b704f89523b8120c">on Sassmei
 <!-- <video controls src="img/sass/semantic-variables.mov"></video> -->
 <iframe width="420" height="315" src="//www.youtube.com/embed/uE0VL-f1-nI" frameborder="0" allowfullscreen></iframe>
 
-<!-- <video controls src="img/sass/minify.mov"></video> -->
-
 /--/
 
 ![hamster thing](img/sass/feebs2.png)
 
 /---/
+
+
+<!-- *********** -->
+<!-- Make a Link -->
+<!-- *********** -->
 
 #Let's make a <span class="special">button</span>.
 Here it is <a href="http://sassmeister.com/gist/ad8fa52ea853d84da153">on Sassmeister</a>.
@@ -359,7 +353,7 @@ Here it is <a href="http://sassmeister.com/gist/ad8fa52ea853d84da153">on Sassmei
 /--/
 
 <!-- <video controls src="img/sass/button-mixin-bad.mov"></video> -->
-<iframe width="420" height="315" src="//www.youtube.com/embed/SWCk1Kir3n4" frameborder="0" allowfullscreen></iframe>
+<iframe src="//www.youtube.com/embed/SWCk1Kir3n4" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
@@ -377,18 +371,22 @@ Here it is <a href="http://sassmeister.com/gist/9eca4dbb5ac01a5d8f60">on Sassmei
 
 /---/
 
+<!-- ********** -->
+<!-- MQ Bubbles -->
+<!-- ********** -->
+
 #Media Query <span class="special">Bubbles</span>
 Here it is <a href="http://sassmeister.com/gist/17f99ab2d74c46ca3cb9">on Sassmeister</a>.
 
 /--/
 
 <!-- <video controls src="img/sass/mq-bubbles.mov"></video> -->
-<iframe width="420" height="315" src="//www.youtube.com/embed/Xk0zzYHwYuw" frameborder="0" allowfullscreen></iframe>
+<iframe src="//www.youtube.com/embed/Xk0zzYHwYuw" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
 <!-- <video controls src="img/sass/mq-extend-fail.mov"></video> -->
-<iframe width="420" height="315" src="//www.youtube.com/embed/I1e_9_UtR5c" frameborder="0" allowfullscreen></iframe>
+<iframe src="//www.youtube.com/embed/I1e_9_UtR5c" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
@@ -401,6 +399,10 @@ Here it is <a href="http://sassmeister.com/gist/98f202071af56724dd5a">on Sassmei
 ![feebs 3](img/sass/feebs3.jpg)
 
 /---/
+
+<!-- ********* -->
+<!-- Libraries -->
+<!-- ********* -->
 
 #Libraries!
 Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassmeister</a>.
@@ -416,13 +418,17 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 /--/
 
 <!-- <video controls src="img/sass/compass.mov"></video> -->
-<iframe width="420" height="315" src="//www.youtube.com/embed/ig6v4JbNEs0" frameborder="0" allowfullscreen></iframe>
+<iframe src="//www.youtube.com/embed/ig6v4JbNEs0" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
 ![koala](img/sass/feebs5.png)
 
 /---/
+
+<!-- *********** -->
+<!-- Rea Project -->
+<!-- *********** -->
 
 #Now...<span class="fragment special">real life</span><span class="fragment">-ish.</span>
 
@@ -437,13 +443,17 @@ Compass FTW <a href="http://sassmeister.com/gist/a6a0c7730ff28b1012a5">on Sassme
 /--/
 
 <!-- <video controls src="img/sass/importing.mov"></video> -->
-<iframe width="420" height="315" src="//www.youtube.com/embed/2yLUMPVaJ7o" frameborder="0" allowfullscreen></iframe>
+<iframe src="//www.youtube.com/embed/2yLUMPVaJ7o" frameborder="0" allowfullscreen></iframe>
 
 /--/
 
 ![feebs](img/sass/feebs4.png)
 
 /---/
+
+<!-- ************* -->
+<!-- Sasst Starter -->
+<!-- ************* -->
 
 #<span class="fragment">Oh, your <span class="special">gift</span>!</span>
 
