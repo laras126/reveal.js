@@ -1,4 +1,4 @@
-<span class="unstyle-img">![fishing](../img/fishing/me-fish.svg)</span>
+<span class="unstyle-img">![fishing](img/fishing/me-fish.svg)</span>
 
 --
 
@@ -6,11 +6,11 @@
 
 --
 
-<span class="unstyle-img">![fishing](../img/fishing/wordpress-catch.svg)</span>
+<span class="unstyle-img">![fishing](img/fishing/wordpress-catch.svg)</span>
 
 ---
 
-![Programming](../img/programming.gif)
+![Programming](img/programming.gif)
 
 --
 
@@ -21,41 +21,41 @@
 
 --
 
-![Clapping](../img/clapping.gif)
+![Clapping](img/clapping.gif)
 ###1. Happy
 
 --
 
-![Confused](../img/confused.gif)
+![Confused](img/confused.gif)
 ###2. Confused
 
 --
 
-![Confused](../img/why.gif)
+![Confused](img/why.gif)
 ###3. Suspicious
 
 --
 
-![Frustrate](../img/frustration.gif)
+![Frustrate](img/frustration.gif)
 ###4. Want to smash your computer
 
 --
 
-![Triumph](../img/triumph.gif)
+![Triumph](img/triumph.gif)
 ###5. Triumph
 
 --
 
-![Clapping](../img/clapping.gif)
+![Clapping](img/clapping.gif)
 ###6. Happy
 
 ---
 
-<span class="unstyle-img">![lmgtfy](../img/lmgtfy.png)</span>
+<span class="unstyle-img">![lmgtfy](img/lmgtfy.png)</span>
 
 --
 
-![comic](../img/comic.png)
+![comic](img/comic.png)
 
 --
 
@@ -63,7 +63,7 @@
 
 ---
 
-<span class="unstyle-img">![We Fish](../img/fishing/we-fish.svg)</span>
+<span class="unstyle-img">![We Fish](img/fishing/we-fish.svg)</span>
 
 --
 
