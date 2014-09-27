@@ -1,9 +1,6 @@
 #The Internet
-###via random comics
 
 --
-![comic](../img/comic.png)
-<small>Source: <a href="http://www.vladstudio.com/wallpaper/?how_internet_works">VladStudio</a></small>
 
 --
 ![browsers](../img/browsers.jpg)
@@ -25,6 +22,12 @@
 
 --
 
-#Easy peasy.
+![tesla](../img/tesla.jpg)
 
-<a href="http://notlaura.com"><span class="special">lara</span>@notlaura.com</a>
+--
+
+![Piano](../img/piano.jpg)
+
+--
+
+#Easy peasy.

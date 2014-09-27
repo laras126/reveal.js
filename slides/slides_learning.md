@@ -4,10 +4,6 @@
 
 <blockquote class="callout-quote">Give a man <span class="special">(or woman)</span> a fish and feed him <span class="special">(or her)</span> for a day, teach a man <span class="special">(or woman)</span> to fish and feed him <span class="special">(or her)</span> for a lifetime.</blockquote>
 
---
-
-<span class="unstyle-img">![fishing](img/fishing/wordpress-catch.svg)</span>
-
 ---
 
 ![Programming](img/programming.gif)
@@ -55,11 +51,16 @@
 
 --
 
-![comic](img/comic.png)
+![comic](img/waiter.jpeg)
 
 --
 
 #<span style="font-family: Monaco">&#8984; + &#8997; + 2</span>
+
+--
+
+![designer news](img/designernews.png)
+
 
 ---
 
