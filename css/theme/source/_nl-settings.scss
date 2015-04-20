@@ -22,7 +22,7 @@ $alert-blue:        #d5edf8;
 
 // nl colors
 
-$lime: 				lighten(#00C11E, 20%);
+$lime: 				desaturate(lighten(#00C11E, 20%), 15%);
 
 $dark-blue:      	#237fa9;
 $offwhite:     		#f4f7f9;
@@ -34,6 +34,8 @@ $dark-grey: 		#3e3739;
 // Misc colors
 $pink: 				#CC6699;
 
+$danger: 			#F94641;
+$success: 			$lime;
 
 // Purposeful color names
 // http://thesassway.com/beginner/variable-naming
@@ -96,11 +98,11 @@ $backgroundColor: $white;
 // Primary/body text
 $mainFont: $sans-serif, sans-serif;
 $mainFontSize: $contain;
-$mainColor: $main-font;
+$mainColor: $main-font; 
 
 // Headings
 $headingFont: $sans-serif;
-$headingColor: $black;
+$headingColor: $dark-grey;
 $headingLetterSpacing: 0;
 $headingMargin: 0 0 0 0;
 $headingLineHeight: $line-height-base;
