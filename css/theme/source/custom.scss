@@ -1,0 +1,209 @@
+
+//
+// Custom theme
+// notlaura.com
+//
+
+
+// Reveal
+@import "../template/settings";
+@import "../template/mixins";
+
+// Custom
+@import 'nl-settings';
+@import 'nl-typography';
+@import "../template/theme";
+
+// Custom
+@import 'nl-grid';
+
+
+
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+body {
+	background: $backgroundColor;
+	border-top: 10px solid $dark-blue;
+}
+
+.reveal {
+
+	.wrapper {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
+	iframe {
+		width: 1140px;
+		height: 800px;
+	}
+
+	font-weight: 300;
+	letter-spacing: 0;
+
+	.slides>section, .slides>section>section {
+		padding: 0;
+	}
+
+
+	.text-right {
+		text-align: right;
+	}
+
+	.text-center {
+		text-align: center;
+	}
+
+	.text-left {
+		text-align: left !important;
+	}
+
+	.center-block {
+		margin: 0 auto;
+	}
+
+	.grey {
+		color: $light-accent;
+	}
+
+	hr {
+		border: 1px dotted $link-color;
+	}
+
+
+	.slides {
+		// text-align: left;
+	}
+
+	.special {
+		color: $dark-blue;
+	}
+
+	.pink {
+		color: $pink;
+	}
+
+	.danger {
+		color: $danger;
+		font-weight: bold;
+	}
+
+	.success {
+		color: $success;
+		font-weight: bold;
+	}
+
+	a span.special {
+		color: $dark-grey !important;
+	}
+
+	a:not(.image), a:not(.image):hover {
+		border-bottom: $accent-border;
+	}
+
+	.callout-quote {
+		font-size: $h3;
+	}
+
+	blockquote {
+		padding: 1em 1.3em;
+		font-family: $serif;
+		text-align: left;
+		box-shadow: none;
+		border: none;
+		line-height: 1.5;
+		border-left: 1px solid $light-accent;
+		
+		.special {
+			color: $med-accent;
+		}
+	}
+
+	section img {
+		border: $light-accent 5px solid;
+		box-shadow: none;
+	}
+
+	section .unstyle-img img, .unstyle-img {
+		border: none;
+		box-shadow: none;
+	}
+
+	.illustration img {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.half {
+		width: 45%;
+		float: left;
+		&:first-child {
+			margin-right: 3%;
+		}
+	}
+
+	.clearfix {
+	  &:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	  }
+	}
+
+	.hljs {
+		// background-color: $black;
+		padding: $base;
+		// border: 1px dotted $light-accent;
+
+		&.terminal {
+			background-color: $black;
+			border: 0;
+			color: $lime;
+		}
+	}
+
+	.center-vert {
+		margin-top: 50%;
+	}
+
+	.img-row {
+		display: table;
+		width: 100%;
+		.threecol {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+
+	.slides section .fragment.highlight-blue.visible {
+		color: $dark-blue;
+	}
+
+	// Utilities
+	// I hope no one looks at this!
+
+	.big {
+		font-size: 3em;
+	}
+
+	.bigger {
+		font-size: $h3;
+	}
+
+
+	ul li {
+		margin-bottom: $sml/2;
+	}
+
+	ul.unstyle-list {
+		margin: 0;
+		padding: 0;
+		list-style: none; // Ugh.
+
+		li {
+			margin-bottom: $base;
+		}
+	}
+
+
+}
