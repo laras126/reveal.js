@@ -53,6 +53,10 @@
 
 /--/
 
+![Sad](img/sad-puppy.png)
+
+/--/
+
 <div class="wrapper">
 
 <h4 class="text-left">Minimum qualifications</h4>
@@ -81,8 +85,7 @@
 
 /--/
 
-
-<img src="img/not-unicorn.jpg" alt="" class="unstyle-img">
+<img src="img/not-unicorn.jpg" alt="" class="unstyle-img fragment">
 ###<span class="fragment"><span class="special">Lara</span> "Is Good at jQuery" <span class="special">Schenck</span></span>
 
 /--/
@@ -92,5 +95,13 @@
 /--/
 
 #Thanks!
-<br>
+
 ###<span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
+<br>
+<div class="fragment">
+<br>
+Oh yeah, and:
+
+<h3>[tiny.cc/impostors](http://tiny.cc/impostors)</h3>
+
+</div>
