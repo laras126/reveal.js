@@ -242,8 +242,11 @@ body {
   margin-left: 0; }
 
 .last {
-  float: right;
-  margin-left: 0; }
+  float: right; }
+
+.contain-sm {
+  max-width: 960px;
+  margin: 0 auto !important; }
 
 body {
   background: #fff;
@@ -298,7 +301,7 @@ body {
     border-left: 1px solid #b4b4b4; }
     .reveal blockquote .special {
       color: #86b2c6; }
-  .reveal section img {
+  .reveal section img, .reveal .style-img {
     border: #b4b4b4 5px solid;
     box-shadow: none; }
   .reveal section .unstyle-img img, .reveal .unstyle-img {

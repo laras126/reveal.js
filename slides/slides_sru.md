@@ -6,113 +6,86 @@
 <br>
 ###<span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
 
---
-
-#JS and Job Titles
-###Tales of a non-unicorn.
-
-
---
-
-##Ground Rules
-*  Ask anything
-*  Remember one thing
-*  Confusion is the goal
-
---
-
-##Agenda
-*  So, the Internet...
-*  Dissect a website
-*  CMSs
-*  Modern trends
-*  On Web Designers
 
 ---
 
-#So, the Internet...
+#Oh, the Internet.
 
-	--
-	![comic](../img/comic.png)
-	<small>via <a href="http://www.vladstudio.com/wallpaper/?how_internet_works">VladStudio</a></small>
-	--
-	
-	##Front-end vs. Back-end
+--
 
-	--
-	![frontend backend](../img/backendfrontend.png)
-	--
-	![browsers](../img/browsers.jpg)
+![comic](../img/comic.png)
+<small>via <a href="http://www.vladstudio.com/wallpaper/?how_internet_works">VladStudio</a></small>
 
-	<small>via <a href="https://www.liquidmatrix.org/blog/2011/08/03/internet-explorer-users-eat-paste/">Liquid Matrix</a></small>
-	--
-	##Questions?
+--
+
+<img class="unstyle-img" src="../img/hosting.jpg" alt="">
 
 ---
 
-#Dissect a website
+#Let's talk websites.
 
-	--
-	##Questions?
+--
+
+<pre class="big text-center">&lt;html></pre>
+
+<br>
+
+(demo!)
 
 ---
 
 #CMS
 ###Content Management Systems
-	--
-	![CMSs](../img/cmss.png)
-	
-	###So many!
+<br>
+<span class="fragment">(are the way to go)</span>
 
-	--
-	
-	###Let's compare
+--
 
-	<div class="half"><a href="https://lara-schenck-mds6.squarespace.com/index">![squarespace](../img/squarespace.png)</a></div>
-	<div class="half"><a href="http://wp.local/">![wordpress](../img/wordpress2.png)</a></div>
+<img class="unstyle-img" src="../img/cmss.png">
 
-	--
-	###Use WordPress, IMHO
-	*  Familiar
-	*  Excellent documentation and support network
-	*  Themes out the wazoo (but be careful)
-	*  19% of all websites, 50% of CMSs
-	
-	--
-	
-	![CMSs](../img/wordpress-com2.png)
-	###??
+--
 
+<div class="half">![squarespace](../img/squarespace.png)</div>
+<div class="half"><a href="http://wp.local/" target="blank">![wordpress](../img/wordpress2.png)</a></div>
+
+--
+
+<img src="../img/wordpress-com2.png" alt="" class="unstyle-img">
+###??
+
+--
+
+##Use WordPress
+
+<span class="fragment">(in my humble opinion)</span>
 
 ---
 
-#Modern Trends
-	--
-	>42 percent of smartphone owners between the ages of 18 and 29 consider their phone as their primary way of accessing the internet.
-	
-	Source:
+#Where to start?
 
-	http://alistapart.com/article/client-relationships-and-the-multi-device-web
-	
-	http://pewinternet.org/Reports/2011/Smartphones/Section-2.aspx
-	--
-	![](http://cdns.designmodo.com/wp-content/uploads/2011/10/5.jpg)
-	###Responsive Design
-	Example: http://techcrunch.com/
-	(Resize your browser!)
-	
-	--
-	![Mobile first](http://dragojevich.com/wp-content/uploads/2013/06/mobile-first.png)
+--
 
-	--
-	#Content
-	##is king/queen
+### First and foremost...
 
-	err.. leader?
-	
-	--
-	##Questions?
+#<span class="fragment">CONTENT</span>
 
----
-#On Web Designers
+--
+
+## Images
+
+<br>
+
+* Sizes (1200px, not 3 MB!)
+* Dimensions
+* Full screen? Slideshows?
+
+--
+
+### Then...
+
+#<span class="fragment">Theme</span>
+
+--
+
+#Questions?
 
