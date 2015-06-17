@@ -8,7 +8,7 @@ body {
 
 a, a:visited {
   color: #237fa9;
-  text-decoration: none; }
+  text-decoration: underline; }
   a:hover, a:focus, a:visited:hover, a:visited:focus {
     color: #1b6283; }
   a:active, a:visited:active {

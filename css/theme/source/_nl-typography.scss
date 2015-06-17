@@ -11,7 +11,7 @@ body {
 
 a, a:visited {
 	color: $link-color;
-	text-decoration: none;
+	text-decoration: underline;
 
 	&:hover, &:focus {
 		color: $link-hover;

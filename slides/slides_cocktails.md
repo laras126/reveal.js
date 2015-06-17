@@ -24,6 +24,12 @@ My dear friend Erika.
 
 /--/
 
+<img src="img/lara.jpg" alt="" width="600">
+
+Amateur hour in 5B.
+
+/--/
+
 <div class="contain-sm clearfix">
 <div class="sixcol first">
 
@@ -159,3 +165,4 @@ My dear friend Erika.
 #Thanks!
 
 ###<span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
+<br>
