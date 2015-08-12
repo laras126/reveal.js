@@ -1,5 +1,4 @@
-#Website Bootcamp
-For Creative Professionals
+#
 
 --
 
@@ -26,21 +25,27 @@ For Creative Professionals
 
 #So, the Internet...
 
-	--
-	![comic](../img/comic.png)
-	<small>via <a href="http://www.vladstudio.com/wallpaper/?how_internet_works">VladStudio</a></small>
-	--
-	
-	##Front-end vs. Back-end
+--
 
-	--
-	![frontend backend](../img/backendfrontend.png)
-	--
-	![browsers](../img/browsers.jpg)
+![comic](../img/comic.png)
+<small>via <a href="http://www.vladstudio.com/wallpaper/?how_internet_works">VladStudio</a></small>
 
-	<small>via <a href="https://www.liquidmatrix.org/blog/2011/08/03/internet-explorer-users-eat-paste/">Liquid Matrix</a></small>
-	--
-	##Questions?
+--
+
+##Front-end vs. Back-end
+
+--
+
+![frontend backend](../img/backendfrontend.png)
+
+--
+![browsers](../img/browsers.jpg)
+
+<small>via <a href="https://www.liquidmatrix.org/blog/2011/08/03/internet-explorer-users-eat-paste/">Liquid Matrix</a></small>
+
+--
+
+##Questions?
 
 ---
 
@@ -55,11 +60,11 @@ For Creative Professionals
 ###Content Management Systems
 	--
 	![CMSs](../img/cmss.png)
-	
+
 	###So many!
 
 	--
-	
+
 	###Let's compare
 
 	<div class="half"><a href="https://lara-schenck-mds6.squarespace.com/index">![squarespace](../img/squarespace.png)</a></div>

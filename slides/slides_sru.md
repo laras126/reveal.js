@@ -7,9 +7,13 @@
 ###<span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
 
 
----
+/--/
 
-#Oh, the Internet.
+<div class="illustration unstyle-img">![Fishing](img/fishing/wordpress-catch.svg)</div>
+
+/--/
+
+# Oh, the Internet.
 
 --
 
