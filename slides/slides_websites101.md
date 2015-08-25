@@ -37,7 +37,7 @@
 *  <span class="fragment">Website Underpants</span>
 *  <span class="fragment">WordPress and Whatnot</span>
 *  <span class="fragment">Phablets and Trends</span>
-*  <span class="fragment">What now?</span>
+*  <span class="fragment">$$$</span>
 
 /---/
 
@@ -57,17 +57,18 @@
 
 /--/
 
+![browsers](../img/browsers.jpg)
+
+<small>via <a href="https://www.liquidmatrix.org/blog/2011/08/03/internet-explorer-users-eat-paste/">Liquid Matrix</a></small>
+
+/--/
+
 <div class="unstyle-img">![frontend backend](../img/client-server-terms.svg)</div>
 
 /--/
 
 <div class="unstyle-img">![frontend backend](../img/client-server-terms2.svg)</div>
 
-/--/
-
-![browsers](../img/browsers.jpg)
-
-<small>via <a href="https://www.liquidmatrix.org/blog/2011/08/03/internet-explorer-users-eat-paste/">Liquid Matrix</a></small>
 
 /---/
 
@@ -83,7 +84,7 @@
 	<p>I don't even know.</p>
 
 <br>
-(Lara: Make an ugly webpage in 30ish seconds)</small>
+<span class="fragment">(Lara: Make an ugly webpage in 30ish seconds)</span>
 
 /--/
 
@@ -113,9 +114,13 @@
 ### RAWR!
 <br>
 
+<div class="clearfix">
 <div class="half"><a href="https://lara-schenck-mds6.squarespace.com/index">![squarespace](../img/squarespace.png)</a></div>
 
 <div class="half" style="float:right"><a href="http://tsk.local/">![wordpress](../img/wordpress2.png)</a></div>
+</div>
+<br>
+<span class="fragment">(Lara: Show the WordPress Dashboard)</span>
 
 /--/
 
@@ -169,7 +174,7 @@ In sum:
 
 /--/
 
-### The five most important things for a website:
+### The five most important considerations for a website:
 <br>
 
 1. <span class="fragment">Content</span>
@@ -190,7 +195,7 @@ In sum:
 
 /---/
 
-# What now?
+# $$$
 
 /--/
 
@@ -209,30 +214,32 @@ In sum:
 /--/
 
 ![tesla](http://zombdrive.com/images/maserati-9.jpg)
-<small>A $200,000 website.</small>
+<br>
+A $200,000 website.
 
 /--/
 
-![BMW](http://i.telegraph.co.uk/multimedia/archive/03034/bmw-2-series-cabri_3034866b.jpg)
+![BMW](http://hdwallpaperswala.com/wp-content/uploads/2015/06/Audi-A3-USA-Wallpapers.jpg)
 <br>
-<small>A $50,000 website.</small>
+A $25,000 website.
 
 /--/
 
 ![Mazda](img/mazda.png)
-<small>A $4,000 website.</small>
+<br>
+A $4,000 website.
 
 /--/
 
 ![Old car](http://farm4.static.flickr.com/3469/3895804299_36d2a1678a.jpg)
 <br>
-<small>A $500 website.</small>
+A $500 website.
 
 /--/
 
 ![DIY](http://www.greendiary.com/wp-content/uploads/2012/07/max1_AkYGz_24429.jpg)
 <br>
-<small>DIY. About $150/year + $50 theme + time.</small>
+DIY. About $150/year + $50 theme + time.
 
 /--/
 
