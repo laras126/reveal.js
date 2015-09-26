@@ -57,7 +57,7 @@
 
 /--/
 
-<h2>Think of a website!</h2>
+<h1>Think of a website!</h1>
 <h4 class="fragment">Not a "platform".</h4>
 
 /---/
@@ -70,11 +70,7 @@
 
 /--/
 
-<div class="clearfix">
-<div class="half"><img style="float:right;" src="../img/rails.png" class="unstyle-img"></div>
-
-<div class="half" style="float:right;"><img style="float:left;" src="../img/wp-justw.png" class="unstyle-img"></div>
-</div>
+<img src="../img/rails-vs-WP.org.png" class="unstyle-img">
 
 /--/
 
@@ -84,12 +80,12 @@
 
 <img src="../img/crying-monkey.jpg">
 
-/--/
+/---/
 
 # Case Study
 <h4 class="fragment">Theme vs. Website</h4>
 
-/---/
+/--/
 
 <div class="clearfix">
 <div class="half"><a href="http://climate25.com"><img style="float:right;" src="../img/c25admin.png"></div>
