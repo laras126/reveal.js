@@ -92,10 +92,6 @@
 
 /--/
 
-<img src="img/riobrewster-comment.png" class="unstyle-img" alt="">
-
-/--/
-
 <img src="img/stephy-comment.png" alt="" class="unstyle-img">
 
 /--/
