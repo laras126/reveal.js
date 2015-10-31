@@ -231,6 +231,13 @@
 /---/
 
 # Final Words
+<h3 class="fragment">There is hope.</h3>
+
+/--/
+
+<img src="img/mtnmeister.png" alt="">
+<br>
+<small>Humble-ish brag: <a href="http://mtnmeister.com">MtnMeister</a>, built with <a href="http://timber.upstatement.com">Timber</a>
 
 /--/
 
