@@ -14,8 +14,10 @@
 /---/
 
 # <span class="fragment">Vetting and Choosing Premium Themes</span>
-<br>
-#### <span class="fragment">Themes are hard and you won't get exactly what you want so don't try to.</span>
+
+/--/
+
+## <span class="fragment">Themes are a crapshoot and you won't get exactly what you want unless you build your own.</span>
 
 /--/
 
@@ -27,9 +29,9 @@
 
 /--/
 
-<img src="img/black-box.jpg" alt="" data-fragment-index="1" class="fragment animal-photo unstyle-img">
+<img src="img/black-box.jpg" alt="" data-fragment-index="1" class="animal-photo unstyle-img">
 <br>
-<small data-fragment-index="1" class="fragment"><a href="http://ipimshop.com/black-box-jewelry-large/">Source</a></small>
+<small><a href="http://ipimshop.com/black-box-jewelry-large/">Source</a></small>
 
 /--/
 
@@ -90,12 +92,12 @@
 
 /--/
 
-## Yay, WordPress.
+# Yay, themes.
 
 /---/
 
-# Step 1: <span class="special fragment">Plan Content</span>
-
+# Start with <span class="special fragment">Content</span>
+<h3 class="fragment">That's what the cool kids are doing.</h3>
 /--/
 
 <img src="img/stephen-hay.jpg" alt="">
@@ -116,7 +118,9 @@
 
 /---/
 
-# Step 1: <span class="special fragment">Get a Theme</span>
+# Start with <strike style="color: #D64533;"><span style="color: #3e3739">Content</strike> <span class="special fragment">a Theme</span>
+
+<h3 span class="fragment">Forget about your content and design ideas.</h3>
 
 /--/
 
@@ -154,13 +158,6 @@
 <br>
 <small><a href="http://animaluntamed.yuku.com/topic/357/Excellent-Wild-Photography?page=6#.VjQ85K6rRE4">Source</a></small>
 
-/--/
-
-<img src="img/vc-editor.png" alt="">
-
-/--/
-
-<img src="img/vc-editor-vomit.png" alt="">
 
 /---/
 
@@ -178,45 +175,73 @@
 
 /--/
 
-# No worries.
-
-### <span class="fragment">Make a <em>website</em>.</span>
+<img src="img/vc-editor-vomit.png" alt="">
 
 /--/
 
-<h3>
-	<ol>
-		<li>[August - Creative Multi-Purpose WordPress Theme](http://themeforest.net/item/august-creative-multipurpose-wordpress-theme/10539638)</li>
-		<li></li>
-		<li>[Caveat](http://meetmighty.com/themes/caveat/), Mighty Themes</li>
-	</ol>
-</h3>
+<img src="img/animals/fat-seal.jpg" alt="">
+<br>
+<small><a href="https://en.wikipedia.org/wiki/Earless_seal">Source</a></small>
 
 /---/
 
-# Using
+# Case Study
 
 /--/
 
-Plugins
+<img src="img/climate25.png" alt="">
+<br>
+<small><a href="http://climate25.com">Climate 25</a> with the <a href="http://themeforest.net/item/august-creative-multipurpose-wordpress-theme/10539638">August Theme</a></small>
 
 /--/
 
-EWWW Image Optimizer
+<img src="img/c25-webpagetest.jpg" alt="">
+<br>
+<small>Ahhh....</small>
+
+/---/
+
+## Introducing...
+# <span class="fragment"><a href="https://github.com/laras126/premium-theme-checklist/">The Checklist</a>.</span>
 
 /--/
 
-WP Super Cache
+# Let's vet.
+
+<h3>
+	<ol class="fragment">
+		<li>[August](http://themeforest.net/item/august-creative-multipurpose-wordpress-theme/10539638)</li>
+		<li>[Popular themes](http://themeforest.net/popular_item/by_category?category=wordpress)</li>
+		<li>[Caveat](http://meetmighty.com/themes/caveat/)</li>
+	</ol>
+</h3>
 
 /--/
 
-Cloud Flare
+<code class="bigger">define('WP_DEBUG', <span class="special">true</span>);</code>
 
 /--/
 
-In closing...
+<img src="img/mighty-errors.png" alt="">
 
 /--/
 
-If you really want the website you want, learn how to code.
+<code class="bigger">define('WP_DEBUG', <span style="color: #D64533;">false</span>);</code>
+
+/---/
+
+# Final Words
+
+/--/
+
+## If you want to design your very own, super fast website, you need to build it.
+<br>
+#### <span class="fragment">(in my humble-ish opinion)</span>
+
+/--/
+
+#Thanks!
+
+###<span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
+<br>
 
