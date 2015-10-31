@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Slides and Whatnot</title>
+		<title>WordCamp NYC 2015</title>
 
 		<meta name="description" content="">
 		<meta name="author" content="Lara Schenck">
@@ -15,22 +15,24 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/custom.css" id="theme">
+		<!-- <link rel="stylesheet" href="css/custom.min.css" id="theme"> -->
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/tomorrow.css">
 
+		<link rel="stylesheet" href="css/theme/custom.css">
+
 		<!-- <link rel="stylesheet" href="css/print/pdf.css" id="theme"> -->
-		<!-- <link rel="stylesheet" href="css/thm/custom.css"> -->
+
+		<script src="//use.typekit.net/xqo8pio.js"></script>
+
+		<script>try{Typekit.load();}catch(e){}</script>
+
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
-
-		<script src="//use.typekit.net/xqo8pio.js"></script>
-		<script>try{Typekit.load();}catch(e){}</script>
-
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -41,24 +43,15 @@
 
 		<div class="reveal">
 
+			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h2>Pick your poison:</h2>
-					<br>
-					<ul>
-						<li><a href="sassy_wp.html">Sassy WordPress - WordCamp Montreal</a></li>
-						<li><a href="smashingjam.html">Smashing Conf Jam Session</a></li>
-						<li><a href="wpnyc.html">WPNYC Child Themes</a></li>
-						<li><a href="bootcamp.html">Website Bootcamp</a></li>
-						<li><a href="perscholas.html">Per Scholas: On Freelancing</a></li>
-						<li><a href="comic.html">The Internet (via random comics)</a></li>
-					</ul>
-				</section>
+				<section data-markdown="slides/slides_wcnyc2015.md" data-separator="/---/" data-vertical="/--/" data-charset="iso-8859-15">
+                </section>
 			</div>
 
 		</div>
 
-		<aside class="notes">hi there</aside>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
@@ -72,6 +65,7 @@
 				progress: true,
 				history: true,
 				center: true,
+				width: 	'100%',
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
@@ -86,8 +80,10 @@
 					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					// { src: 'plugin/jquery.fitvids.js', async: true, callback: function() { $('.slides').fitVids(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					{ src: 'socket.io/socket.io.js', async: true },
+			        { src: 'plugin/notes-server/client.js', async: true }
 				]
 			});
 

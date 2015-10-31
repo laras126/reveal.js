@@ -122,6 +122,7 @@ body {
 	section img, .style-img {
 		border: $light-accent 5px solid;
 		box-shadow: none;
+		max-height: 80vh;
 	}
 
 	section .unstyle-img img, .unstyle-img {
@@ -183,7 +184,7 @@ body {
 	// I hope no one looks at this!
 
 	.big {
-		font-size: 3em;
+		font-size: 3rem;
 	}
 
 	.bigger {
@@ -205,5 +206,14 @@ body {
 		}
 	}
 
+	.meta-upper {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: $sml;
+		color: $med-accent;
+	}
 
+	.animal-photo {
+		height: 60vh;
+	}
 }
