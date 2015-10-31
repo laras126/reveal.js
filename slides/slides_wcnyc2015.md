@@ -13,6 +13,12 @@
 
 /---/
 
+# <span class="fragment">Vetting and Choosing Premium Themes</span>
+<br>
+#### <span class="fragment">Themes are hard and you won't get exactly what you want so don't try to.</span>
+
+/--/
+
 <code class="big grey">&lt;!-- disclaimer --></code>
 
 /--/
@@ -148,6 +154,14 @@
 <br>
 <small><a href="http://animaluntamed.yuku.com/topic/357/Excellent-Wild-Photography?page=6#.VjQ85K6rRE4">Source</a></small>
 
+/--/
+
+<img src="img/vc-editor.png" alt="">
+
+/--/
+
+<img src="img/vc-editor-vomit.png" alt="">
+
 /---/
 
 # So?
@@ -160,15 +174,13 @@
 
 /--/
 
-<img src="img/vc-editor.png" alt="">
-
-/--/
-
-<img src="img/vc-editor-vomit.png" alt="">
+<img src="img/regular-editor.png" alt="">
 
 /--/
 
 # No worries.
+
+### <span class="fragment">Make a <em>website</em>.</span>
 
 /--/
 
@@ -179,33 +191,6 @@
 		<li>[Caveat](http://meetmighty.com/themes/caveat/), Mighty Themes</li>
 	</ol>
 </h3>
-
-/--/
-
-<img src="img/mighty-files.png" alt="">
-<br>
-<small>Nice!</small>
-
-/--/
-
-<code class="bigger">define('WP_DEBUG', true);</code>
-<br>
-<br>
-<code class="grey">wp-config.php</code>
-
-/--/
-
-<img src="img/mighty-errors.png" alt="">
-<br>
-<small>Not nice.</small>
-
-/--/
-
-<code class="bigger">define('WP_DEBUG', false);</code>
-<br>
-<br>
-<code class="grey">wp-config.php</code>
-
 
 /---/
 
@@ -226,3 +211,12 @@ WP Super Cache
 /--/
 
 Cloud Flare
+
+/--/
+
+In closing...
+
+/--/
+
+If you really want the website you want, learn how to code.
+
