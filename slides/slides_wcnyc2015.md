@@ -21,11 +21,7 @@
 
 /--/
 
-<code class="big grey">&lt;!-- disclaimer --></code>
-
-/--/
-
-<span class="unstyle-img">![sponge](img/sponge.jpg)</span>
+<code class="big">&lt;!-- disclaimer --></code>
 
 /--/
 
@@ -120,7 +116,7 @@
 
 # Start with <strike style="color: #D64533;"><span style="color: #3e3739">Content</strike> <span class="special fragment">a Theme</span>
 
-<h3 span class="fragment">Forget about your content and design ideas.</h3>
+<h3 span class="fragment">Trash your ideas.</h3>
 
 /--/
 
@@ -202,7 +198,9 @@
 /---/
 
 ## Introducing...
-# <span class="fragment"><a href="https://github.com/laras126/premium-theme-checklist/">The Checklist</a>.</span>
+# <span data-fragment-index="1" class="fragment"><a href="https://github.com/laras126/premium-theme-checklist/">The Checklist</a>.</span>
+<br>
+<h3 data-fragment-index="1" class="fragment">http://bit.do/wcnyc-checklist</h3>
 
 /--/
 
@@ -212,13 +210,13 @@
 	<ol class="fragment">
 		<li>[August](http://themeforest.net/item/august-creative-multipurpose-wordpress-theme/10539638)</li>
 		<li>[Popular themes](http://themeforest.net/popular_item/by_category?category=wordpress)</li>
-		<li>[Caveat](http://meetmighty.com/themes/caveat/)</li>
+		<li>[Caveat](http://themeforest.net/item/caveat-wordpress-theme/7142950?ref=MeetMighty)</li>
 	</ol>
 </h3>
 
 /--/
 
-<code class="bigger">define('WP_DEBUG', <span class="special">true</span>);</code>
+<code class="big">define('WP_DEBUG', <span class="special">true</span>);</code>
 
 /--/
 
@@ -226,7 +224,7 @@
 
 /--/
 
-<code class="bigger">define('WP_DEBUG', <span style="color: #D64533;">false</span>);</code>
+<code class="big">define('WP_DEBUG', <span style="color: #D64533;">false</span>);</code>
 
 /---/
 
@@ -235,13 +233,11 @@
 
 /--/
 
-<img src="img/mtnmeister.png" alt="">
-<br>
-<small>Humble-ish brag: <a href="http://mtnmeister.com">MtnMeister</a>, built with <a href="http://timber.upstatement.com">Timber</a>
+## If you want to design your very own, super fast website, you need to build it.
 
 /--/
 
-## If you want to design your very own, super fast website, you need to build it.
+## Otherwise, let the theme dictate your design and content.
 <br>
 #### <span class="fragment">(in my humble-ish opinion)</span>
 

@@ -17,7 +17,7 @@
 
 /--/
 
-<ul class="unstyle-list bigger">
+<ul class="unstyle-list bigger bold">
 	<li>Web Designer/Developer <span class="fragment success">&#10004;</span></li>
 	<li class="fragment">UI/UX Designer/Developer <span class="fragment success">&#10004;</span></li>
 	<li class="fragment">Front-end Designer/Developer <span class="fragment success">&#10004;</span></li>
@@ -26,11 +26,11 @@
 
 /--/
 
-<ul class="unstyle-list bigger">
+<ul class="unstyle-list bigger bold">
 	<li class="fragment">Front-end Architect <span class="fragment">... </span> <span class="fragment danger">&times;</span></li>
 	<li class="fragment">Front-end Engineer <span class="fragment danger">&times;</span></li>
 	<li class="fragment">Full Stack Developer <span class="fragment danger">&times;</span></li>
-	<li class="fragment">Programmer <span class="fragment danger">&times;</span></li>
+	<li class="fragment">Programmer <span class="fragment">?</span> <span class="fragment danger">&times;</span></li>
 </ul>
 
 /--/
@@ -39,9 +39,7 @@
 
 /--/
 
-<div class="big">
-	<code class="text-center fragment">FizzBuzzed</code>
-</div>
+<code class="text-center big fragment">FizzBuzzed</code>
 
 /--/
 
@@ -49,21 +47,9 @@
 
 /--/
 
-##Why?
+#Why?
 ###<span class="fragment">The <span class="special">fake</span> programmer filter.</span>
 
-/--/
-<div class="clearfix">
-
-<div class="fragment half">
-	<img src="img/sad-puppy.png" alt="">	
-</div>
-<div class="half fragment">
-	<img src="img/mad-animal.jpg" alt="">	
-
-</div>
-
-</div>
 
 /--/
 
@@ -95,28 +81,12 @@
 
 /--/
 
-<img src="img/stephy-comment.png" alt="" class="unstyle-img">
+
+<img src="img/duncan-comment.png" class="unstyle-img fragment" alt="">
 
 /--/
 
-<img src="img/mustafa-comment.png" class="unstyle-img" alt="">
-
-/--/
-
-<img src="img/pedro-comment.png" class="unstyle-img" alt="">
-
-/--/
-
-<img src="img/duncan-comment.png" class="unstyle-img" alt="">
-
-/--/
-
-<img src="img/rprogramming.png" alt="" class="unstyle-img">
-
-/--/
-
-<img src="img/not-unicorn.jpg" alt="" class="unstyle-img fragment">
-###<span class="fragment"><span class="special">Lara</span> "Knows how to look things up" <span class="special">Schenck</span></span>
+<img src="img/rprogramming.png" alt="" class="unstyle-img fragment">
 
 /--/
 
@@ -124,22 +94,9 @@
 
 /--/
 
-<div class="contain">
-<code class="danger big">Uncaught ReferenceError: impostorSyndrome is not defined</code>
-</div>
-
-/--/
-
 <div class="wrapper">
-	<p data-height="600" data-theme-id="7129" data-slug-hash="waGNgG" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/waGNgG/'>Lara does FizzBuzz</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+	<code class="danger big">Uncaught ReferenceError: impostorSyndrome is not defined</code>
 </div>
-
-
-/--/
-
-<img src="img/pedro-comment.png" alt="" class="unstyle-img">
-
-<strong><a href="https://css-tricks.com/tales-of-a-non-unicorn-a-story-about-the-trouble-with-job-titles-and-descriptions/#comment-1594413">Link</a></strong>
 
 /---/
 
@@ -148,14 +105,7 @@
 
 /--/
 
-> a period of uncertainty and confusion in which a person's sense of identity becomes insecure, typically due to **a change in their expected aims or role in society**.
-
-/--/
-
-<h2 class="fragment">DESIGNERS SHOULD CODE</h2>
-<h2 class="fragment">LOL YOU USE JQUERY</h2>
-<h2 class="fragment">USE POSTCSS</h2>
-<h2 class="fragment">CSS IS DEAD
+<blockquote>...a period of uncertainty and confusion in which a person's sense of identity becomes insecure, typically due to **a change in their expected aims or role in society**.</blockquote>
 
 /--/
 
@@ -163,36 +113,11 @@
 <h3 class="stack fragment">Senior Front End Cyber Lord</h3>
 <h3 class="fragment">Front End Web Developer - a.k.a. Front End Wizard</h3>
 <h3 class="fragment">Mobile & Front End UI Engineer / Inventor</h3>
-<img src="img/stackoverflow-careers.png" class="unstyle-img fragment" alt="">
+<img class="unstyle-img fragment" src="img/stackoverflow-careers.png" alt="">
 
 /--/
 
-<img src="img/ridic-desc.png" class="unstyle-img">
-
-/--/
-
-<h2 class="fragment">Hard-working Person Who Can Learn New Things</h2>
-<h2 class="fragment special">Generalist</h2>
-/---/
-
-# Why?
-
-/--/
-
-
-<img src="img/silicon-valley.png">
-
-/--/
-
-<img src="img/toby.png">
-
-/--/
-
-# Cop out.
-
-/--/
-
-<img class="unstyle-img" src="img/name-tag.png">
+<img class="unstyle-img" src="img/listing.png" alt="">
 
 /--/
 
@@ -204,23 +129,20 @@
 
 /--/
 
-<img src="img/apollo13.jpg">
+<div class="wrapper">
+<h2 class="fragment">Hard-working Person Who Can Learn New Things</h2>
+<h2 class="fragment special">Generalist</h2>
+</div>
 
 /--/
 
-<img class="fragment" src="img/eric-meyer.png">
+<img class="unstyle-img" src="img/red-pen.jpg" alt="">
 
 /---/
 
-<img src="img/test.png">
-<h3 class="fragment">Ew.</h3>
+<img class="unstyle-img" src="img/myersbriggs.png">
 
 /--/
-
-<img src="img/myersbriggs.png" class="unstyle-img">
-<h3 class="fragment">But for the web!</h3>
-
-/--/ 
 
 <h2 class="fragment">Junior / Senior</h2>
 <h2 class="fragment">Designer / Developer</h2>
@@ -241,7 +163,7 @@
 	<p data-height="600" data-theme-id="7129" data-slug-hash="zGEgVP" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/zGEgVP/'>Job Post Calculator</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 </div>
 
-/--/
+/---/
 
 <img src="img/unicorn-mask.jpg">
 
@@ -250,7 +172,3 @@
 #Thanks!
 
 ###<span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
-<br>
-<img class="fragment unstyle-img" src="img/sassconf.png">
-
-

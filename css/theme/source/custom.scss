@@ -29,6 +29,7 @@ body {
 .reveal {
 
 	.wrapper {
+		width: 90%;
 		max-width: 960px;
 		margin: 0 auto;
 	}
@@ -184,7 +185,11 @@ body {
 	// I hope no one looks at this!
 
 	.big {
-		font-size: 3rem;
+		font-size: 4rem;
+	}
+
+	.bold {
+		font-weight: 500;
 	}
 
 	.bigger {
