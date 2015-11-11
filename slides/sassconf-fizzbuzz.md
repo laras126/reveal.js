@@ -81,8 +81,15 @@
 
 /--/
 
+<img src="img/stephy-comment.png" class="unstyle-img" alt="">
 
-<img src="img/duncan-comment.png" class="unstyle-img fragment" alt="">
+/--/
+
+<img src="img/pedro-comment.png" class="unstyle-img" alt="">
+
+/--/
+
+<img src="img/duncan-comment.png" class="unstyle-img" alt="">
 
 /--/
 
@@ -94,8 +101,13 @@
 
 /--/
 
-<div class="wrapper">
-	<code class="danger big">Uncaught ReferenceError: impostorSyndrome is not defined</code>
+<code class="danger big">Uncaught ReferenceError: impostorSyndrome is not defined</code>
+
+/--/
+
+<div class="fragment wrapper">
+<p data-height="500" data-theme-id="18756" data-slug-hash="waGNgG" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/waGNgG/'>Lara does FizzBuzz</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </div>
 
 /---/
@@ -121,6 +133,12 @@
 
 /--/
 
+<div class="wrapper">
+<h2 class="fragment">Hard-working Person Who Can Learn New Things</h2>
+</div>
+
+/--/
+
 <img src="img/scrubs.jpg">
 
 /--/
@@ -129,15 +147,8 @@
 
 /--/
 
-<div class="wrapper">
-<h2 class="fragment">Hard-working Person Who Can Learn New Things</h2>
-<h2 class="fragment special">Generalist</h2>
-</div>
-
-/--/
-
-<img class="unstyle-img" src="img/red-pen.jpg" alt="">
-
+<img class="unstyle-img" style="max-width:30%" src="img/red-pen.jpg" alt="">
+<h2 class="fragment danger"><strike>Engineer</strike></h2>
 /---/
 
 <img class="unstyle-img" src="img/myersbriggs.png">
@@ -148,8 +159,6 @@
 <h2 class="fragment">Designer / Developer</h2>
 <h2 class="fragment">Front-end / Back-end</h2>
 <h2 class="fragment">Generalist / Specialist</h2>
-
-<h2 class="fragment danger"><strike>Engineer</strike></h2>
 
 /--/
 
