@@ -147,6 +147,11 @@
 
 /--/
 
+<img src="img/eric-meyer.png">
+<br><small>Eric Meyer, Designing for Crisis, <a href="http://shoptalkshow.com/episodes/161-with-eric-meyer/">Shoptalk Episode</a>.</small>
+
+/--/
+
 <img class="unstyle-img" style="max-width:30%" src="img/red-pen.jpg" alt="">
 <h2 class="fragment danger"><strike>Engineer</strike></h2>
 /---/
@@ -163,21 +168,26 @@
 /--/
 
 <div class="wrapper">
-<p data-height="600" data-theme-id="7129" data-slug-hash="KpGQeZ" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/KpGQeZ/'>Myers-Briggs for Web People</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+	<p data-height="600" data-theme-id="18756" data-slug-hash="KpGQeZ" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/KpGQeZ/'>Myers-Briggs for Web People</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+	<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </div>
 
 /--/
 
 <div class="wrapper">
-	<p data-height="600" data-theme-id="7129" data-slug-hash="zGEgVP" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/zGEgVP/'>Job Post Calculator</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+	<p data-height="600" data-theme-id="18756" data-slug-hash="zGEgVP" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/zGEgVP/'>Job Post Calculator</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+	<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </div>
 
 /---/
 
-<img src="img/unicorn-mask.jpg">
-
+<img class="unstyle-img fragment" data-fragment-index="2" style="width: 30%;" src="img/red-pen.jpg">
+<h2 class="fragment" data-fragment-index="1">Next Steps</h2>
+<p class="fragment">(also unconference)</p>
 /--/
 
 #Thanks!
 
 ###<span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
+
+
