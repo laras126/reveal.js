@@ -216,10 +216,44 @@
 
 /---/
 
+# 5-ish Minute Website...<span class="fragment special">GO!</span>
+
+/---/
+
 # Community and Open Source
 
 /--/
+<div class="wrapper">
+	<div class="half">
+		<img src="../img/github.png" class="unstyle-img" alt="">
+	</div>
+	<div class="half fragment">
+		<img src="../img/octocat.png" class="unstyle-img" alt="">
+		<br>
+		<small><a href="https://octodex.github.com/">Octodex.</a></small>
+	</div>
+</div>
+/--/
 
+<div class="wrapper">
+	<div class="clearfix">
+		<div class="half">
+			<img class="unstyle-img" src="../img/sass/sass-logo.png" alt="">
+		</div>
+		<div class="half">
+			<img class="unstyle-img" src="../img/wp-justw.png" alt="">
+		</div>
+	</div>
+</div>
 
 /--/
 
+<img src="../img/stackoverflow-logo.png" alt="" class="unstyle-img">
+
+/--/
+
+<img src="../img/sass/feebs1.png" alt="">
+
+/---/
+
+<h1 class="fragment">Now...<span class="fragment">homework!</span></h1>
