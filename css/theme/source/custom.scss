@@ -17,6 +17,10 @@
 // Custom
 @import 'nl-grid';
 
+@mixin upperspace() {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
 
 // Generates the presentation background, can be overridden
@@ -215,13 +219,31 @@ body {
 	}
 
 	.meta-upper {
-		text-transform: uppercase;
-		letter-spacing: 2px;
+		@include upperspace;		
 		font-size: $sml;
 		color: $med-accent;
 	}
 
 	.animal-photo {
 		height: 60vh;
+	}
+
+	.tag {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		z-index: 4;
+	}
+
+	.tag-text {
+		background-color: $main-bkgd;
+		text-align: center;
+		padding: $sml 0;
+		// color: $sec-font;
+		font-size: $sml/1.4;
+	}
+
+	.controls {
+		z-index: 9;
 	}
 }
