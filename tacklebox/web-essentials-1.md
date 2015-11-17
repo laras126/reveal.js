@@ -216,7 +216,7 @@
 
 /---/
 
-# 5-ish Minute Website...<span class="fragment special">GO!</span>
+# 5-ish Minute Website
 
 /---/
 
