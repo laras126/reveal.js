@@ -226,23 +226,15 @@
 <div class="wrapper">
 	<div class="half">
 		<img src="../img/github.png" class="unstyle-img" alt="">
+		<div class="fragment" data-fragment-index="3">
+			<br>
+			<small><a href="https://github.com/wordpress/wordpress">WordPress on Github</a></small>
+			<br>
+			<small><a href="https://octodex.github.com/">Octodex</a></small>
+		</div>
 	</div>
-	<div class="half fragment">
+	<div class="half fragment" data-fragment-index="1">
 		<img src="../img/octocat.png" class="unstyle-img" alt="">
-		<br>
-		<small><a href="https://octodex.github.com/">Octodex.</a></small>
-	</div>
-</div>
-/--/
-
-<div class="wrapper">
-	<div class="clearfix">
-		<div class="half">
-			<img class="unstyle-img" src="../img/sass/sass-logo.png" alt="">
-		</div>
-		<div class="half">
-			<img class="unstyle-img" src="../img/wp-justw.png" alt="">
-		</div>
 	</div>
 </div>
 
@@ -256,4 +248,4 @@
 
 /---/
 
-<h1 class="fragment">Now...<span class="fragment">homework!</span></h1>
+<h1>Last but not least...<span class="fragment">homework!</span></h1>
