@@ -120,13 +120,22 @@
 <h2 class="fragment">Hard-working Person Who Can Learn New Things</h2>
 </div>
 
+/---/
+
+<h1>May <span class="special">2015</span></h1>
+
 /--/
 
-<h1>May <span class="special" data-transition="slide-in fade-out">2015</span></h1>
+<h1>May <span class="special">2016</span></h1>
 
 /--/
 
-<img src="img/scrubs.jpg">
+
+<h3 class="stack fragment">Senior Front-end Developer</h3>
+<h3 class="stack fragment">Front-end Software Engineer</h3>
+<h3 class="fragment">Lead Front-end Web Developer</h3>
+<h3 class="fragment">Front end dev with great design skills</h3>
+<img class="unstyle-img fragment" src="img/stackoverflow-careers.png" alt="">
 
 /--/
 
@@ -134,8 +143,7 @@
 
 /--/
 
-<img src="img/eric-meyer.png">
-<br><small>Eric Meyer, Designing for Crisis, <a href="http://shoptalkshow.com/episodes/161-with-eric-meyer/">Shoptalk Episode</a>.</small>
+<img src="img/scrubs.jpg">
 
 /--/
 
@@ -176,12 +184,12 @@
 
 <img class="unstyle-img fragment" src="img/myersbriggs.png">
 
-/--/
+<!-- /--/ -->
 
-<div class="wrapper">
+<!-- <div class="wrapper">
 	<p data-height="600" data-theme-id="18756" data-slug-hash="zGEgVP" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/zGEgVP/'>Job Post Calculator</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 	<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</div>
+</div> -->
 
 /---/
 
