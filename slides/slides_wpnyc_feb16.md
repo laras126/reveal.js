@@ -12,11 +12,11 @@
 <div class="fragment"><img class="animal-photo" src="img/h-and-i.png"></div>
 <p><small class="fragment"><a href="http://www.meatandsupplyco.com">Harry and Ida's</a> on Ave. A.</small></p>
 
-/---/
+/--/
 
 <img class="animal-photo" src="img/h-and-i-wp.jpg">
 
-/--/
+/---/
 
 # <span class="fragment">Vetting and Choosing Premium Themes</span>
 
@@ -172,13 +172,12 @@
 
 /--/
 
-<img src="img/wpfolio-on-github.png" alt="" class="unstyle-img">
-<br>
-<small><a href="https://github.com/laras126/wpfolio-two">WPFolio Two on Github</a></small>
+<img src="img/regular-editor.png" alt="">
 
 /--/
 
-<img src="img/regular-editor.png" alt="">
+<img src="img/vc-editor.jpg" alt="">
+
 
 /--/
 
@@ -205,7 +204,7 @@
 ## Introducing...
 # <span data-fragment-index="1" class="fragment"><a href="https://github.com/laras126/premium-theme-checklist/">The Checklist</a>.</span>
 <br>
-<h3 data-fragment-index="1" class="fragment">http://bit.do/wcnyc-checklist</h3>
+<h3 data-fragment-index="1" class="fragment">http://bit.do/themes-ugh</h3>
 
 /--/
 
@@ -226,40 +225,43 @@
 /---/
 
 # Final Words
-<h3 class="fragment">(in my humble-ish opinion)</h3>
+<h3 class="fragment">(my humble-ish opinion)</h3>
 
 /--/
 
-<h2>For Theme <span class="special">Users</span></h2>
+<h1>For Theme <span class="special">Users</span></h1>
 
 /--/
 
-## If you want to design your very own, super fast website, you need to code it.
+<h2><strong>DO NOT WORK FROM A MOCKUP.</strong><br><span class="fragment"><span class="special">Let the theme dictate</span> your design and content.</span></h2>
 
 /--/
 
-## Child themeing Twenty Sixteen is a perfectly viable option.
+## If you want to design your very own, super fast website, <span class="special">learn to code</span>.
 
 /--/
 
-## Otherwise, let the theme dictate your design and content.
+## A Twenty Sixteen <span class="special">child theme</span> is the perfect place to start.
 
 /---/
 
-<h2>For Theme <span class="special">Developers</span></h2>
+<h1>For Theme <span class="special">Developers</span></h1>
 
 /--/
 
-## Create themes with specific use cases and less options.
+## Create themes with <span class="special">specific use cases</span>, like for a farmer's market, restaurant, or school.
 
 /--/
 
-## Use what WordPress gives you, and allow users to change themes.
+## Work <strong>with</strong> WordPress, not against it. When in doubt, <span class="special">put it in a plugin</span>.
+
+/--/
+
+## Spend your time on <span class="special">good documentation</span> instead of an option for fixed navigation.
 
 /--/
 
 #Thanks!
 
-###<span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
-<br>
-
+<h3 class="fragment">http://bit.do/themes-ugh</h3>
+### <span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
