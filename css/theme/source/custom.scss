@@ -118,7 +118,7 @@ body {
 		border: none;
 		line-height: 1.5;
 		border-left: 1px solid $light-accent;
-		
+
 		.special {
 			color: $med-accent;
 		}
@@ -219,7 +219,7 @@ body {
 	}
 
 	.meta-upper {
-		@include upperspace;		
+		@include upperspace;
 		font-size: $sml;
 		color: $med-accent;
 	}
