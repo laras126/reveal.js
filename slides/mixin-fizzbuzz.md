@@ -8,13 +8,17 @@
 
 /--/
 
-<h2 class="fragment">Why The Designer Failed FizzBuzz</h2>
-<h3 class="fragment">or</h3>
-<h2 class="fragment">An Idea for Fixing Job Titles</h2>
+<img src="img/sass/east-village.jpg" alt="">
 
 /--/
 
-### Front-end/WordPress/UI/UX
+<h2 class="fragment">Why The Designer Failed FizzBuzz</h2>
+<h3 class="fragment">or</h3>
+<h2 class="fragment">Job Titles Suck and Here's an Idea for Fixing Them</h2>
+
+/--/
+
+<h3>Front-end/WordPress/UI/UX</h3>
 # Desigveloper
 
 /--/
@@ -106,6 +110,14 @@
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </div>
 
+
+
+
+
+
+
+
+
 /---/
 
 <img src="img/name-tag.png" alt="" class="unstyle-img">
@@ -153,17 +165,17 @@
 		<li class="fragment">Junior/Senior</li>
 		<li class="fragment">Designer</li>
 		<li class="fragment">Developer</li>
-		<li class="fragment">Engineer</li>
+		<li class="fragment"><strike>Engineer</strike></li>
 	</ul>
 </div>
 <div class="sixcol first">
 	<ul class="unstyle-list">
 		<li class="fragment">HTML/CSS/Sass</li>
+		<li class="fragment">UI/UX</li>
 		<li class="fragment">JavaScript Frameworks</li>
 		<li class="fragment">Bootstrap/Foundation</li>
 		<li class="fragment">Rails</li>
 		<li class="fragment">WordPress</li>
-		<li class="fragment">D3</li>
 		<li class="fragment">...and so on.</li>
 	</ul>
 </div>
@@ -249,19 +261,17 @@
 
 <div class="wrapper-sm">
 <p class="fragment lead">
-	Programming in a server-side language or framework in order to <strong>provide data to be displayed</strong> on the front-end.
+	Programming in a server-side language or framework in order to <strong>provide the data to be displayed</strong> on the front-end.
 </p></div>
 
-
 /--/
-
 
 <p class="text-center">Skillset</p>
 <h2>JavaScript</h2>
 
 <div class="wrapper-sm">
 <p class="fragment lead">
-	...needs it's own category.
+	Ummm...needs it's own category.
 </p></div>
 
 /--/
@@ -271,9 +281,26 @@
 
 <div class="wrapper-sm">
 <p class="fragment lead">
-	The <strong>look and feel</strong> of a website or web app, generally created with software such as Sketch, Illustrator, or Balsamiq to convey layout, interactivity, and brand.
+	The <strong>look and feel</strong> of a website or web app, generally created with software such as Sketch or Illustrator, or rudimentary HTML/CSS to convey layout, interactivity, and brand.
 </p>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /---/
 
@@ -285,7 +312,7 @@
 
 <div class="wrapper-sm">
 <p class="fragment lead">
-Competence across the topics within a general skillset, and experience with technologies beyond it. Jack of all trades.
+Competence across the topics within a general skillset, and experience with technologies beyond it. Jack of all trades, the designer/developer.
 </p></div>
 
 /--/
@@ -294,8 +321,21 @@ Competence across the topics within a general skillset, and experience with tech
 
 <div class="wrapper-sm">
 <p class="fragment lead">
-Skills are concentrated on a specific language or platform.
+Skills concentrated on a specific language or platform.
 </p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /---/
 
@@ -345,9 +385,13 @@ Skills are concentrated on a specific language or platform.
 	</ul>
 </div>
 
-/---/
 
-<h1>In Action</h1>
+/--/
+
+<div class="wrapper">
+	<p data-height="600" data-theme-id="18756" data-slug-hash="zGEgVP" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/zGEgVP/'>Job Post Calculator</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+	<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</div>
 
 /--/
 
@@ -361,10 +405,7 @@ Skills are concentrated on a specific language or platform.
 
 /--/
 
-<div class="wrapper">
-	<p data-height="600" data-theme-id="18756" data-slug-hash="zGEgVP" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/zGEgVP/'>Job Post Calculator</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-	<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</div>
+<h1>Thoughts?</h1>
 
 /---/
 
