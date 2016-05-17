@@ -239,10 +239,9 @@ body {
 .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
   position: relative;
   float: left;
-  margin-left: 2.762430939%; }
-
-.first {
-  margin-left: 0; }
+  margin-left: 2.762430939% !important; }
+  .onecol.first, .twocol.first, .threecol.first, .fourcol.first, .fivecol.first, .sixcol.first, .sevencol.first, .eightcol.first, .ninecol.first, .tencol.first, .elevencol.first, .twelvecol.first {
+    margin-left: 0 !important; }
 
 .last {
   float: right; }
@@ -258,6 +257,15 @@ body {
 .reveal {
   font-weight: 300;
   letter-spacing: 0; }
+  .reveal .smaller {
+    font-size: 1.6rem; }
+  .reveal .lead {
+    font-size: 2.4rem !important;
+    line-height: 1.5; }
+  .reveal .wrapper-sm {
+    max-width: 960px;
+    margin: 2rem auto;
+    width: 90%; }
   .reveal .wrapper {
     width: 90%;
     max-width: 1140px;

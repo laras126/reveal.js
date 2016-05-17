@@ -32,6 +32,28 @@ body {
 
 .reveal {
 
+	.smaller {
+		font-size: $sml;
+	}
+
+
+	// .threecol.fragment {
+	// 	padding-right: 20px;
+	// }
+
+	.lead {
+		font-size: $h4 !important;
+		line-height: 1.5;
+		// text-align: left !important;
+	}
+
+	.wrapper-sm {
+		// margin-top: $base;
+		max-width: 960px;
+		margin: $base auto;
+		width: 90%;
+	}
+
 	.wrapper {
 		width: 90%;
 		max-width: 1140px;

@@ -15,11 +15,11 @@
 .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
   position: relative;
   float: left;
-  margin-left: 2.762430939%;
-}
+  margin-left: 2.762430939% !important;
 
-.first {
-  margin-left: 0;
+  &.first {
+    margin-left: 0 !important;
+  }
 }
 
 .last {

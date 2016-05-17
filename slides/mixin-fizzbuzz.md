@@ -9,8 +9,10 @@
 /--/
 
 <h2 class="fragment">Why The Designer Failed FizzBuzz</h2>
-<h3 class="fragment">or</h3>
-<h2 class="fragment">Job Titles and Descriptions Suck and Here's an Idea for How to Fix Them</h2>
+<h3 class="fragment">then</h3>
+<h2 class="fragment">An Idea for Fixing Job Titles</h2>
+<h3 class="fragment">then</h3>
+<h2 class="fragment">Let's Talk About It</h2>
 
 /--/
 
@@ -32,7 +34,7 @@
 	<li class="fragment">Front-end Architect <span class="fragment">... </span> <span class="fragment danger">&times;</span></li>
 	<li class="fragment">Front-end Engineer <span class="fragment danger">&times;</span></li>
 	<li class="fragment">Full Stack Developer <span class="fragment danger">&times;</span></li>
-	<li class="fragment">Programmer <span class="fragment">?</span> <span class="fragment danger">&times;</span></li>
+	<li class="fragment">Senior Front-end Rails Engineer <span class="fragment">?</span> <span class="fragment danger">&times;</span></li>
 </ul>
 
 /--/
@@ -51,7 +53,6 @@
 
 #Why?
 ###<span class="fragment">The <span class="special">fake</span> programmer filter.</span>
-
 
 /--/
 
@@ -75,7 +76,6 @@
 	<li><span class="danger">Experience with</span> Object Oriented JavaScript and modern JavaScript libraries (e.g., Backbone, Ember, Angular).</li>
 </ul>
 </div>
-
 
 /--/
 
@@ -114,6 +114,10 @@
 
 /--/
 
+<h2>What's yours?</h2>
+
+/--/
+
 <h3 class="stack fragment">Front end / de(velop|sign)er</h3>
 <h3 class="stack fragment">Senior Front End Cyber Lord</h3>
 <h3 class="fragment">Front End Web Developer - a.k.a. Front End Wizard</h3>
@@ -130,23 +134,12 @@
 
 /--/
 
-<h3 class="stack fragment">Front-end Developer</h3>
 <h3 class="stack fragment">Senior Front-end Developer</h3>
+<h3 class="stack fragment">Front-end Developer</h3>
 <h3 class="fragment">Lead Front-end Web Developer</h3>
+<h3 class="fragment">Front-end Engineer</h3>
 <h3 class="fragment">Front end dev with great design skills</h3>
-<img class="unstyle-img fragment" src="img/stackoverflow-careers.png" alt="">
-
-/--/
-
-<img src="img/atticus.jpg">
-
-/--/
-
-<img src="img/scrubs.jpg">
-
-/--/
-
-<img src="img/codenotsurgery.png" class="unstyle-img fragment">
+<!-- <img class="unstyle-img fragment" src="img/stackoverflow-careers.png" alt=""> -->
 
 /--/
 
@@ -158,20 +151,18 @@
 	<ul class="unstyle-list">
 		<li class="fragment">Front-end</li>
 		<li class="fragment">Back-end</li>
-		<li class="fragment grey">Full Stack</li>
-		<li class="fragment">Junior</li>
-		<li class="fragment">Senior</li>
+		<li class="fragment"><strike>Full Stack</strike></li>
+		<li class="fragment">Junior/Senior</li>
 		<li class="fragment">Designer</li>
 		<li class="fragment">Developer</li>
-		<li class="fragment specialist">Generalist</li>
+		<li class="fragment">Engineer</li>
 	</ul>
 </div>
 <div class="sixcol first">
 	<ul class="unstyle-list">
-		<li class="fragment">Sass</li>
-		<li class="fragment">UX / UI / Graphic</li>
-		<li class="fragment">Bootstrap / Foundation</li>
-		<li class="fragment">React / Angular / Ember</li>
+		<li class="fragment">HTML/CSS/Sass</li>
+		<li class="fragment">JavaScript Frameworks</li>
+		<li class="fragment">Bootstrap/Foundation</li>
 		<li class="fragment">Rails</li>
 		<li class="fragment">WordPress</li>
 		<li class="fragment">D3</li>
@@ -181,35 +172,214 @@
 
 /--/
 
-<img class="unstyle-img fragment" src="img/myersbriggs.png">
+<img class="unstyle-img" src="img/myersbriggs.png">
 
-<!-- <div class="wrapper">
+/--/
+
+<h1>A Lexicon</h1>
+<br>
+<ul class="unstyle-list">
+	<li class="fragment"><h3>1. Experience Level</h3></li>
+	<li class="fragment"><h3>2. Skillset</h3></li>
+	<li class="fragment"><h3>3. Generalist / Specialist</h3></li>
+	<li class="fragment"><h3>4. Specialty</h3></li>
+</ul>
+
+
+/---/
+
+<h2>1. Experience Level</h2>
+<h3 class="fragment">Junior <span class="grey">|</span> Middler <span class="grey">|</span> Senior</h3>
+
+/--/
+
+<p class="text-center">Experience Level</p>
+<h2>Junior</h2>
+
+<blockquote class="fragment">A [Junior] can come up with solutions, but maybe they don't fully understand the *why* of the solution. They got it to work and that's that.</blockquote>
+
+<small><a href="https://speakerdeck.com/dmosher/so-you-want-to-be-a-front-end-engineer">Credit, Dave Mosher</a></small>
+
+/--/
+
+<p class="text-center">Experience Level</p>
+<h2>Middler</h2>
+
+<blockquote class="fragment">A [Middler] understands and adheres to best practices, crafting solutions that are well thought out and elegant, though largely based on the abstractions provided by libraries and frameworks.</blockquote>
+
+<small><a href="https://speakerdeck.com/dmosher/so-you-want-to-be-a-front-end-engineer">Credit, Dave Mosher</a></small>
+
+/--/
+
+<p class="text-center">Experience Level</p>
+<h2>Senior</h2>
+
+<blockquote class="fragment">The [Senior] is the one writing libraries and frameworks. They come up with best practices according to an intimate understanding of the platform as a whole, and can make suggestions as to the development of the platform itself.</blockquote>
+
+<small><a href="https://speakerdeck.com/dmosher/so-you-want-to-be-a-front-end-engineer">Credit, Dave Mosher</a></small>
+
+
+
+
+
+
+
+
+
+
+/---/
+
+<h2>2. Skillset</h2>
+<h3 class="fragment">Front-end <span class="grey">|</span> Back-end <span class="grey">|</span> JavaScript <span class="grey">|</span> UI/UX</h3>
+
+/--/
+
+<p class="text-center">Skillset</p>
+<h2>Front-end</h2>
+
+<div class="wrapper-sm">
+<p class="fragment lead">
+	Producing HTML, CSS and JavaScript for a website or web application so that <strong>a user can see and interact with them directly</strong>.
+</p></div>
+
+<small>Credit: <a href="https://en.wikipedia.org/wiki/Front-end_web_development">Wikipedia, whomp.</a></small>
+
+/--/
+
+<p class="text-center">Skillset</p>
+<h2>Back-end</h2>
+
+<div class="wrapper-sm">
+<p class="fragment lead">
+	Programming in a server-side language or framework in order to <strong>provide data to be displayed</strong> on the front-end.
+</p></div>
+
+
+/--/
+
+
+<p class="text-center">Skillset</p>
+<h2>JavaScript</h2>
+
+<div class="wrapper-sm">
+<p class="fragment lead">
+	...needs it's own category.
+</p></div>
+
+/--/
+
+<p class="text-center">Skillset</p>
+<h2>UI/UX Design</h2>
+
+<div class="wrapper-sm">
+<p class="fragment lead">
+	The <strong>look and feel</strong> of a website or web app, generally created with software such as Sketch, Illustrator, or Balsamiq to convey layout, interactivity, and brand.
+</p>
+</div>
+
+/---/
+
+<h2>3. Generalist or Specialist</h2>
+
+/--/
+
+<h2>Generalist</h2>
+
+<div class="wrapper-sm">
+<p class="fragment lead">
+Competence across the topics within a general skillset, and experience with technologies beyond it. Jack of all trades.
+</p></div>
+
+/--/
+
+<h2>Specialist</h2>
+
+<div class="wrapper-sm">
+<p class="fragment lead">
+Skills are concentrated on a specific language or platform.
+</p></div>
+
+/---/
+
+<h2>4. Specialties</h2>
+<br>
+<div class="threecol fragment first">
+	<h4>Front-end</h4>
+	<br>
+	<ul class="smaller text-center unstyle-list">
+		<li>HTML/CSS/Sass</li>
+		<li>Templating</li>
+		<li>Bootstrap/Foundation/etc.</li>
+		<li>jQuery</li>
+		<li>Build Tools</li>
+	</ul>
+</div>
+<div class="smaller threecol fragment">
+	<h4>JavaScript</h4>
+	<br>
+	<ul class="smaller text-center unstyle-list">
+		<li>Client-side MVC Frameworks</li>
+		<li>Node.js</li>
+		<li>Test Driven Development</li>
+		<li>APIs</li>
+	</ul>
+</div>
+<div class="smaller threecol fragment">
+	<h4>Back-end</h4>
+	<br>
+	<ul class="text-center unstyle-list">
+		<li>Server-side Frameworks</li>
+		<li>Databases</li>
+		<li>AWS</li>
+		<li>Server configuration</li>
+		<li>Application Architecture</li>
+	</ul>
+</div>
+<div class="smaller threecol fragment last">
+	<h4>UI/UX</h4>
+	<br>
+	<ul class="text-center unstyle-list">
+		<li>Branding</li>
+		<li>User Research</li>
+		<li>Wireframing</li>
+		<li>User Testing</li>
+		<li>Animation Design</li>
+	</ul>
+</div>
+
+/---/
+
+<h1>In Action</h1>
+
+/--/
+
+<ul class="unstyle-list bigger bold">
+	<li>Junior Front-end Generalist</li>
+	<li>Senior JavaScript Specialist, React</li>
+	<li>Middler WordPress Generalist</li>
+	<li>Junior Back-end Specialist, Rails</li>
+	<li>Middler UI/UX Generalist</li>
+</ul>
+
+/--/
+
+<div class="wrapper">
 	<p data-height="600" data-theme-id="18756" data-slug-hash="zGEgVP" data-default-tab="result" data-user="laras126" class='codepen'>See the Pen <a href='http://codepen.io/laras126/pen/zGEgVP/'>Job Post Calculator</a> by Lara Schenck (<a href='http://codepen.io/laras126'>@laras126</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 	<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-</div> -->
+</div>
 
-/--/
-
-[Level] [End] []
-
-Senior Front-end Specialist, AngularJS
-5+ years experience
-Fluent in AngularJS
-
-Mid-level Front-end Generalist
-2-5 years experience
-Design and Dev skills
-HTML/CSS/jQuery
-
-Junior Front-end Generalist
-1-2 years experience
-Design and Dev skills
-HTML/CSS/jQuery
-
-/--/
+/---/
 
 #Thanks!
 
 ###<span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
 
+/--/
 
+<ul class="unstyle-list bigger bold fragment">
+	<li>How can we bridge the HR and recruiter gap?</li>
+	<li>Is low employee retention to blame?</li>
+	<li>Are code schools the solution?</li>
+	<li>What are successful interviewing techniques?</li>
+	<li>How does your company approach hiring?</li>
+</ul>
