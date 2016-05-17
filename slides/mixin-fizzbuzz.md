@@ -9,10 +9,8 @@
 /--/
 
 <h2 class="fragment">Why The Designer Failed FizzBuzz</h2>
-<h3 class="fragment">then</h3>
+<h3 class="fragment">or</h3>
 <h2 class="fragment">An Idea for Fixing Job Titles</h2>
-<h3 class="fragment">then</h3>
-<h2 class="fragment">Let's Talk About It</h2>
 
 /--/
 
