@@ -32,6 +32,11 @@ body {
 
 .reveal {
 
+	pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+	}
+
 	.smaller {
 		font-size: $sml;
 	}

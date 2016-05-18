@@ -66,14 +66,14 @@ $accent-border: 	1px dotted $med-accent;
 
 
 // ----
-// Typography 
+// Typography
 // ----
 
 // Container is rem
 // All calulated styles are ems
 // Root font size is %age in body
 
-$contain: 			2rem;
+$contain: 			1.7rem;
 $base:  			$contain;
 $line-height-base: 	1.5;
 $sml:  				$base*0.8;
@@ -98,7 +98,7 @@ $backgroundColor: $white;
 // Primary/body text
 $mainFont: $sans-serif, sans-serif;
 $mainFontSize: $contain;
-$mainColor: $main-font; 
+$mainColor: $main-font;
 
 // Headings
 $headingFont: $sans-serif;

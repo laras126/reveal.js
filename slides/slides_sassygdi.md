@@ -9,13 +9,19 @@
 
 <div class="illustration unstyle-img">![Fishing](img/fishing/wordpress-catch.svg)</div>
 
+Note:
+I am visiting from NYC where I work as a freelance web designer/developer and teacher. I operate around the "teach you to fish" philosophy for my teaching - I hope we can work along those lines today!
+
 /---/
 
 <span class="unstyle-img">![Sass](img/sass/sass-logo.png)</span>
 
+Note:
+Today we'll be learning about Sass, everyone's favorite CSS preprocessor. Maybe you've heard of it, maybe not - either way you'll get your hands into lots of Sass this evening.
+
 /--/
 
-<div class="tencol last small-code">
+<div class="small-code">
 <pre><code class="lang-scss">
 $link-color: #4A8BBD;
 $link-hover: darken($link-color, 20%);
@@ -34,29 +40,38 @@ $link-hover: darken($link-color, 20%);
 }</code></pre>
 </div>
 
+Note:
+To start out, let's take a look at some Sass. There you have it!
+
 /--/
 
 <img src="img/sass/scared.png" alt="Scared!" class="unstyle-img smaller-img">
 
+Note:
+Eww...what _was_ that? Learning new technologies is intimidating - especially when you are left to navigate the sea of Google results and random, sometimes overly complicated tutorials online.
+
 /---/
-<!-- ********** -->
-<!-- Background -->
-<!-- ********** -->
 
 <div class="unstyle-img">
-	<div class="threecol">&nbsp;</div>
-	<div class="sixcol">
-	![Boxing](img/sass/redo/boxing-wall.jpg)
-	</div>
-	<div class="threecol">&nbsp;</div>
+![Boxing](img/sass/redo/boxing-wall.jpg)
 </div>
 <div class="unstyle-img fade-in fragment">
 	![Sass](img/sass/redo/preprocessors.png)
 </div>
 
+Note:
+Before we get into Sass syntax and features, let's start with some background. There are a couple of CSS preprocessors in addition to Sass you may have heard of:
+
+<ul>
+	<li>[Less](http://lesscss.org/) - Used by Bootstrap through v3 (v4, still in Alpha, will use Sass)</li>
+	<li>[Stylus](http://stylus-lang.com/) - This is an obscure one, but worth mentioning. Very similar features to both of the above.</li>
+</ul>
+
+Although these are alternatives, Sass has clearly won out at this point. Let's take a look at why.
+
 /--/
 
-<div class="sixcol unstyle-img">
+<div class="sixcol first unstyle-img">
 <br>
 <br>
 ![sass way](img/sass/thesassway.svg)
@@ -64,9 +79,14 @@ $link-hover: darken($link-color, 20%);
 <br>
 ![css tricks](img/sass/redo/css-tricks.png)
 </div>
-<div class="sixcol">
+<div class="sixcol last">
 <span class="unstyle-img">![Book apart](img/sass/redo/bookapart.png)</span>
 </div>
+
+Note:
+One of the most important considerations when selecting a third party tool is the community behind it. How many people use it? How much documentation is there? The more popular a tool is, the more likely it will be kept up to date and the more support there will be when you have problems.
+
+Sass has a huge, wonderful community and is used all over the web! [Sass for Web Designers](https://abookapart.com/products/sass-for-web-designers) is an excellent book from A Book Apart (you should buy all of those anyhow), Chris Coyier writes about Sass often on CSS-Tricks, and the Sass Way is an excellent support resource.
 
 /--/
 
@@ -75,6 +95,8 @@ $link-hover: darken($link-color, 20%);
 <small>Credit: Stu Robson, http://sassnotsass.com</small>
 </div>
 
+Note:
+The last thing, before we get into Sass itself, is that it's **Sass** not **SASS**. It used to be an acronym for Sytactically Awesome Style Sheets, but this has fallen by the wayside with gorgeous rebranding by [Jina](http://jina.me/) a couple of years ago.
 
 /---/
 
@@ -86,7 +108,7 @@ $link-hover: darken($link-color, 20%);
 <!-- 2. If code was a cookie... -->
 <!-- ************** -->
 
-<div class="fourcol fragment">
+<div class="fourcol first fragment">
 	<h2>Code</h2>
 	<span class="unstyle-img">![Code](img/sass/redo/code.png)</span>
 </div>
@@ -107,7 +129,7 @@ $link-hover: darken($link-color, 20%);
 
 /--/
 
-<div class="fourcol">
+<div class="fourcol first">
 	<h2>Mix</h2>
 	<span class="unstyle-img">![Batter](img/sass/redo/batter.jpg)</span>
 </div>
@@ -126,7 +148,7 @@ $link-hover: darken($link-color, 20%);
 
 /--/
 
-<div class="sixcol">
+<div class="sixcol first">
 	<span class="unstyle-img">![Launch](img/sass/redo/nocookiedough.jpg)</span>
 </div>
 
@@ -169,7 +191,7 @@ $link-hover: darken($link-color, 20%);
 
 <div class="elevencol last">
 	<div class="small-code">
-	<p class="code-title">Not with <span class="special">Sass</span>(and Compass)!</p>
+	<p class="code-title">Not with <span class="special">Sass</span>!</p>
 	</div>
 	<pre><code>.tab {
 		@include border-top-radius(10px);
