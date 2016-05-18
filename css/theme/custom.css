@@ -47,9 +47,13 @@ a, a:visited {
 .reveal pre code {
   max-height: 800px; }
 .reveal code {
-  font-size: 1.7rem;
+  font-size: 1.36rem;
   line-height: 1.5;
   word-wrap: wrap; }
+.reveal h3 > code {
+  font-size: 2.38rem !important;
+  padding: 0.25em;
+  background-color: #f4f7f9; }
 .reveal .code-title {
   color: #b4b4b4;
   text-align: left;

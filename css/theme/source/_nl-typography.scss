@@ -85,9 +85,16 @@ a, a:visited {
 	}
 
 	code {
-		font-size: $base;
+		font-size: $sml;
 		line-height: $line-height-base;
 		word-wrap: wrap;
+
+	}
+
+	h3 > code {
+		font-size: $h3 !important;
+		padding: 0.25em;
+		background-color: $vlight-accent;
 	}
 		// .small-code {
 		// 	font-size: $sml;

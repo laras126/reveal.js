@@ -212,6 +212,10 @@ Before we get into installing Sass, let's take a look at it's core features to g
 
 /---/
 
+#Variables
+
+/--/
+
 <p class="meta-upper text-left">Variables</p>
 <hr>
 <div class="sixcol first fragment">
@@ -223,7 +227,7 @@ Before we get into installing Sass, let's take a look at it's core features to g
 </div>
 
 <div class="sixcol first fragment">
-<p class="code-title">Lovely <span class="special">Sass</span>!</p>
+<p class="code-title">Lovely <span class="special">Sass</span></p>
 <pre><code class="lang-scss">$main-color: #005BBC;
 
 a {
@@ -256,6 +260,9 @@ You'll also notice the *comments* in Sass look a little different than CSS. In S
 
 /---/
 
+#Functions
+
+/--/
 <p class="meta-upper text-left">Functions</p>
 <hr>
 <div class="sixcol first fragment">
@@ -272,7 +279,7 @@ a:hover {
 </div>
 
 <div class="sixcol fragment">
-<p class="code-title">Lovely <span class="special">Sass</span>!</p>
+<p class="code-title">Lovely <span class="special">Sass</span></p>
 <pre><code class="lang-scss">$main-color: #005BBC;
 
 a {
@@ -309,6 +316,10 @@ There are _tons_ of functions, particularly for colors. Let's take a look at:
 
 /---/
 
+#Nesting
+
+/--/
+
 <p class="meta-upper text-left">Nesting</p>
 <hr>
 <div class="sixcol first fragment">
@@ -325,11 +336,12 @@ There are _tons_ of functions, particularly for colors. Let's take a look at:
 </div>
 
 <div class="sixcol fragment">
-<p class="code-title">Lovely <span class="special">Sass</span>!</p>
+<p class="code-title">Lovely <span class="special">Sass</span></p>
 <pre><code class="lang-scss">$main-color: #005BBC;
+$border: 1px solid $main-color;
 
 .nav-item {
-  border-right: $main-color;
+  border-right: $border;
 
   &:last-child {
  	 border-right: 0;
@@ -340,7 +352,9 @@ There are _tons_ of functions, particularly for colors. Let's take a look at:
 </div>
 
 Note:
-We can manipulate a color value without having to look up different Hex codes.
+Rather than always specifying a parent selector, with nesting you can have the child selector within the rule of the parent selector.
+
+Be careful with nesting though - you never want to go more than three levels deep, otherwise things get soupy.
 
 /--/
 
@@ -352,16 +366,173 @@ We can manipulate a color value without having to look up different Hex codes.
 Note:
 In this example,
 
+/---/
+
+#Mixins
+
 /--/
 
+<p class="meta-upper text-left">Mixins</p>
+<hr>
+<div class="fivecol first fragment">
+<p class="code-title">Gross <span class="special">CSS</span></p>
+<pre><code class="lang-scss">.btn, .btn-success {
+	padding: 1em;
+}
 
-<div class="small-code">
-<p class="code-title">style.<span class="special">min</span>.css</p>
-<pre><code style="word-wrap:break-word;">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}</code></pre>
+.btn {
+  background: #005BBC;
+}
+
+.btn-success {
+  background: #6FCB88;
+}
+
+</code></pre>
+</div>
+
+<div class="sevencol fragment">
+<p class="code-title">Lovely <span class="special">Sass</span></p>
+<pre><code class="lang-scss">$main-color: #005BBC;
+$accent-success: #6FCB88;
+
+@mixin button($color) {
+  background: $color;
+  padding: 1em;
+}
+
+.btn-main {
+  @include button($main-color);
+}
+
+.btn-success {
+  @include button($accent-success);
+}
+
+
+</code></pre>
+</div>
+
+/--/
+
+<p class="meta-upper text-left">Mixins</p>
+<hr>
+
+<iframe src="http://embed.sassmeister.com/gist/28e1ac3bdfb11497e807ee7e0ef3d6b8#theme=tomorrow,font-size=1.5" class="sassmeister-gist" id="sm-gist-28e1ac3bdfb11497e807ee7e0ef3d6b8" scrolling="no" frameborder="0" allowtransparency="true" height="550" style="width: 100%; overflow: hidden;"></iframe>
+
+Note:
+Here we have single set of button styles in a mixin and are applying it to three different button styles. Nice!
+
+One thing to notice is the redundancy in our CSS (and it's always important to look at your CSS). Although this wouldn't be ideal if *we* were writing the CSS, it is inconsequential here if you are responsibly gzipping your files one your server. There is a Sass feature called an `@extend` that could eliminate this, but the general consensus is [to use mixins instead](http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/) or [not to use them](https://www.sitepoint.com/avoid-sass-extend/) at all.
+
+/---/
+
+#Media Queries
+
+/--/
+
+<p class="meta-upper text-left">Media Queries</p>
+<hr>
+<div class="fivecol first fragment">
+<p class="code-title">Gross <span class="special">CSS</span></p>
+<pre><code class="lang-scss">.nav-item {
+  border-bottom: 1px solid #005BBC;
+}
+
+@media (min-width: 640px) {
+  .nav-items {
+    display: flex;
+  }
+
+  .nav-item {
+    border-bottom: 0;
+  }
+}
+
+</code></pre>
+</div>
+
+<div class="sevencol fragment">
+<p class="code-title">Lovely <span class="special">Sass</span></p>
+<pre><code class="lang-scss">$screen-sm: 640px;
+$main-color: #005BBC;
+
+.nav-items {
+  @media(min-width: $screen-sm) {
+    display: flex;
+  }
+}
+
+.nav-item {
+  border-bottom: 1px solid $main-color;
+  @media(min-width: $screen-sm) {
+    border-bottom: 0;
+  }
+}
+
+</code></pre>
 </div>
 
 Note:
-Minification is super easy with Sass too!
+With Sass, we can do something called "Media Query Bubbling" (not sure how official that term is) where media queries are nested within a selector, rather than wrapping all of the selectors together in a separate section.
+
+Although this may not necessarily be less code than using regular media queries, it allows us to separate our concerns much more clearly.
+
+/--/
+
+<p class="meta-upper text-left">Media Queries</p>
+<hr>
+<iframe src="http://embed.sassmeister.com/gist/4fbb691e6f63d9e06452d9f22e54553d#theme=tomorrow,font-size=1.5" class="sassmeister-gist" id="sm-gist-4fbb691e6f63d9e06452d9f22e54553d" scrolling="no" frameborder="0" allowtransparency="true" height="550" style="width: 100%; overflow: hidden;"></iframe>
+
+Note:
+Here is an example of a responsive menu using "Media Query Bubbles".
+
+/---/
+
+#Partials
+
+/--/
+
+<p class="meta-upper text-left">Partials</p>
+<hr>
+<div class="fivecol first fragment">
+<p class="code-title">_nav.scss</p>
+<pre><code class="lang-scss">.nav-items {
+  @media(min-width: $screen-sm) {
+    display: flex;
+  }
+}
+
+.nav-item {
+  border-bottom: 1px solid $main-color;
+  @media(min-width: $screen-sm) {
+    border-bottom: 0;
+  }
+}
+
+</code></pre>
+</div>
+
+<div class="sevencol fragment">
+<p class="code-title">main.scss</p>
+<pre><code class="lang-scss">// This is our main SCSS file to be compiled.
+
+@import 'variables';
+@import 'mixins';
+@import 'typography';
+@import 'header';
+@import 'nav';
+@import 'content';
+@import 'footer';
+</code></pre>
+</div>
+
+Note:
+Finally, let's take a look at separating out our Sass code into different files. Dealing with 5000 line CSS files isn't fun, and you can see that, once we have many mixins and variables in our Sass, our files will become quite long.
+
+Luckily, we can import partials! Unlike CSS imports, the Sass partials are all smushed into the same file so we don't have to worry about multiple HTTP requests that could slow down our sites.
+
+Any files prefixed with an `_` will *not* be compiled and are meant to function as imports. Think of your `main.scss` file as a table of contents!
 
 /--/
 
@@ -369,37 +540,110 @@ Minification is super easy with Sass too!
 
 /---/
 
-
-<!-- ********** -->
-<!-- Installing -->
-<!-- ********** -->
-
-#Um...<span class="fragment">how<span class="special">?</span></span>
+#Cool...<span class="fragment">but <span class="special">how?</span></span>
 
 Note:
 This all sounds great, but how do you get started?
 
 /--/
 
-<a href="http://jetpack.me/support/custom-css/" target="blank">![JetPack](img/sass/edit-css.png)</a>
+#Three Simple-ish Steps
+<br>
+<h3>Install Sass</h3>
+<h3>Make Your File</h3>
+<h3>Compile Your Code</h3>
+
+/---/
+
+##<span class="grey">1</span>
+#Install Sass
+
+###http://sass-lang.com/install
+
+Note:
+Visit the Sass website for instructions on how to install Sass both via the command line or using software.
 
 /--/
 
-##http://sass-lang.com/install
-
-/--/
-
+<p class="meta-upper text-left">Option 1: GUI</p>
+<hr>
 ![Codekit](img/sass/codekit.png)
 
-/--/
+Note:
+CodeKit is an excellent plug-and-play solution for installing Sass and compiling your files.
 
+/--/
+<p class="meta-upper text-left">Option 2: Command Line (do it!)</p>
+<hr>
 ![terminal](img/sass/terminal.png)
+
+Note:
+Sass is written in Ruby and available as a gem. You can install it with this command.
 
 /--/
 
 <div class="unstyle-img">![cookies](img/sass/mouse-cookie.png)</div>
 
+Note:
+The command line can be a scary jump if you haven't used it before. But - just like in this wonderful children's book about a mouse eating cookies - once you start using the command line, you'll get the hang of it and it will open doors to other development concepts and tools.
+
 /---/
+
+##<span class="grey">2</span>
+#Make Your File
+<br>
+<div class="fragment">
+	<h3>`style.scss`</h3>
+	<h3 class="grey fragment">or</h3>
+	<h3 class="fragment">`style.css` &rarr; `style.scss`</h3>
+</div>
+
+Note:
+**If you are starting a new project**, create a `style.scss` file (or `main.scss`, whatever you fancy).
+**If you are adding Sass to an existing project**, _chance_ the file extension of your CSS file from `.css` to `.scss`.
+
+It's that easy!
+
+/--/
+
+<h2>And guess what...</h2>
+<h3 class="fragment">You can write CSS in a `.scss` file.</h3>
+<h3 class="fragment">You don't even have to use Sass.</h3>
+<h3 class="fragment special">But you should!</h3>
+
+/--/
+
+![Koala](img/sass/koala.png)
+
+/---/
+
+##<span class="grey">3</span>
+#Compile Your Code
+<h3>There are too many ways to do it (IMO).</h3>
+
+Note:
+Now that you have created your file and installed Sass, it's time to compile it. Fortunately or unfortunately, there are many ways to compile Sass.
+
+/--/
+
+<img class="unstyle-img" src="img/compilers.png" alt="">
+
+Note:
+Some of these ways include JavaScript task runners [Grunt](http://gruntjs.com/) and [Gulp](http://gulpjs.com), the [Ruby on Rails asset pipeline](http://guides.rubyonrails.org/asset_pipeline.html) (for Ruby projects), [LibSass](http://sass-lang.com/libsass) (a C port of Ruby Sass), [NodeSass](https://github.com/sass/node-sass), and the [Compass compiler](http://compass-style.org/).
+
+Oof! Let's keep it simple.
+
+/--/
+
+##And...
+<h3 class="fragment">The plain 'ol Sass compiler.</h3>
+<br>
+<h3 class="fragment"><code>$ sass --watch</code></h3>
+
+Note:
+When you install the Sass gem, you also install the Ruby Sass compiler. You can run the compiler by `cd`ing into your project director and running the comman `sass --watch`.
+
+/--/
 
 <!-- ************* -->
 <!-- Demo -->
