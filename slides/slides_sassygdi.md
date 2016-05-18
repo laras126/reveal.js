@@ -96,21 +96,31 @@ Sass has a huge, wonderful community and is used all over the web! [Sass for Web
 </div>
 
 Note:
-The last thing, before we get into Sass itself, is that it's **Sass** not **SASS**. It used to be an acronym for Sytactically Awesome Style Sheets, but this has fallen by the wayside with gorgeous rebranding by [Jina](http://jina.me/) a couple of years ago.
+The last thing, before we get into Sass itself, is that it's **Sass** not **SASS**. It used to be an acronym for Sytactically Awesome Style Sheets, but this has fallen by the wayside with gorgeous rebranding by [Jina](http://jina.me/).
 
 /---/
 
+#Preprocessor
+<br>
+<blockquote class="fragment">
+...a computer program that modifies data to conform with the input requirements of another program.
+</blockquote>
+<br>
+<small>[Source](https://en.wikipedia.org/wiki/Preprocessor)</small>
 
-#Um...<span class="fragment">okay<span class="special">?</span></span>
 
 /--/
-<!-- ************** -->
-<!-- 2. If code was a cookie... -->
-<!-- ************** -->
+
+# Uhh<span class="fragment">...what</span><span class="special fragment">?</span>
+
+Note:
+A _preprocessor_ is a coding language that makes a developer's job easier, but a computer can't understand that language so we need to compile it. Let's look at that another way.
+
+/--/
 
 <div class="fourcol first fragment">
 	<h2>Code</h2>
-	<span class="unstyle-img">![Code](img/sass/redo/code.png)</span>
+	<span class="unstyle-img">![Preprocessor](img/sass/redo/code.png)</span>
 </div>
 
 <div class="fourcol fragment">
@@ -119,102 +129,124 @@ The last thing, before we get into Sass itself, is that it's **Sass** not **SASS
 </div>
 
 <div class="fourcol fragment">
-	<h2>Render</h2>
-	<span class="unstyle-img">![Render](img/sass/redo/launch.png)</span>
+	<h2>Result</h2>
+	<span class="unstyle-img">![Result](img/sass/redo/launch.png)</span>
 </div>
+
+Note:
+We can think of preprocessing as a three-fold process.
+
+<ol>
+	<li><strong>Code:</strong> First you write some code in the preprocessor language. Just like Sass is a CSS preprocessor, [Haml](http://haml.info) and [CoffeeScript](http://coffeescript.org/) are preprocessors for HTML and JavaScript respectively.</li>
+	<li><strong>Compile:</strong> After you write the code, you need to compile it, or transform it into something the browser can read.</li>
+	<li><strong>Result:</strong> Now the code is in a language the browser can read. You didn't write this code - it was generated from what you wrote in the preprocessing language.</li>
+</ol>
 
 /--/
 
 <span class="unstyle-img fragment">![Cookie](img/sass/redo/cookie.png)</span>
 
+Note:
+Ok, that was even more jargon. Let's talk about cookies!
+
 /--/
 
 <div class="fourcol first">
-	<h2>Mix</h2>
+	<h2>Batter</h2>
 	<span class="unstyle-img">![Batter](img/sass/redo/batter.jpg)</span>
 </div>
-
 
 <div class="fourcol fragment">
 	<h2>Bake</h2>
 	<span class="unstyle-img">![Bake](img/sass/redo/baking.jpg)</span>
 </div>
 
-
 <div class="fourcol fragment">
-	<h2>Eat</h2>
+	<h2>Cookie</h2>
 	<span class="unstyle-img">![Cookie Monster](img/sass/redo/cookiemonster.jpg)</span>
 </div>
+
+Note:
+We can use baking as a metaphor for preprocessing. In this case, the preprocessor code is like the batter, the compiling is analogous to baking, and the resulting cookie is like the code produced from the compiler.
 
 /--/
 
 <div class="sixcol first">
-	<span class="unstyle-img">![Launch](img/sass/redo/nocookiedough.jpg)</span>
+	<span class="unstyle-img">![monster](img/sass/redo/nocookiedough.jpg)</span>
 </div>
 
 <div class="sixcol fragment">
-	<span class="unstyle-img">![Launch](img/sass/redo/nobaking.jpg)</span>
+	<span class="unstyle-img">![monster](img/sass/redo/nobaking.jpg)</span>
 </div>
 
-/--/
-
-<span class="unstyle-img">![Compiled Finder](img/sass/compile-finder.png)</span>
+Note:
+And...just like cookie monster can't eat cookie dough (though I can), a browser can't read Sass.
 
 /---/
 
-#And...<span class="special fragment">?</span>
+#So...<span class="special fragment">why?</span>
+
+Note:
+As useful as it is to talk about cookies, that doesn't really tell us _how_ or _why_ to use Sass!
 
 /--/
 
+<img src="img/lazy-lion.jpg" alt="">
 
-<!-- *********** -->
-<!-- Why should I learn this? -->
-<!-- *********** -->
+Note:
+Because developers are lazy! Well, maybe efficient is a nicer way to put it.
 
+/--/
+<div class="sixcol first fragment">
+<p class="code-title">Gross <span class="special">CSS</span></p>
+<pre><code class="lang-scss">
+a {
+	color: #005BBC;
+}
 
-<div class="elevencol last">
-	<p class="code-title"><span class="special">Gross</span> CSS</p>
-
-	<pre><code>.tab {
-		border-top-left-radius: 25px;
-		-moz-border-radius-topleft: 25px;
-		-webkit-border-top-left-radius: 25px;
-
-		border-top-right-radius: 25px;
-		-moz-border-radius-topright: 25px;
-		-webkit-border-top-right-radius: 25px;
-	}
-	</code></pre>
+.top-nav {
+	background-color: #005BBC;
+}
+</code></pre>
 </div>
+
+<div class="sixcol first fragment">
+<p class="code-title">Lovely <span class="special">Sass</span>!</p>
+<pre><code class="lang-scss">
+$main-color: #005BBC;
+
+a {
+	color: $main-color;
+}
+
+.top-nav {
+	background-color: $main-color;
+}
+
+</code></pre>
+</div>
+
+Note:
+How many of you enjoy managing a website's color scheme in hex codes? Thought so. [Here's a great article](http://alistapart.com/article/why-sass#section1) making the case for Sass.
 
 /--/
 
-<div class="elevencol last">
-	<div class="small-code">
-	<p class="code-title">Not with <span class="special">Sass</span>!</p>
-	</div>
-	<pre><code>.tab {
-		@include border-top-radius(10px);
-	}
-	</code></pre>
-	</div>
-</div>
+<!-- <div class="sixcol first fragment"> -->
+<p class="code-title">Lovely <span class="special">Sass</span>!</p>
+<pre><code class="lang-scss">$main-color: #005BBC;
+a {
+	color: $main-color;
+}
 
-/--/
+a:hover {
+	color: darken($main-color, 10%);
+}
 
-<div class="elevencol last">
-	<p class="code-title"><span class="special">Variables</span> FTW</p>
-
-	<pre><code>
-	$main-color:  	 #32425C;
-	$heading-font: 	 Helvetica, sans-serif;
-
-	.site-title {
-		color: $main-color;
-		font-family: $heading-font;
-	}
-	</code></pre>
-</div>
+a:active {
+	color: darken($main-color, 30%);
+}
+</code></pre>
+<!-- </div> -->
 
 /--/
 

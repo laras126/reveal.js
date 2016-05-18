@@ -72,6 +72,7 @@ a, a:visited {
 
 	pre {
 		margin: 0 auto;
+		width: 100% !important;
 	}
 
 	pre, code {
@@ -79,6 +80,7 @@ a, a:visited {
 	}
 
 	pre code {
+		// padding: $sml;
 		max-height: 800px;
 	}
 

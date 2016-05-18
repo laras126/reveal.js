@@ -40,7 +40,8 @@ a, a:visited {
 .reveal h6 {
   font-size: 1.36rem; }
 .reveal pre {
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100% !important; }
 .reveal pre, .reveal code {
   box-shadow: none; }
 .reveal pre code {
@@ -333,12 +334,10 @@ body {
     content: "";
     display: table;
     clear: both; }
-  .reveal .hljs {
-    padding: 1.7rem; }
-    .reveal .hljs.terminal {
-      background-color: #111;
-      border: 0;
-      color: #38ef55; }
+  .reveal .hljs.terminal {
+    background-color: #111;
+    border: 0;
+    color: #38ef55; }
   .reveal .center-vert {
     margin-top: 50%; }
   .reveal .img-row {
