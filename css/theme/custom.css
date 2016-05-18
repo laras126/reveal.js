@@ -273,8 +273,7 @@ body {
     max-width: 1140px;
     margin: 0 auto; }
   .reveal iframe {
-    width: 1140px;
-    height: 800px; }
+    max-width: 100%; }
   .reveal .slides > section, .reveal .slides > section > section {
     padding: 0; }
   .reveal .text-right {
@@ -288,7 +287,7 @@ body {
   .reveal .grey {
     color: #b4b4b4; }
   .reveal hr {
-    border: 1px dotted #237fa9; }
+    border: 1px solid #f4f7f9; }
   .reveal .special {
     color: #237fa9; }
   .reveal .pink {
@@ -369,6 +368,11 @@ body {
     letter-spacing: 1px;
     font-size: 1.36rem;
     color: #86b2c6; }
+  .reveal .meta-upper-grey {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.36rem;
+    color: #b4b4b4; }
   .reveal .animal-photo {
     height: 60vh; }
   .reveal .tag {

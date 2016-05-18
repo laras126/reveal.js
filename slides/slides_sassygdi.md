@@ -197,41 +197,81 @@ Note:
 Because developers are lazy! Well, maybe efficient is a nicer way to put it.
 
 /--/
+
+#<span class="special">&hearts;</span>
+
+<h3>Variables</h3>
+<h3>Functions</h3>
+<h3>Nesting</h3>
+<h3>Mixins</h3>
+<h3>Media Queries</h3>
+<h3>Imports</h3>
+
+Note:
+Before we get into installing Sass, let's take a look at it's core features to get you excited to use it! One of the best parts about Sass is that you can use however many of these features as you'd like, OR just keep to plain CSS.
+
+/---/
+
+<p class="meta-upper text-left">Variables</p>
+<hr>
 <div class="sixcol first fragment">
 <p class="code-title">Gross <span class="special">CSS</span></p>
-<pre><code class="lang-scss">
-a {
+<pre><code class="lang-scss">a {
 	color: #005BBC;
-}
-
-.top-nav {
-	background-color: #005BBC;
 }
 </code></pre>
 </div>
 
 <div class="sixcol first fragment">
 <p class="code-title">Lovely <span class="special">Sass</span>!</p>
-<pre><code class="lang-scss">
-$main-color: #005BBC;
+<pre><code class="lang-scss">$main-color: #005BBC;
 
 a {
 	color: $main-color;
-}
-
-.top-nav {
-	background-color: $main-color;
 }
 
 </code></pre>
 </div>
 
 Note:
+
 How many of you enjoy managing a website's color scheme in hex codes? Thought so. [Here's a great article](http://alistapart.com/article/why-sass#section1) making the case for Sass.
+
+Variables are a way to store information to reduce redundancy. For example, rather than writing the Hex code for your brand's color over and over again, you can create a variable called `$main-color` as you see here. This way, if you change the brand color, you can do it in one place rather than replacing each occurance of the Hex code.
 
 /--/
 
-<!-- <div class="sixcol first fragment"> -->
+<p class="meta-upper text-left">Variables</p>
+<hr>
+
+<iframe src="http://embed.sassmeister.com/gist/ce0f092747d9cc5067b73708dbe048ea#theme=tomorrow,font-size=1.5" class="sassmeister-gist" id="sm-gist-ce0f092747d9cc5067b73708dbe048ea" scrolling="no" frameborder="0" allowtransparency="true" height="550" style="width: 100%; overflow: hidden;"></iframe>
+
+Note:
+Here we're using [Sassmeister](http://sassmeister.com), a wonderful little webapp for demoing Sass.
+
+In addition to colors, let's take a look at a few more examples using fonts, border values, and even spacing.
+
+You'll also notice the *comments* in Sass look a little different than CSS. In Sass you can use `//` for a comment - similar to JavaScript - and it will not output in the CSS. You can use the usual `/* ... */` to output the comments in CSS.
+
+
+/---/
+
+<p class="meta-upper text-left">Functions</p>
+<hr>
+<div class="sixcol first fragment">
+<p class="code-title">Gross <span class="special">CSS</span></p>
+<pre><code class="lang-scss">a {
+  color: #005BBC;
+}
+
+a:hover {
+  color: #002a56;
+}
+
+</code></pre>
+</div>
+
+<div class="sixcol fragment">
 <p class="code-title">Lovely <span class="special">Sass</span>!</p>
 <pre><code class="lang-scss">$main-color: #005BBC;
 
@@ -240,18 +280,80 @@ a {
 }
 
 a:hover {
-	color: darken($main-color, 10%);
+	color: darken($main-color, 20%);
 }
 
-a:active {
-	color: darken($main-color, 30%);
-}
 </code></pre>
-<!-- </div> -->
+</div>
+
 Note:
-If we take it a bit further, we can manipulate that one value without having to look up different Hex codes.
+We can manipulate a color value without having to look up different Hex codes.
 
 /--/
+
+<p class="meta-upper text-left">Functions</p>
+<hr>
+
+<iframe src="http://embed.sassmeister.com/gist/ecf19bb2f2e8d3a0e6807f54b7ee030d#theme=tomorrow,font-size=1.5" class="sassmeister-gist" id="sm-gist-ecf19bb2f2e8d3a0e6807f54b7ee030d" scrolling="no" frameborder="0" allowtransparency="true" height="550" style="width: 100%; overflow: hidden;"></iframe>
+
+Note:
+
+There are _tons_ of functions, particularly for colors. Let's take a look at:
+
+* `darken()` and `lighten()`
+* `rgba()`
+* `mix()`
+* `saturate()` and `desaturate()`
+
+[Read more here](http://jackiebalzer.com/color).
+
+/---/
+
+<p class="meta-upper text-left">Nesting</p>
+<hr>
+<div class="sixcol first fragment">
+<p class="code-title">Gross <span class="special">CSS</span></p>
+<pre><code class="lang-scss">.nav-item {
+  border-right: #005BBC;
+}
+
+.nav-item:last-child {
+	border-right: 0;
+}
+
+</code></pre>
+</div>
+
+<div class="sixcol fragment">
+<p class="code-title">Lovely <span class="special">Sass</span>!</p>
+<pre><code class="lang-scss">$main-color: #005BBC;
+
+.nav-item {
+  border-right: $main-color;
+
+  &:last-child {
+ 	 border-right: 0;
+  }
+}
+
+</code></pre>
+</div>
+
+Note:
+We can manipulate a color value without having to look up different Hex codes.
+
+/--/
+
+<p class="meta-upper text-left">Nesting</p>
+<hr>
+
+<iframe src="http://embed.sassmeister.com/gist/91ae4f812a14973523195c550e2dc87e#theme=tomorrow,font-size=1.5" class="sassmeister-gist" id="sm-gist-91ae4f812a14973523195c550e2dc87e" scrolling="no" frameborder="0" allowtransparency="true" height="550" style="width: 100%; overflow: hidden;"></iframe>
+
+Note:
+In this example,
+
+/--/
+
 
 <div class="small-code">
 <p class="code-title">style.<span class="special">min</span>.css</p>
