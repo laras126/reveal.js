@@ -205,7 +205,7 @@ Because developers are lazy! Well, maybe efficient is a nicer way to put it.
 <h3>Nesting</h3>
 <h3>Mixins</h3>
 <h3>Media Queries</h3>
-<h3>Imports</h3>
+<h3>Partials</h3>
 
 Note:
 Before we get into installing Sass, let's take a look at it's core features to get you excited to use it! One of the best parts about Sass is that you can use however many of these features as you'd like, OR just keep to plain CSS.
@@ -609,7 +609,7 @@ It's that easy!
 <h2>And guess what...</h2>
 <h3 class="fragment">You can write CSS in a `.scss` file.</h3>
 <h3 class="fragment">You don't even have to use Sass.</h3>
-<h3 class="fragment special">But you should!</h3>
+<h3 class="fragment">But you should!</h3>
 
 /--/
 
@@ -640,29 +640,32 @@ Oof! Let's keep it simple.
 <br>
 <h3 class="fragment"><code>$ sass --watch</code></h3>
 
+
 Note:
-When you install the Sass gem, you also install the Ruby Sass compiler. You can run the compiler by `cd`ing into your project director and running the comman `sass --watch`.
+When you install the Sass gem, you also install the Ruby Sass compiler. You can run the compiler by `cd`ing into your project directory and running the command `sass --watch scss:css`. Note that `scss` is the directory where your Sass files are, and `css` is the directory where your compiled CSS files will go.
 
 /--/
 
-<!-- ************* -->
-<!-- Demo -->
-<!-- ************* -->
+<img src="img/sass/compile-finder.png" class="unstyle-img">
 
-#Demo! Gasp!
-####<span class="fragment">Finder first, Lara.</span>
+Note:
+Your result will be something like this. The CSS file will be generated from your SCSS file.
+
+/---/
+
+#Workshop Time!
+###Get the files [here](https://github.com/laras126/gdi-sass-exercise).
 
 /--/
 
 ![feebs](img/sass/feebs5.png)
 
-/--/
-
-#Simple [Sassy](https://github.com/laras126/simple-sassy-starter) Starter
-####A gift!
+Note:
+New tools and sytax are intimidating and may seem like they aren't worth the frustration. But don't back down! Just like Feebs when faced with this bulldog.
 
 /--/
 
 #Thanks!
 
 ###[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126
+
