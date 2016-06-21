@@ -359,6 +359,11 @@ body {
     font-size: 2.38rem; }
   .reveal .strike {
     color: #86b2c6; }
+  .reveal .line-thru {
+    text-decoration: line-through;
+    color: #86b2c6; }
+    .reveal .line-thru span {
+      color: #3e3739; }
   .reveal ul li {
     margin-bottom: 0.68rem; }
   .reveal ul.unstyle-list {
@@ -391,5 +396,12 @@ body {
     font-size: 0.97143rem; }
   .reveal .controls {
     z-index: 9; }
+  .reveal .animation-holder {
+    position: relative; }
+    .reveal .animation-holder > img {
+      width: 100%;
+      position: absolute;
+      top: -300px;
+      left: 0; }
 
 /*# sourceMappingURL=custom.css.map */

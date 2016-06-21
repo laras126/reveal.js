@@ -231,6 +231,15 @@ body {
 		color: $med-accent;
 	}
 
+	.line-thru {
+		 text-decoration: line-through;
+		 color: $med-accent;
+
+		 span {
+		 	color: $main-font;
+		 }
+	}
+
 	ul li {
 		margin-bottom: $sml/2;
 	}
@@ -278,5 +287,17 @@ body {
 
 	.controls {
 		z-index: 9;
+	}
+
+	.animation-holder {
+		position: relative;
+
+		> img {
+			width: 100%;
+			position: absolute;
+			top: -300px;  // Bad news!
+			left: 0;
+		}
+
 	}
 }
