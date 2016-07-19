@@ -17,17 +17,17 @@
 
 /--/
 
-
-<h1><span class="fragment">&quot;I</span> <span class="special fragment">should</span> <span class="fragment">learn to code.&quot;</span></h1>
-<hr>
-<h1 class="fragment">Yes, you should!</h1>
+<h1>&quot;I should learn to code.&quot;</h1>
 
 /--/
 
 <img width="80%" src="img/empathy.png" class="unstyle-img illustration" alt="">
 <br>
 <small><a href="http://impakter.com/deconstructing-empathy-in-the-digital-age/">Source</a></small>
-<h2 class="fragment">I know exactly how you feel.</h2>
+
+/--/
+
+<h1 class="fragment">Yes, you should!</h1>
 
 /---/
 
@@ -171,20 +171,26 @@
 #What next?
 <br>
 <ul class="unstyle-list bigger bold">
-  <li>Codecademy <span class="fragment danger">&times;</span></li>
-  <li class="fragment">Coding Bootcamp <span class="fragment danger">&times; &times; &times;</span></li>
+  <li class="fragment">Codecademy <span class="fragment danger">&times;</span></li>
+  <li class="fragment">Coding Bootcamp <span class="fragment danger">&times;</span></li>
   <li class="fragment">Lynda.com <span class="fragment">... </span><span class="fragment danger">&times;</span></li>
   <li class="fragment">Treehouse <span class="fragment">... </span><span class="fragment danger">&times;</span></li>
   <li class="fragment">INSTALL A DUMMY SITE AND CODE <span class="fragment">...</span> <span class="fragment success">&#10004; &#10004; &#10004; &#10004;</span></li>
 </ul>
 
 /--/
-
-<img src="img/sass/jetpack.png" alt="">
+<!-- <div class="clearfix">
+  <div class="half">
+    <img src="img/wp-visual.png" alt="">
+  </div> -->
+  <!-- <div class="half"> -->
+    <img src="img/wp-text.png" alt="">
+  <!-- </div> -->
+<!-- </div> -->
 
 /--/
 
-<a href="http://wpnyc.org/video/wordpress-child-themes-a-crash-course/"><img src="img/child-theme-vid.png" alt=""></a>
+<img src="img/sass/jetpack.png" alt="">
 
 /--/
 
@@ -196,6 +202,10 @@
     <img src="img/mario.jpg" alt="" class="unstyle-img">
   </div>
 </div>
+
+/--/
+
+<a href="http://wpnyc.org/video/wordpress-child-themes-a-crash-course/"><img src="img/child-theme-vid.png" alt=""></a>
 
 /--/
 
