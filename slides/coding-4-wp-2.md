@@ -43,9 +43,10 @@
 
 /--/
 
-<pre><code class="bigger language-php">$sushi_exists = true; // Boolean
-$sushi_amount = 3; // Integer
-$sushi_name = "Spicy Tuna"; // String
+<pre><code class="bigger language-php">
+$name = "Spicy Tuna"; // String
+$amount = 3; // Integer
+$is_delicious = true; // Boolean
 </code></pre>
 
 /--/
@@ -70,26 +71,24 @@ $sushi_name = "Spicy Tuna"; // String
 
 /--/
 
-<pre class="fragment"><code class="bigger language-php">
-	$loves_sushi = true;
+<pre class="fragment"><code class="bigger language-php">$loves_sushi = true;
 
-	if ($loves_sushi == true) {
-		get_sushi();
-	} else {
-		go_hungry();
-	}
+if ($loves_sushi == true) {
+	get_sushi();
+} else {
+	go_hungry();
+}
 </code></pre>
 
 /--/
 
-<pre class="fragment"><code class="bigger language-php">
-	$loves_sushi = true;
+<pre class="fragment"><code class="bigger language-php">$loves_sushi = true;
 
-	if ($loves_sushi == true):
-		get_sushi();
-	else:
-		go_hungry();
-	endif;
+if ($loves_sushi == true):
+	get_sushi();
+else:
+	go_hungry();
+endif;
 </code></pre>
 
 /--/
@@ -154,7 +153,6 @@ endif;
 
 <pre class="fragment"><code class="bigger language-php">get_food('sushi');
 get_food('pizza');
-
 </code></pre>
 
 /--/
@@ -185,15 +183,21 @@ foreach($categories as $cat) {
 }
 </code></pre>
 
-/---/
+/--/
 
 <img src="img/wp-justw.png" alt="" class="unstyle-img">
 
+/---/
+
+<h1>WordPress is made of functions.</h1>
+<h2 class="fragment">Lots and lots of functions.</h2>
+<h2 class="fragment">Do not battle them.</h2>
+
 /--/
 
-<h2>WordPress is made of functions.</h2>
-<h2 class="fragment"><a href="https://codex.wordpress.org/Function_Reference" target="blank">Lots and lots</a> of functions.</h2>
-<h2 class="fragment">Use, do not battle, them.</h2>
+<a href="https://developer.wordpress.org/reference/">
+	<img src="img/wp-code-ref.png" alt="">
+</a>
 
 /---/
 
@@ -233,6 +237,11 @@ function wpnyc_body_classes($classes) {
 add_filter( 'body_class', 'wpnyc_body_classes' );
 </code></pre>
 
+
+/--/
+
+<code class="big">functions.php</code>
+
 /---/
 
 # Template Tags
@@ -240,10 +249,14 @@ add_filter( 'body_class', 'wpnyc_body_classes' );
 
 /--/
 
-<pre class="fragment"><code class="bigger special language-php">
-the_post_thumbnail();
+<pre class="fragment"><code class="bigger language-php">the_post_thumbnail();
 has_post_thumbnail();
 get_post_thumbnail();
+</code></pre>
+<br>
+<hr>
+<pre class="fragment"><code class="bigger language-php">the_title();
+get_the_title();
 </code></pre>
 
 /--/
@@ -260,7 +273,7 @@ get_post_thumbnail();
 <br>
 <div class="fragment">
 	<code class="big special">has_whatever</code>
-	<h3>Check if data exists.</h3>
+	<h3>Check if data exists. Returns a Boolean.</h3>
 </div>
 
 /--/
@@ -287,7 +300,7 @@ get_post_thumbnail();
 	<h3>Change the default post thumbnail size.</h3>
 	<br>
 	<div class="code-title">functions.php</div>
-	<pre class="fragment"><code class="bigger language-php">set_post_thumbnail_size( '500', '400', true );</code></pre>
+	<pre class="fragment"><code class="bigger language-php" style="font-size: 32px">set_post_thumbnail_size( '500', '400', true );</code></pre>
 </div>
 
 /--/
@@ -295,12 +308,30 @@ get_post_thumbnail();
 <div class="text-left">
 	<h2>Option 2</h2>
 	<h3>Change the value in Media Settings; add a parameter.</h3>
+	<img class="fragment" src="img/media-settings.png" alt="">
+</div>
+
+/--/
+
+<div class="text-left">
+	<h3>Then Regenerate Thumbnails...</h3>
+	<img width="700" src="img/regenerate_thumbs.png" alt="">
+</div>
+
+/--/
+
+<div class="text-left">
+	<h3>Then add this...</h3>
 	<br>
 	<div class="code-title">page.php</div>
-	<pre class="fragment"><code class="bigger language-php">if (has_post_thumbnail()) {
+<pre class="fragment"><code class="bigger language-php">if (has_post_thumbnail()) {
 	the_post_thumbnail('thumbnail');
 }</code></pre>
 </div>
+
+/--/
+
+<img class="fragment" src="img/sushi/puppysteps.jpg" alt="">
 
 /---/
 
@@ -316,11 +347,24 @@ get_post_thumbnail();
 /--/
 
 <div class="code-title">single.php</div>
-<pre class="fragment"><code class="bigger language-php">if ( has_tag('nice-tag') ) {
+<pre class="fragment"><code style="font-size: 30px" class="language-php">if ( has_tag('nice-tag') ) {
 	the_title('<h2 class="nice-title">', '</h2>');
 } else {
 	the_title('<h2>', '</h2>');
 }</code></pre>
+
+/--/
+
+<div class="code-title">archive.php</div>
+<pre class="fragment"><code style="font-size: 30px" class="language-php">if ( is_post_type_archive('recipe') ) {
+	get_template_part('partials/header', 'recipe');
+} else {
+	get_template_part('partials/header', 'archive');
+}</code></pre>
+
+/--/
+
+<img src="img/sushi/sushi-cat2.jpg" alt="">
 
 /---/
 
