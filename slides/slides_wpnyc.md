@@ -40,12 +40,12 @@ Good question.
 ---
 
 Like this:
-![Screenshot](../img/wpnyc/finder.png)
+![Screenshot](img/wpnyc/finder.png)
 
 ---
 
 Then this:
-![Screenshot](../img/wpnyc/finder2.png)
+![Screenshot](img/wpnyc/finder2.png)
 
 
 --

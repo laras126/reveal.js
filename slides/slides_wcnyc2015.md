@@ -7,10 +7,6 @@
 
 ### <span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
 
-/--/
-
-![Last Word](img/lastword.png)</div>
-
 /---/
 
 # <span class="fragment">Vetting and Choosing Premium Themes</span>
@@ -84,7 +80,7 @@
 	<img src="img/animals/lazy-prariedog.jpg" class="animal-photo">
 	<br>
 	<small><a href="http://www.desktopwallpapers4.me/animals/lazy-meerkat-22798/">Source</a></small>
-</div> 
+</div>
 
 /--/
 

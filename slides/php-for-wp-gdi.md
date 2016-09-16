@@ -401,6 +401,29 @@ $query = new WP_Query($args);
 endwhile;
 </code></pre>
 
+/---/
+
+# In the Real World
+<h2 class="fragment">You would not build from scratch.</h2>
+
+/--/
+
+![Screenshot](img/wpnyc/finder.png)
+
+### Child Themes
+
+/--/
+
+![Screenshot](img/underscores.png)
+
+### Starter Themes
+
+/--/
+
+<img class="unstyle-img" src="img/wpnyc/frameworks.png" alt="">
+
+### Frameworks
+
 /--/
 
 <img src="img/sublime.png" class="unstyle-img" alt="">
