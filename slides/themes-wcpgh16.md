@@ -93,7 +93,7 @@
 /---/
 
 # Start with <span class="special fragment">Content</span>
-<h3 class="fragment">That's what the cool kids are doing.</h3>
+<h2 class="fragment">That's what the cool kids are doing.</h2>
 /--/
 
 <img src="img/stephen-hay.jpg" alt="">
@@ -112,7 +112,7 @@
 <br>
 <small>Just kidding.</small>
 
-/---/
+/--/
 
 # Start with <strike style="color: #D64533;"><span style="color: #3e3739">Content</strike> <br><span class="special fragment">the Theme</span>
 <br>
@@ -124,21 +124,22 @@
 	<img src="img/cereal.jpg" alt="">
 </div>
 
-/--/
-
-<img src="img/animals/overwhelmed.jpg">
-<br>
-<small><a href="http://www.petinsuranceireland.com/news/happy-world-animal-day-from-pet-insurance-ireland/">Source</a></small>
 
 /--/
 
 <div class="text-left">
 	<div class="wrapper">
-	<h1 class="fragment">Premium Themes <span class="fragment grey">(Paid)</span></h1>
-	<h1 class="fragment">Free Themes</h1>
-	<h1 class="fragment">Child Themes</h1>
+		<h1 class="fragment">Premium Themes <span class="fragment grey">(Paid)</span></h1>
+		<h1 class="fragment">Free Themes</h1>
+		<h1 class="fragment">Child Themes</h1>
 	</div>
 </div>
+
+/--/
+
+<img src="img/animals/overwhelmed.jpg">
+<br>
+<small><a href="http://www.petinsuranceireland.com/news/happy-world-animal-day-from-pet-insurance-ireland/">Source</a></small>
 
 /---/
 
@@ -148,11 +149,23 @@
 
 /--/
 
+<div class="wrapper text-left">
+	<h1 class="fragment"><a href="https://themeforest.net/popular_item/by_category?category=wordpress">Themeforest</a></h1>
+	<h1 class="fragment"><a href="https://wordpress.org/themes/commercial/">Commercial GPL Themes</a></h1>
+	<h1 class="fragment">Theme Shops</h1>
+</div>
+
+/--/
+
 <img src="img/envato.png" alt="">
 
 /--/
 
 # Creative Multi-Purpose Responsive Amazing Gorgeous Best Number One WordPress Theme
+
+/--/
+
+# Translation: <span class="fragment special">Page Builder</span>
 
 /--/
 
@@ -183,6 +196,7 @@
 /--/
 
 # So?
+<h2 class="fragment">A Case Study</h2>
 
 /--/
 
@@ -195,6 +209,12 @@
 <img src="img/c25-webpagetest.jpg" alt="">
 <br>
 <small>Ahhh....</small>
+
+/--/
+
+<div class="wrapper">
+	<video controls src="img/videos/premium-markup.mp4"></video>
+</div>
 
 /--/
 
@@ -220,7 +240,10 @@
 
 /--/
 
-# <a href="https://themeforest.net/popular_item/by_category?category=wordpress">In Practice</a>
+# In Practice
+
+## <a href="https://themeforest.net/popular_item/by_category?category=wordpress">Themeforest</a>
+## <a href="https://themeforest.net/popular_item/by_category?category=wordpress">Commercial GPL</a>
 
 /---/
 
@@ -230,28 +253,40 @@
 
 /--/
 
+<img src="img/wp-visual.png" alt="">
+
+/--/
+
 <img src="img/theme-repo.png" alt="">
 <br>
 <small><a href="https://wordpress.org/themes/">WordPress Theme Repository</a></small>
 
 /--/
 
-
+# Don't <em>just</em> install.
+## <span class="fragment">Demos or bust.</span>
 
 /--/
 
-## Introducing...
-# <span data-fragment-index="1" class="fragment"><a href="https://github.com/laras126/theme-checklist/">The Checklist</a>.</span>
+<div class="clearfix">
+<div class="sixcol first">
+<img src="img/admin-theme-homepage.png" alt="">
 <br>
-<h3 data-fragment-index="1" class="fragment">http://bit.do/themes-ugh</h3>
+<p>In the admin "Preview" option.</p>
+</div>
+<div class="sixcol">
+<img src="img/repo-theme-homepage.png" alt="">
+<br>
+<p>In the theme repo.</p>
+</div>
+</div>
+/--/
+
+<img src="img/wpfolio-on-github.png" alt="">
 
 /--/
 
-# Let's vet!
-
-/--/
-
-<code class="big">define('WP_DEBUG', <span class="special">true</span>);</code>
+<code class="big">define('WP_DEBUG', <span class="special"><strong>true</strong></span>);</code>
 
 /--/
 
@@ -259,12 +294,44 @@
 
 /--/
 
-<code class="big">define('WP_DEBUG', <span style="color: #D64533;">false</span>);</code>
+<code class="big">define('WP_DEBUG', <span class="danger">false</span>);</code>
+
+/--/
+
+<img src="img/sass/edit-css.png" alt="">
+<br>
+<small><a href="https://jetpack.com/support/custom-css/">Custom CSS</a> Editor in Jetpack</small>
 
 /---/
 
+# Child Themes
+## <span class="fragment">Use them!</span>
+
+/--/
+
+<img src="img/wpnyc/finder.png" alt="">
+
+/--/
+<div class="wrapper">
+<img class="unstyle-img" src="img/wpnyc/bad.png" alt="">
+</div>
+/--/
+
+<div class="wrapper">
+<img src="img/genesis.png" alt="">
+<br>
+<small><a href="http://my.studiopress.com/themes/genesis/">Genesis Framework</a> by StudioPress</small>
+</div>
+
+/--/
+
+<img src="img/twenty-sixteen.jpg" alt="">
+<br>
+<small>A perfect place to start.</small>
+/---/
+
 # Final Words
-<h3 class="fragment">(my humble-ish opinion)</h3>
+<h2 class="fragment">(my humble-ish opinion)</h2>
 
 /--/
 
@@ -272,7 +339,7 @@
 
 /--/
 
-<h2><strong>DO NOT WORK FROM A MOCKUP.</strong><br><span class="fragment"><span class="special">Let the theme dictate</span> your design and content.</span></h2>
+<h2><strong>DO NOT WORK FROM A MOCKUP.</strong><br><span class="fragment"><span class="special">Let the theme's demos dictate</span> your design and content.</span></h2>
 
 /--/
 
@@ -281,6 +348,14 @@
 /--/
 
 ## A Twenty Sixteen <span class="special">child theme</span> is the perfect place to start.
+
+/--/
+
+<div class="fragment">
+	<img src="img/squarespace.png" alt="">
+	<br>
+	<small>I often recommend it.</small>
+</div>
 
 /---/
 
@@ -300,7 +375,14 @@
 
 /--/
 
+## From me to you...
+# <span data-fragment-index="1" class="fragment"><a href="https://github.com/laras126/theme-checklist/">The Checklist</a>.</span>
+<br>
+<h3 data-fragment-index="1" class="fragment">http://bit.do/themes-ugh</h3>
+
+/--/
+
 #Thanks!
 
-<h3 class="fragment">http://bit.do/themes-ugh</h3>
+<h3 class="fragment">http://bit.do/wcpgh16</h3>
 ### <span class="fragment">[notlaura.com](http://notlaura.com) <span class="grey">//</span> @laras126</span>
