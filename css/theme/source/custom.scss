@@ -27,7 +27,7 @@
 // to return a background image or gradient
 body {
 	background: $backgroundColor;
-	border-top: 10px solid $dark-blue;
+	border-top: 10px solid $med-accent;
 }
 
 .reveal {
@@ -108,7 +108,7 @@ body {
 	}
 
 	.special {
-		color: $dark-blue;
+		color: $accent-med;
 	}
 
 	.pink {

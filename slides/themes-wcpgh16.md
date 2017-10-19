@@ -11,13 +11,22 @@
 
 <img class="unstyle-img animal-photo" src="img/fishing/wordpress-catch.svg" alt="">
 
+/--/
+
+<img src="img/lara-snow.jpg" alt="">
+
 /---/
 
-# <span class="fragment">Vetting and Choosing Premium Themes</span>
+## <span class="fragment">Can you recommend some themes?</span>
+## <span class="fragment">No.</span>
 
 /--/
 
-## <span class="fragment">Themes are a crapshoot and you won't get exactly what you want unless you build your own.</span>
+# <span class="fragment">Vetting and Choosing Themes</span>
+
+/--/
+
+## <span class="fragment">Themes are a crapshoot and you won't get exactly what you want unless you roll your own.</span>
 
 /--/
 
@@ -45,7 +54,7 @@
 <!-- Happy, browsing pretty themes. -->
 <p class="meta-upper">Phase 1</p>
 <div class="fragment">
-	<img src="img/animals/happy-swimming-duck.jpg">
+	<img width="700" src="img/animals/happy-swimming-duck.jpg">
 	<br>
 	<small><a href="http://www.petinsuranceireland.com/news/happy-world-animal-day-from-pet-insurance-ireland/">Source</a></small>
 </div>
@@ -72,7 +81,7 @@
 <!-- Angry. I just spent $50 on this and 10 hours. -->
 <p class="meta-upper">Phase 4</p>
 <div class="fragment">
-	<img src="img/animals/angry-monkey.jpg">
+	<img width="600" src="img/animals/angry-monkey.jpg">
 	<br>
 	<small><a href="http://www.petinsuranceireland.com/news/happy-world-animal-day-from-pet-insurance-ireland/">Source</a></small>
 </div>
@@ -81,7 +90,7 @@
 <!-- Apathetic. Just pay someone. -->
 <p class="meta-upper">Phase 5</p>
 <div class="fragment">
-	<img src="img/animals/lazy-prariedog.jpg">
+	<img width="600" src="img/animals/lazy-prariedog.jpg">
 	<br>
 	<small><a href="http://www.desktopwallpapers4.me/animals/lazy-meerkat-22798/">Source</a></small>
 </div>
@@ -121,7 +130,7 @@
 /--/
 
 <div class="fragment">
-	<img src="img/cereal.jpg" alt="">
+	<img width="700" src="img/cereal.jpg" alt="">
 </div>
 
 
@@ -150,8 +159,8 @@
 /--/
 
 <div class="wrapper text-left">
-	<h1 class="fragment"><a href="https://themeforest.net/popular_item/by_category?category=wordpress">Themeforest</a></h1>
-	<h1 class="fragment"><a href="https://wordpress.org/themes/commercial/">Commercial GPL Themes</a></h1>
+	<h1 class="fragment">Themeforest</h1>
+	<h1 class="fragment">Commercial GPL Themes</h1>
 	<h1 class="fragment">Theme Shops</h1>
 </div>
 
@@ -218,7 +227,7 @@
 
 /--/
 
-<img src="img/animals/fat-seal.jpg" alt="">
+<img width="700" src="img/animals/fat-seal.jpg" alt="">
 <br>
 <small><a href="https://en.wikipedia.org/wiki/Earless_seal">Source</a></small>
 
@@ -226,24 +235,24 @@
 
 # What to do?
 
-<h2 class="fragment">Vetting the theme</h2>
-
 /--/
 
 <ul class="unstyle-list bigger bold no-space-li">
 	<li class="fragment"><h2>Is it worthy?</h2></li>
-	<li class="fragment"><h2>Look at the <a href="http://theme.co/x/demos/">demos</a></h2></li>
-	<li class="fragment"><h2><a href="https://github.com/laras126/theme-checklist">Vet</a> the demos</h2></li>
+	<li class="fragment"><h2>Vet the demos</h2></li>
 	<li class="fragment"><h2>Install the demo's database</h2></li>
 	<li class="fragment"><h2>Replace with your content, 1 to 1</h2></li>
 </ul>
 
 /--/
 
-# In Practice
+<h1>NO PRELOADERS.</h1>
 
+/--/
+
+# In Practice
+## <a href="https://github.com/laras126/theme-checklist">The Checklist</a>
 ## <a href="https://themeforest.net/popular_item/by_category?category=wordpress">Themeforest</a>
-## <a href="https://themeforest.net/popular_item/by_category?category=wordpress">Commercial GPL</a>
 
 /---/
 
@@ -254,6 +263,10 @@
 /--/
 
 <img src="img/wp-visual.png" alt="">
+
+/--/
+
+<img src="img/wp-text.png" alt="">
 
 /--/
 
@@ -315,6 +328,13 @@
 <div class="wrapper">
 <img class="unstyle-img" src="img/wpnyc/bad.png" alt="">
 </div>
+
+/--/
+
+<img src="img/twenty-sixteen.jpg" alt="">
+<br>
+<small>A perfect place to start.</small>
+
 /--/
 
 <div class="wrapper">
@@ -325,9 +345,8 @@
 
 /--/
 
-<img src="img/twenty-sixteen.jpg" alt="">
-<br>
-<small>A perfect place to start.</small>
+<img width="700" class="unstyle-img" src="img/google.png" alt="">
+
 /---/
 
 # Final Words
@@ -339,7 +358,11 @@
 
 /--/
 
-<h2><strong>DO NOT WORK FROM A MOCKUP.</strong><br><span class="fragment"><span class="special">Let the theme's demos dictate</span> your design and content.</span></h2>
+<h2><strong>Do not</strong> work from a mockup.</h2>
+
+/--/
+
+<h2><span class="special">Let the theme's demo dictate</span> your design and content.</span></h2>
 
 /--/
 
@@ -357,7 +380,7 @@
 	<small>I often recommend it.</small>
 </div>
 
-/---/
+/--/
 
 <h1>For Theme <span class="special">Developers</span></h1>
 
@@ -367,11 +390,11 @@
 
 /--/
 
-## Work <strong>with</strong> WordPress, not against it. When in doubt, <span class="special">put it in a plugin</span>.
+## Put non-native functionality <span class="special">in a plugin</span>, including styles.
 
 /--/
 
-## Spend your time on <span class="special">good documentation</span> instead of an option for fixed navigation.
+## Spend your time on <span class="special">good documentation</span> instead of an option for fixed, animated navigation.
 
 /--/
 
@@ -380,7 +403,7 @@
 <br>
 <h3 data-fragment-index="1" class="fragment">http://bit.do/themes-ugh</h3>
 
-/--/
+/---/
 
 #Thanks!
 

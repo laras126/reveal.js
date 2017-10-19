@@ -1,3 +1,25 @@
+
+.grid {
+  display: grid;
+  grid-gap: $h4;
+
+  &.-two {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &.-three {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &.-four {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+}
+
+
+// Old grid - leaving in place so as not to break old slides
+
 .onecol    { width: 5.801104972%;  }       /* 4.85%;  } /* grid_1  */
 .twocol    { width: 14.364640883%; }       /* 13.45%; } /* grid_2  */
 .threecol  { width: 22.928176794%; }       /* 22.05%; } /* grid_3  */

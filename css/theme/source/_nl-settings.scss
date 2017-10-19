@@ -24,7 +24,7 @@ $alert-blue:        #d5edf8;
 
 $lime: 				desaturate(lighten(#00C11E, 20%), 15%);
 
-$dark-blue:      	#237fa9;
+$dark-blue:      	#15598f;
 $offwhite:     		#f4f7f9;
 $light-blue: 		#86b2c6;
 $grey: 				#b4b4b4;
@@ -43,13 +43,13 @@ $success: 			$lime;
 
 $vlight-accent: 	$offwhite;
 $light-accent: 		$grey;
-$med-accent: 		$light-blue;
+$med-accent: 		  #27a9e0;
 $dark-accent: 		$dark-blue;
 
-$link-color:		$dark-accent;
-$link-hover: 		$med-accent;
+$link-color:		$med-accent;
+$link-hover: 		$dark-accent;
 
-$main-font: 		$dark-grey;
+$main-font: 		#242f4a;
 $main-bkgd: 		$white;
 
 $sec-font:  		$offwhite;
@@ -85,8 +85,8 @@ $h4:  				$base*1.2;
 $h5:  				$base;
 $h6:  				$sml;
 
-$sans-serif: 		'Source Sans Pro', Helvetica, sans-serif;
-$serif:         'Source Sans Pro', Georgia, serif;
+$sans-serif: 		'adelle-sans', Helvetica, sans-serif;
+$serif:         'adelle-sans', Georgia, serif;
 
 
 // ----
@@ -96,7 +96,7 @@ $serif:         'Source Sans Pro', Georgia, serif;
 $backgroundColor: $white;
 
 // Primary/body text
-$mainFont: $sans-serif, sans-serif;
+$mainFont: $sans-serif;
 $mainFontSize: $contain;
 $mainColor: $main-font;
 

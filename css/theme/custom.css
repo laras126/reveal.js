@@ -1,410 +1,78 @@
-body {
-  color: #3e3739;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 1.7rem;
-  font-weight: 300;
-  line-height: 1.5;
-  background-color: #fff; }
+/*
+Error: Undefined variable: "$accent-med".
+        on line 111 of css/theme/source/custom.scss
 
-a, a:visited {
-  color: #237fa9;
-  text-decoration: underline; }
-  a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #1b6283; }
-  a:active, a:visited:active {
-    color: #0a232e; }
-  a:link, a:visited:link {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
+106: 	.slides {
+107: 		// text-align: left;
+108: 	}
+109: 
+110: 	.special {
+111: 		color: $accent-med;
+112: 	}
+113: 
+114: 	.pink {
+115: 		color: $pink;
+116: 	}
 
-.reveal p {
-  font-size: 1.7rem;
-  margin-top: 0;
-  margin-bottom: 1.7rem; }
-.reveal hr {
-  margin-bottom: 1.7rem; }
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-  margin-bottom: 1.36rem; }
-.reveal h1 {
-  font-size: 5.1rem;
-  font-weight: 700 !important; }
-.reveal h2 {
-  font-size: 3.74rem;
-  margin-top: 2.38rem; }
-.reveal h3 {
-  font-size: 2.38rem;
-  margin-top: 2.04rem; }
-.reveal h4 {
-  font-size: 2.04rem; }
-.reveal h5 {
-  font-size: 1.7rem; }
-.reveal h6 {
-  font-size: 1.36rem; }
-.reveal pre {
-  margin: 0 auto;
-  width: 100% !important; }
-.reveal pre, .reveal code {
-  box-shadow: none; }
-.reveal pre code {
-  max-height: 800px; }
-.reveal code {
-  font-size: 1.36rem;
-  line-height: 1.5;
-  word-wrap: wrap; }
-.reveal h3 > code {
-  font-size: 2.38rem !important;
-  padding: 0.25em;
-  background-color: #f4f7f9; }
-.reveal .code-title {
-  color: #b4b4b4;
-  font-size: 1.7rem;
-  text-align: left;
-  font-family: monospace; }
-
-/*********************************************
- * GLOBAL STYLES
- *********************************************/
-body {
-  background: #fff;
-  background-color: #fff; }
-
-.reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif, sans-serif;
-  font-size: 1.7rem;
-  font-weight: normal;
-  letter-spacing: -0.02em;
-  color: #3e3739; }
-
-::selection {
-  color: #111;
-  background: #f1ea9c;
-  text-shadow: none; }
-
-/*********************************************
- * HEADERS
- *********************************************/
-.reveal h1,
-.reveal h2,
-.reveal h3,
-.reveal h4,
-.reveal h5,
-.reveal h6 {
-  margin: 0 0 0 0;
-  color: #3e3739;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0;
-  text-transform: none;
-  text-shadow: none; }
-
-.reveal h1 {
-  text-shadow: none; }
-
-/*********************************************
- * LINKS
- *********************************************/
-.reveal a:not(.image) {
-  color: #237fa9;
-  text-decoration: none;
-  -webkit-transition: color .15s ease;
-  -moz-transition: color .15s ease;
-  -ms-transition: color .15s ease;
-  -o-transition: color .15s ease;
-  transition: color .15s ease; }
-
-.reveal a:not(.image):hover {
-  color: #1b6283;
-  text-shadow: none;
-  border: none; }
-
-.reveal .roll span:after {
-  color: #fff;
-  background: #164f6a; }
-
-/*********************************************
- * IMAGES
- *********************************************/
-.reveal section img {
-  margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #3e3739;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  -webkit-transition: all .2s linear;
-  -moz-transition: all .2s linear;
-  -ms-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear; }
-
-.reveal a:hover img {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: #237fa9;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
-
-/*********************************************
- * NAVIGATION CONTROLS
- *********************************************/
-.reveal .controls div.navigate-left,
-.reveal .controls div.navigate-left.enabled {
-  border-right-color: #237fa9; }
-
-.reveal .controls div.navigate-right,
-.reveal .controls div.navigate-right.enabled {
-  border-left-color: #237fa9; }
-
-.reveal .controls div.navigate-up,
-.reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #237fa9; }
-
-.reveal .controls div.navigate-down,
-.reveal .controls div.navigate-down.enabled {
-  border-top-color: #237fa9; }
-
-.reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #1b6283; }
-
-.reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #1b6283; }
-
-.reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #1b6283; }
-
-.reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #1b6283; }
-
-/*********************************************
- * PROGRESS BAR
- *********************************************/
-.reveal .progress {
-  background: rgba(0, 0, 0, 0.2); }
-
-.reveal .progress span {
-  background: #237fa9;
-  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
-
-/*********************************************
- * SLIDE NUMBER
- *********************************************/
-.reveal .slide-number {
-  color: #237fa9; }
-
-.onecol {
-  width: 5.801104972%; }
-
-/* 4.85%;  } /* grid_1  */
-.twocol {
-  width: 14.364640883%; }
-
-/* 13.45%; } /* grid_2  */
-.threecol {
-  width: 22.928176794%; }
-
-/* 22.05%; } /* grid_3  */
-.fourcol {
-  width: 31.491712705%; }
-
-/* 30.75%; } /* grid_4  */
-.fivecol {
-  width: 40.055248616%; }
-
-/* 39.45%; } /* grid_5  */
-.sixcol {
-  width: 48.618784527%; }
-
-/* 48%;    } /* grid_6  */
-.sevencol {
-  width: 57.182320438000005%; }
-
-/* 56.75%; } /* grid_7  */
-.eightcol {
-  width: 65.74585634900001%; }
-
-/* 65.4%;  } /* grid_8  */
-.ninecol {
-  width: 74.30939226%; }
-
-/* 74.05%; } /* grid_9  */
-.tencol {
-  width: 82.87292817100001%; }
-
-/* 82.7%;  } /* grid_10 */
-.elevencol {
-  width: 91.436464082%; }
-
-/* 91.35%; } /* grid_11 */
-.twelvecol {
-  width: 99.999999993%; }
-
-/* 100%;   } /* grid_12 */
-/* layout & column defaults */
-.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
-  position: relative;
-  float: left;
-  margin-left: 2.762430939% !important; }
-  .onecol.first, .twocol.first, .threecol.first, .fourcol.first, .fivecol.first, .sixcol.first, .sevencol.first, .eightcol.first, .ninecol.first, .tencol.first, .elevencol.first, .twelvecol.first {
-    margin-left: 0 !important; }
-
-.last {
-  float: right; }
-
-.contain-sm {
-  max-width: 960px;
-  margin: 0 auto !important; }
-
-body {
-  background: #fff;
-  border-top: 10px solid #237fa9; }
-
-.reveal {
-  font-weight: 300;
-  letter-spacing: 0; }
-  .reveal pre {
-    white-space: pre-wrap;
-    word-break: break-word; }
-  .reveal .smaller {
-    font-size: 1.36rem; }
-  .reveal .lead {
-    font-size: 2.04rem !important;
-    line-height: 1.5; }
-  .reveal .wrapper-sm {
-    max-width: 960px;
-    margin: 1.7rem auto;
-    width: 90%; }
-  .reveal .wrapper {
-    width: 90%;
-    max-width: 1140px;
-    margin: 0 auto; }
-  .reveal iframe {
-    max-width: 100%; }
-  .reveal .slides > section, .reveal .slides > section > section {
-    padding: 0; }
-  .reveal .text-right {
-    text-align: right; }
-  .reveal .text-center {
-    text-align: center; }
-  .reveal .text-left {
-    text-align: left !important; }
-  .reveal .center-block {
-    margin: 0 auto; }
-  .reveal .grey {
-    color: #b4b4b4; }
-  .reveal hr {
-    border: 1px solid #f4f7f9; }
-  .reveal .special {
-    color: #237fa9; }
-  .reveal .pink {
-    color: #CC6699; }
-  .reveal .danger {
-    color: #F94641;
-    font-weight: bold; }
-  .reveal .success {
-    color: #38ef55;
-    font-weight: bold; }
-  .reveal a span.special {
-    color: #3e3739 !important; }
-  .reveal a:not(.image), .reveal a:not(.image):hover {
-    border-bottom: 1px dotted #86b2c6; }
-  .reveal .callout-quote {
-    font-size: 2.38rem; }
-  .reveal blockquote {
-    padding: 1em 1.3em;
-    font-family: "Source Sans Pro", Georgia, serif;
-    text-align: left;
-    box-shadow: none;
-    border: none;
-    line-height: 1.5;
-    border-left: 1px solid #b4b4b4; }
-    .reveal blockquote .special {
-      color: #86b2c6; }
-  .reveal section img, .reveal .style-img {
-    border: #b4b4b4 5px solid;
-    box-shadow: none;
-    max-height: 80vh; }
-  .reveal section .unstyle-img img, .reveal .unstyle-img {
-    border: none;
-    box-shadow: none; }
-  .reveal .illustration img {
-    max-width: 90%;
-    margin: 0 auto; }
-  .reveal .half {
-    width: 45%;
-    float: left; }
-    .reveal .half:first-child {
-      margin-right: 3%; }
-  .reveal .clearfix:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .reveal .hljs.terminal {
-    background-color: #111;
-    border: 0;
-    color: #38ef55; }
-  .reveal .center-vert {
-    margin-top: 50%; }
-  .reveal .img-row {
-    display: table;
-    width: 100%; }
-    .reveal .img-row .threecol {
-      display: table-cell;
-      vertical-align: middle; }
-  .reveal .slides section .fragment.highlight-blue.visible {
-    color: #237fa9; }
-  .reveal .big {
-    font-size: 4rem; }
-  .reveal .bold {
-    font-weight: 500; }
-  .reveal .bigger {
-    font-size: 2.38rem; }
-  .reveal .strike {
-    color: #86b2c6; }
-  .reveal .line-thru {
-    text-decoration: line-through;
-    color: #86b2c6; }
-    .reveal .line-thru span {
-      color: #3e3739; }
-  .reveal ul li {
-    margin-bottom: 0.68rem; }
-  .reveal ul.unstyle-list {
-    margin: 0;
-    padding: 0;
-    list-style: none; }
-    .reveal ul.unstyle-list li {
-      margin-bottom: 1.7rem; }
-  .reveal .meta-upper {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1.36rem;
-    color: #86b2c6; }
-  .reveal .meta-upper-grey {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1.36rem;
-    color: #b4b4b4; }
-  .reveal .animal-photo {
-    height: 60vh; }
-  .reveal .tag {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    z-index: 4; }
-  .reveal .tag-text {
-    background-color: #fff;
-    text-align: center;
-    padding: 1.36rem 0;
-    font-size: 0.97143rem; }
-  .reveal .controls {
-    z-index: 9; }
-  .reveal .no-space-li li {
-    margin-bottom: 0; }
-  .reveal .animation-holder {
-    position: relative; }
-    .reveal .animation-holder > img {
-      width: 100%;
-      position: absolute;
-      top: -300px;
-      left: 0; }
-
-/*# sourceMappingURL=custom.css.map */
+Backtrace:
+css/theme/source/custom.scss:111
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/bin/sass:23:in `load'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/bin/sass:23:in `<main>'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/laraschenck/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$accent-med\".\A         on line 111 of css/theme/source/custom.scss\A \A 106: 	.slides {\A 107: 		// text-align: left;\A 108: 	}\A 109: \A 110: 	.special {\A 111: 		color: $accent-med;\A 112: 	}\A 113: \A 114: 	.pink {\A 115: 		color: $pink;\A 116: 	}"; }
